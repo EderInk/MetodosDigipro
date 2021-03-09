@@ -1,0 +1,252 @@
+apply plugin: 'com.android.application'
+
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+//AIzaSyACNMd0lr7g6tN67mO-WgMV8o3tLcmTUs0
+//AIzaSyBJH2Ji2Q6DOTmp7-h37gRURGhYDRQccA8
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.digipro.formatoselectronicos"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode  7163
+        versionName "7.45.7163.E"
+        //Generó versión: Sarahí
+//        versionName "0.0.101.42.NEW.4300" //0.0.100.1n
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+        multiDexEnabled true
+        ndk {
+//            abiFilters "armeabi-v7a", "x86", 'arm64-v8a', 'x86_64'
+            abiFilters "armeabi-v7a", 'arm64-v8a'
+        }
+        vectorDrawables.useSupportLibrary = true
+        compileOptions {
+
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+        manifestPlaceholders = [
+                pushbots_app_id  : "5df980d0d350cd17497664e2",
+                pushbots_loglevel: "DEBUG",
+                google_sender_id : "945091051798"
+
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            // In your application you might want to copy all files in the standard assets folder
+            assets.srcDirs += ['../../assets', '../../License', 'src/main/assets', 'src/main/assets/']
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    dataBinding {
+        enabled = true
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+
+        pickFirst 'lib/armeabi-v7a/libstlport_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+
+        pickFirst 'lib/arm64-v8a/libstlport_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+configurations {
+    cleanedAnnotations
+    compile.exclude group: 'org.jetbrains', module: 'annotations'
+}
+
+dependencies {
+    /* implementation project(':FESdk_Core')
+    implementation project(path: ':FESdk_ElementosBasicos')
+     implementation project(path: ':FESdk_ElementosAnexo')
+
+    implementation project(path: ':FESdk_ElementosHuella')
+     implementation project(path: ':FESdk_ElementosRostro')*/
+
+//    implementation project(path: ':digiscan')
+    def DigiProSDK = "0.4.45.0161.S"
+    def DigiProSDKH = "0.4.45.0161.S"
+    implementation "com.digipro.fesdkcore:core:$DigiProSDK"
+    implementation "com.digipro.fesdkcore:elementos_anexo:$DigiProSDK"
+    implementation "com.digipro.fesdkcore:elementos_basicos:$DigiProSDK"
+    implementation "com.digipro.fesdkcore:elementos_rostro:$DigiProSDK"
+    implementation "com.digipro.fesdkcore:elementos_huella:$DigiProSDKH"
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.core:core-ktx:1.0.1'
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    implementation 'com.google.code.ksoap2-android:ksoap2-android:3.6.2'
+    implementation 'com.github.mthli:SugarTask:v0.4'
+    implementation 'io.nlopez.smartlocation:library:3.3.3'
+
+    implementation 'com.afollestad:material-camera:0.4.4'
+    implementation 'com.wdullaer:materialdatetimepicker:4.1.2'
+    implementation 'com.github.GrenderG:Toasty:1.3.0'
+    //quitar
+    implementation 'com.github.gcacace:signature-pad:1.2.1'
+    implementation 'com.marshalchen.ultimaterecyclerview:library:0.7.3'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.roughike:bottom-bar:2.3.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.7.0'
+    implementation 'ru.kolotnev:formatt-edit-text:0.7'
+    implementation 'org.apache.commons:commons-compress:1.18'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'org.apache.commons:commons-io:1.3.2'
+    //please don't edit the number of dependency
+
+    implementation 'com.github.armcha:SpaceNavigationView:1.6.0'
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:17.0.4'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+    //    implementation 'com.google.android.gms:play-services:11.4.2'
+    //    implementation 'com.google.firebase:firebase-core:11.4.2'
+    //    implementation 'com.google.firebase:firebase-messaging:11.4.2'
+    //    implementation 'com.firebase:firebase-jobdispatcher-with-gcm-dep:0.6.0'
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.5'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-crashlytics:17.1.1'
+    implementation 'android.arch.work:work-runtime:1.0.1'
+
+
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.9.8'
+    implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.8"
+    implementation group: 'javax.xml.stream', name: 'stax-api', version: '1.0-2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+    //nuevas
+    implementation 'com.hlab.fabrevealmenu:fab-reveal-menu:1.0.3'
+    implementation 'com.github.jorgecastilloprz:fabprogresscircle:1.01@aar'
+    implementation 'com.github.MAXDeliveryNG:slideview:1.1.0'
+    def easyDeviceInfoVersion = "2.4.1"
+    // Base Composite
+    implementation "com.github.nisrulz:easydeviceinfo-base:$easyDeviceInfoVersion"
+    implementation 'com.andrognito.flashbar:flashbar:1.0.3'
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0'
+    implementation 'com.andkulikov:transitionseverywhere:1.8.1'
+    implementation 'com.otaliastudios:cameraview:2.6.4'
+    implementation 'com.yarolegovich:discrete-scrollview:1.4.9'
+    implementation 'com.github.CarGuo:RecordWave:v1.1.8'
+    implementation 'com.github.IvanSotelo:RecordDialog:1.2.3'
+    //Francisco Plugins
+    implementation 'com.github.scottyab:showhidepasswordedittext:0.8'
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0'
+
+    implementation 'com.github.omadahealth:swipy:1.2.3@aar'
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+
+    implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+
+    implementation 'com.archit.calendar:awesome-calendar:1.1.4'
+    implementation 'com.nex3z:notification-badge:1.0.2'
+    implementation 'com.github.aabhasr1:OtpView:1.0.6'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    // RxBinding
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    implementation 'com.jakewharton.rxbinding:rxbinding-design:0.4.0'
+
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
+    implementation 'com.google.guava:guava:28.0-android'
+    implementation 'me.xdrop:fuzzywuzzy:1.2.0'
+    implementation 'com.evrencoskun.library:tableview:0.8.8'
+    implementation 'com.karumi:dexter:6.0.1'
+
+    implementation('com.journeyapps:zxing-android-embedded:3.6.0') { transitive = false }
+    //noinspection GradleDependency
+    implementation 'com.google.zxing:core:3.3.0'
+
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.2.1'
+
+//    implementation 'com.jakewharton.rxbinding2:g-recyclerview-v7:2.0.0'
+//    implementation 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0'
+//    implementation 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.0.0'
+//    implementation 'com.jakewharton.rxbinding2:rxbinding-design:2.0.0'
+//    implementation 'com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.0.0'
+//    implementation 'com.jakewharton.rxbinding2:rxbinding-leanback-v17:2.0.0'
+    implementation 'com.gemalto.wsq:wsq-android:1.0'
+
+    //implementation 'com.pushbots:pushbots-lib:3.2.8@aar'
+
+    implementation('com.journeyapps:zxing-android-embedded:3.6.0') { transitive = false }
+    //noinspection GradleDependency
+    implementation 'com.google.zxing:core:3.3.0'
+
+    implementation 'com.joanzapata.iconify:android-iconify-material:2.2.2' // (v2.0.0)
+
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+
+    implementation "me.leolin:ShortcutBadger:1.1.22@aar"
+
+
+    //Nuevos agregar a la lista
+    implementation 'com.vicmikhailau:MaskedEditText:3.0.3'
+    implementation 'com.wdullaer:materialdatetimepicker:4.1.2'
+    implementation 'com.izikode.izilib:veinview:0.2'
+    implementation 'com.github.rasoulmiri:buttonloading:v1.0.8'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.5.+'
+
+    implementation 'com.github.rasoulmiri:buttonloading:v1.0.8'
+    implementation 'com.github.hannesa2:FloatingActionButton:2.3.2'
+    implementation 'cl.jesualex.android:stooltip:1.4'
+    implementation 'com.github.manojbhadane:GenericAdapter:v1.4'
+    implementation 'at.blogc:expandabletextview:1.0.5'
+
+    implementation 'com.github.chrisbanes:PhotoView:1.3.1'
+
+    implementation 'com.scottyab:rootbeer-lib:0.0.8'
+
+    //Huawei Service
+    implementation 'com.huawei.hms:ml-computer-vision-face-recognition-model:1.0.3.300'
+    implementation 'com.huawei.hms:ml-computer-vision-face:1.0.3.300'
+    implementation 'com.huawei.agconnect:agconnect-core:1.4.0.300'
+}
+

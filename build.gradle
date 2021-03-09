@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases/' }
+        maven { url "https://dl.bintray.com/drummer-aidan/maven" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        //maven { url "https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core" }
+        //maven { url "https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind"}
+        maven { url "http://developer.huawei.com/repo/" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.google.code.ksoap2-android:ksoap2-android:3.6.2'
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.2.0'
+        classpath "io.objectbox:objectbox-gradle-plugin:2.4.1"
+        classpath 'com.huawei.agconnect:agcp:1.3.1.300'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases/' }
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+        maven { url "https://dl.bintray.com/drummer-aidan/maven" }
+        //maven { url "https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core" }
+        //maven { url "https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind"}
+        maven { url "http://developer.huawei.com/repo/" }
+        flatDir {
+            dirs '../../libs'
+        }
+        maven {
+
+            url "https://pkgs.dev.azure.com/CodigoDigipro/Digipro.OnTheGo/_packaging/fsdkcore/maven/v1"
+            credentials {
+                username "CodigoDigipro"
+                //The Azure DevOps Services build system will use the "SYSTEM_ACCESSTOKEN" to authenticate to Azure DevOps Services feeds
+                password "3v6i5zwayfgm5zmvxdpyra5tbzsdtoxndtgllgb3yooglaxheezq"
+            }
+        }
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

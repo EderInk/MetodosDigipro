@@ -2,6 +2,8 @@ package com.example.pruebadigipro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -19,6 +21,7 @@ import com.digipro.fesdkcore.api.DGSDKDownloadFormat;
 import com.digipro.fesdkcore.api.DGSDKDownloadTemplate;
 import com.digipro.fesdkcore.api.DGSDKDownloadVariable;
 import com.digipro.fesdkcore.api.DGSDKLoadTemplate;
+import com.digipro.fesdkcore.api.responses.DGSDKDownloadFormatResponse;
 import com.digipro.fesdkcore.dto.FEFormatoData;
 import com.digipro.fesdkcore.dto.FEPlantillaData;
 import com.digipro.fesdkcore.repositorios.PlantillaRepository;
@@ -27,11 +30,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Expedientes extends AppCompatActivity {
-    private Button btnDesVariables, btnDesFormatos, btnDesPlantillas, btnMandarDatos;
+    private Button btnDesVariables, btnDesFormatos, btnDesPlantillas;
     private ListView lvExpedientes;
     private EditText txtDatos;
+    private Activity activity;
+    private Context contexto;
 
     private List<String> items = new ArrayList<>();
+    private List<FEPlantillaData> itemsPlantillaData = new ArrayList<>();
     private ArrayAdapter mAdapter;
 
 
@@ -41,21 +47,38 @@ public class Expedientes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_expedientes);
-
+        activity = this;
+        contexto = this;
         btnDesVariables = findViewById(R.id.btnDesVariables);
         btnDesFormatos = findViewById(R.id.btnDesFormatos);
         btnDesPlantillas = findViewById(R.id.btnDesPlantillas);
-        btnMandarDatos = findViewById(R.id.btnMandarDatos);
-        txtDatos = findViewById(R.id.txtDatos);
-        lvExpedientes = findViewById(R.id.lvExpedientes);
 
-        //items = new ArrayList<FEFormatoData>();
-        btnMandarDatos.setOnClickListener(new View.OnClickListener() {
+
+        lvExpedientes = findViewById(R.id.lvExpedientes);
+        DGSDKLoadTemplate.handler = new DGSDKLoadTemplate.LoadFormatoOnFinishAllFCallback() {
             @Override
-            public void onClick(View v) {
-               // DGSDKLoadTemplate.
+            public void onFinishFormat_Cancelado(String guid, String mensaje) {
+                Toast.makeText(contexto,"Se cancela el formato" + "-" + guid, Toast.LENGTH_LONG).show();
             }
-        });
+
+            @Override
+            public void onFinishFormat_Borrador(String guid, String mensaje) {
+                Toast.makeText(contexto,"Se manda a borrador" + "-" + guid, Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onFinishFormat_Publicar(String guid, String mensaje) {
+                Toast.makeText(contexto,"Se publica el formato" + "-" + guid, Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onFinishFormat_WaitUIFromUser(String guid, String mensaje) {
+
+            }
+
+        };
+
+
 
         DGSDKDownloadFormat.handler = (downloadFormatResponse) -> {
             if (downloadFormatResponse.code == 200) {
@@ -81,6 +104,7 @@ public class Expedientes extends AppCompatActivity {
                     BaseClass.listPlantillas = PlantillaRepository.GetPlantillasData(getApplicationContext());
                     BaseClass.plantillaSaved = PlantillaRepository.GetPlantilla(getApplicationContext());
                     BaseClass.listConsultas = FeSdkCore.usuarioSaved.Consultas;
+                    itemsPlantillaData = BaseClass.listPlantillas;
 
                     for (FEPlantillaData plantillaData : BaseClass.listPlantillas) {
 
@@ -94,7 +118,12 @@ public class Expedientes extends AppCompatActivity {
                     lvExpedientes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                            Toast.makeText(Expedientes.this, items.get(position) +" - " +position,Toast.LENGTH_LONG).show();
+                            Toast.makeText(Expedientes.this, itemsPlantillaData.get(position) + " - " + position, Toast.LENGTH_LONG).show();
+                            FEPlantillaData plantillaSeleccionada;
+                            plantillaSeleccionada = itemsPlantillaData.get(position);
+                            DGSDKLoadTemplate.invoke(plantillaSeleccionada,activity);
+                            //DGSDKLoadTemplate.invoke(plantillaSeleccionada,(Activity) contexto);
+
                         }
                     });
                     lvExpedientes.setBackgroundColor(Color.WHITE);
@@ -133,14 +162,11 @@ public class Expedientes extends AppCompatActivity {
     }
 
     public void descargarPlantillas(View view) {
-        btnDesPlantillas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DGSDKDownloadTemplate.invoke(isCookie, getBaseContext());
-                Toast.makeText(getApplicationContext(), "Descargando Plantillas", Toast.LENGTH_LONG).show();
+        btnDesPlantillas.setOnClickListener(v -> {
+            DGSDKDownloadTemplate.invoke(isCookie, getBaseContext());
+            Toast.makeText(getApplicationContext(), "Descargando Plantillas", Toast.LENGTH_LONG).show();
 
 
-            }
         });
     }
 

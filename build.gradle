@@ -42,7 +42,7 @@ allprojects {
             credentials {
                 username "CodigoDigipro"
                 //The Azure DevOps Services build system will use the "SYSTEM_ACCESSTOKEN" to authenticate to Azure DevOps Services feeds
-                password "3v6i5zwayfgm5zmvxdpyra5tbzsdtoxndtgllgb3yooglaxheezq"
+                password "tlmnfwrfvxwuz3uhgefceyveeogdfcblf3y7emqeu4hnewjg44xq"
             }
         }
     }

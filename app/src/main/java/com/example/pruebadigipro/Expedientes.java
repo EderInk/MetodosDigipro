@@ -151,7 +151,7 @@ public class Expedientes extends AppCompatActivity {
             }
 
         };
-
+        // Descargar Plantilla
         DGSDKDownloadTemplate.handler = (downloadTemplateResponse) -> {
             if (downloadTemplateResponse.code == 200) {
                 Toast.makeText(this, "Carga de plantillas correctas", Toast.LENGTH_LONG).show();

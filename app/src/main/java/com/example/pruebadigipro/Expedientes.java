@@ -21,23 +21,29 @@ import com.digipro.fesdkcore.api.DGSDKDownloadFormat;
 import com.digipro.fesdkcore.api.DGSDKDownloadTemplate;
 import com.digipro.fesdkcore.api.DGSDKDownloadVariable;
 import com.digipro.fesdkcore.api.DGSDKLoadTemplate;
+import com.digipro.fesdkcore.api.DGSDKSendFormat;
 import com.digipro.fesdkcore.api.responses.DGSDKDownloadFormatResponse;
+import com.digipro.fesdkcore.dto.Constantes;
 import com.digipro.fesdkcore.dto.FEFormatoData;
 import com.digipro.fesdkcore.dto.FEPlantillaData;
+import com.digipro.fesdkcore.repositorios.FormatoRepository;
 import com.digipro.fesdkcore.repositorios.PlantillaRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Expedientes extends AppCompatActivity {
-    private Button btnDesVariables, btnDesFormatos, btnDesPlantillas;
+    private Button btnDesVariables, btnDesFormatos, btnDesPlantillas, btnCargaFormatos;
     private ListView lvExpedientes;
     private EditText txtDatos;
     private Activity activity;
     private Context contexto;
 
     private List<String> items = new ArrayList<>();
+    private List<String> itemsFormatos = new ArrayList<>();
     private List<FEPlantillaData> itemsPlantillaData = new ArrayList<>();
+    private List<FEFormatoData> formatoData = new ArrayList<>();
+
     private ArrayAdapter mAdapter;
 
 
@@ -52,23 +58,24 @@ public class Expedientes extends AppCompatActivity {
         btnDesVariables = findViewById(R.id.btnDesVariables);
         btnDesFormatos = findViewById(R.id.btnDesFormatos);
         btnDesPlantillas = findViewById(R.id.btnDesPlantillas);
+        btnCargaFormatos = findViewById(R.id.btnCargaFormatos);
 
 
         lvExpedientes = findViewById(R.id.lvExpedientes);
         DGSDKLoadTemplate.handler = new DGSDKLoadTemplate.LoadFormatoOnFinishAllFCallback() {
             @Override
             public void onFinishFormat_Cancelado(String guid, String mensaje) {
-                Toast.makeText(contexto,"Se cancela el formato" + "-" + guid, Toast.LENGTH_LONG).show();
+                Toast.makeText(contexto, "Se cancela el formato" + "-" + guid, Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onFinishFormat_Borrador(String guid, String mensaje) {
-                Toast.makeText(contexto,"Se manda a borrador" + "-" + guid, Toast.LENGTH_LONG).show();
+                Toast.makeText(contexto, "Se manda a borrador" + "-" + guid, Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onFinishFormat_Publicar(String guid, String mensaje) {
-                Toast.makeText(contexto,"Se publica el formato" + "-" + guid, Toast.LENGTH_LONG).show();
+                Toast.makeText(contexto, "Se publica el formato" + "-" + guid, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -78,7 +85,55 @@ public class Expedientes extends AppCompatActivity {
 
         };
 
+        //Envío de formatos
+        DGSDKSendFormat.handler = (code, resultMessage) -> {
+            if (code == 200) {
+                Toast.makeText(this, "Envio correcto de formatos", Toast.LENGTH_LONG).show();
+                return;
+            }
+        };
+        //Descarga de formatos
+        DGSDKDownloadFormat.handler = (downloadFormatResponse) -> {
+            if (downloadFormatResponse.code == 200) {
+                Toast.makeText(this, "Descarga correcta de formatos", Toast.LENGTH_LONG).show();
 
+
+                try {
+                    formatoData = FormatoRepository.GetFormatosData(Constantes.Archivo_Borrador, contexto);
+                    formatoData.addAll(FormatoRepository.GetFormatosData(Constantes.Archivo_Incidencia, contexto));
+
+
+                    for (FEFormatoData feFormatoData : formatoData) {
+
+                        itemsFormatos.add(feFormatoData.Guid+ " - " + feFormatoData.NombreTipoDoc);
+                    }
+
+
+                    mAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, items);
+
+                    lvExpedientes.setAdapter(mAdapter);
+                    lvExpedientes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                            Toast.makeText(Expedientes.this, formatoData.get(position) + " - " + position, Toast.LENGTH_LONG).show();
+                            FEPlantillaData plantillaSeleccionada = new FEPlantillaData();
+
+                            FEFormatoData formatoDatas;
+                           // plantillaSeleccionada = itemsPlantillaData.get(position);
+                            formatoDatas = formatoData.get(position);
+                            DGSDKLoadTemplate.invoke(plantillaSeleccionada, formatoDatas, (Activity) contexto);
+
+
+                        }
+                    });
+                    lvExpedientes.setBackgroundColor(Color.WHITE);
+                    lvExpedientes.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            return;
+        };
 
         DGSDKDownloadFormat.handler = (downloadFormatResponse) -> {
             if (downloadFormatResponse.code == 200) {
@@ -121,7 +176,7 @@ public class Expedientes extends AppCompatActivity {
                             Toast.makeText(Expedientes.this, itemsPlantillaData.get(position) + " - " + position, Toast.LENGTH_LONG).show();
                             FEPlantillaData plantillaSeleccionada;
                             plantillaSeleccionada = itemsPlantillaData.get(position);
-                            DGSDKLoadTemplate.invoke(plantillaSeleccionada,activity);
+                            DGSDKLoadTemplate.invoke(plantillaSeleccionada, activity);
                             //DGSDKLoadTemplate.invoke(plantillaSeleccionada,(Activity) contexto);
 
                         }
@@ -167,6 +222,17 @@ public class Expedientes extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Descargando Plantillas", Toast.LENGTH_LONG).show();
 
 
+        });
+
+
+    }
+
+    public void cargaFormatos(View view) {
+        btnCargaFormatos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
         });
     }
 

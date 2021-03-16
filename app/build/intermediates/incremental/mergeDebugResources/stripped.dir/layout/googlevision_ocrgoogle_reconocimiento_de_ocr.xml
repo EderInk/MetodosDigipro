@@ -1,0 +1,349 @@
+
+                                                        
+
+    
+
+                                                              
+
+                 
+                              
+                                                                        
+           
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Black"
+        android:keepScreenOn="true"
+        android:orientation="vertical" android:tag="layout/googlevision_ocrgoogle_reconocimiento_de_ocr_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.digipro.fesdkcore.googlevision.camera.CameraSourcePreview
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/separador">
+
+            <com.digipro.fesdkcore.googlevision.camera.GraphicOverlay
+                android:id="@+id/graphicOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/separador" />
+
+
+        </com.digipro.fesdkcore.googlevision.camera.CameraSourcePreview>
+
+        <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/contentanchors"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ine_anverso_capturado"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ine_frontal"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/ine_reverso_capturado"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ine_reverso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/rotate_I_ine_anverso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:visibility="visible"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_rotar_izquierda"
+                        app:backgroundTint="@color/colorPrimaryLight"
+                        app:fabSize="mini" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:id="@+id/reset_ine_anverso"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:visibility="visible"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_close_black_24dp"
+                        app:backgroundTint="@color/colorFABCancelar"
+                        app:fabSize="mini" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/rotate_D_ine_anverso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:visibility="visible"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_rotar_derecha"
+                        app:backgroundTint="@color/colorPrimaryLight"
+                        app:fabSize="mini" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/rotate_I_ine_reverso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:visibility="visible"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_rotar_izquierda"
+                        app:backgroundTint="@color/colorPrimaryLight"
+                        app:fabSize="mini" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:id="@+id/reset_ine_reverso"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginTop="16dp"
+                        android:visibility="visible"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_close_black_24dp"
+                        app:backgroundTint="@color/colorFABCancelar"
+                        app:fabSize="mini" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/rotate_D_ine_reverso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:visibility="visible"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_rotar_derecha"
+                        app:backgroundTint="@color/colorPrimaryLight"
+                        app:fabSize="mini" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/ayuda"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_help_white"
+                app:backgroundTint="@color/colorFABAyuda"
+                app:fabSize="mini" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separador"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/contentanchors"
+            android:background="@color/White" />
+
+        <View
+            android:id="@+id/center_cameraOCR"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:background="@color/white"
+            android:layout_below="@+id/separador"
+            android:id="@+id/ine_foto_cara"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_face_black_24dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/fr_demo_contenedor_botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/google_ocr_fab_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="bottom|end"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:src="@drawable/ic_done_white_24dps"
+                app:backgroundTint="@color/colorFABAceptar"
+                app:fabSize="normal" />
+            <!--android:onClick="@{(v) -> handlers.tomarFoto(v, elemento.idelemento)}"-->
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/google_ocr_fab_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/google_ocr_fab_cancelar"
+                android:gravity="center"
+                android:src="@drawable/ic_retry_white_24dp"
+                app:backgroundTint="@color/colorFABRetry"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/google_ocr_fab_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:src="@drawable/ic_close_white_24dp"
+                app:backgroundTint="@color/colorFABCancelar"
+                app:fabSize="normal" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/google_ocr_fab_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:background="@color/ocr_previous_next"
+            android:gravity="center"
+            android:src="@drawable/ic_ocr_previous"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/google_ocr_fab_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:background="@color/ocr_previous_next"
+            android:gravity="center"
+            android:src="@drawable/ic_ocr_next"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/contorno_documento"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/google_ocr_fab_voltearine"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_login"
+                android:drawableTop="@drawable/ic_voltear_ine"
+                android:gravity="center"
+                android:text="Reverso"
+                android:textColor="@color/White"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/contorno_documento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp">
+
+            <TextView
+                android:id="@+id/textviewresults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/White"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <!--<pl.droidsonroids.gif.GifImageView-->
+        <!--android:id="@+id/gifs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:visibility="gone" />-->
+
+        <ImageView
+            android:id="@+id/ivAutoFocus"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_autofocus"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+         

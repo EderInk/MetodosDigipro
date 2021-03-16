@@ -1,0 +1,77 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_nfc_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_read_nfc"
+                    android:tag="binding_2"                                   
+                                                           
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_scan_nfc"
+                    app:backgroundTint="@color/colorAccent"
+                    app:fabSize="normal"
+                    android:visibility="gone"                                                                                      />
+
+                <TextView
+                    android:id="@+id/txtInput"
+                    android:tag="binding_3"                                        
+                                                                             
+                                                                               
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                                                                            
+                                                                          
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

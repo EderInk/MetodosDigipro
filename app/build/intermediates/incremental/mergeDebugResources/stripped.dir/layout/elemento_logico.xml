@@ -1,0 +1,67 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                                           
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_logico_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:id="@+id/txtInput"
+                    style="@style/Material.Widget.Switch"
+                    android:tag="binding_2"                                        
+                                                                             
+                                                                                
+                                                                         
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

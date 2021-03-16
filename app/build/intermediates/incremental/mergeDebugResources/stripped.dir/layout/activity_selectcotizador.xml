@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cotizadorP.SelectCotizador">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.digipro.fesdkcore.cotizadorP.ProductoInfoView
+            android:id="@+id/products_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:gravity="bottom"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/btn_smooth_scroll"&ndash;&gt;-->
+        <!--&lt;!&ndash;style="?android:borderlessButtonStyle"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Smooth scroll"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textAllCaps="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#84ceca" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/btn_transition_time"&ndash;&gt;-->
+        <!--&lt;!&ndash;style="?android:borderlessButtonStyle"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Transition time"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textAllCaps="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#84ceca" />&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/home"
+        style="@style/ClickableImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        android:src="@drawable/back_black_code"
+        android:tint="@android:color/white" />
+
+    <com.yarolegovich.discretescrollview.DiscreteScrollView
+        android:id="@+id/recyclerViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp" />
+
+</FrameLayout>

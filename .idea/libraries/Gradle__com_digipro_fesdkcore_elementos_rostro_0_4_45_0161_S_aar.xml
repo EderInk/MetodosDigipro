@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.digipro.fesdkcore:elementos_rostro:0.4.45.0161.S@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b08366b534ba561d9efccfbc4bb08775/elementos_rostro-0.4.45.0161.S/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b08366b534ba561d9efccfbc4bb08775/elementos_rostro-0.4.45.0161.S/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b08366b534ba561d9efccfbc4bb08775/elementos_rostro-0.4.45.0161.S/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b08366b534ba561d9efccfbc4bb08775/elementos_rostro-0.4.45.0161.S/jars/libs/licensemanager-v1.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b08366b534ba561d9efccfbc4bb08775/elementos_rostro-0.4.45.0161.S/jars/libs/livenessdetection-proguard-2.4.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

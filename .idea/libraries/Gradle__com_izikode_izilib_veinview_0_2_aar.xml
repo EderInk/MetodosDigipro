@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.izikode.izilib:veinview:0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a551cd70ec45014cc4e36c7cba1cb577/jetified-veinview-0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a551cd70ec45014cc4e36c7cba1cb577/jetified-veinview-0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a551cd70ec45014cc4e36c7cba1cb577/jetified-veinview-0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.izikode.izilib/veinview/0.2/4aaa012aa692e279051cefdb6a1e060e31c31ec1/veinview-0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.izikode.izilib/veinview/0.2/3d97e021ad5f8b351c5ff0e9e5b19fc0c0f52960/veinview-0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

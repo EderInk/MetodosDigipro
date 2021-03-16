@@ -1,0 +1,111 @@
+
+                                                        
+
+    
+
+                                                 
+
+                                           
+
+                                                                     
+
+                 
+                       
+                                                                    
+
+                 
+                           
+                                                                   
+
+                 
+                              
+                                                                    
+
+                 
+                           
+                                                                                             
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        style="@style/width_match_parent_max_400"
+        android:tag="layout/tabla_filas_v_two_0"           
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/visible_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:strokeColor="#147f93"
+            app:strokeWidth="2.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/row_name"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/editFila"
+                        android:tag="binding_1"                                         
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/ic_edit_black_24dp"
+                        android:tint="@color/BlueLight" />
+
+                    <ImageView
+                        android:id="@+id/removeFila"
+                        android:tag="binding_2"                                           
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/ic_delete_black_24dp"
+                        android:tint="#FF0000"
+                        android:visibility="visible"                                                                                                                       />
+
+                    <CheckBox
+                        android:id="@+id/selectFila"
+                        android:tag="binding_3"                                           
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="20dp"
+                        android:visibility="visible"                                                                                                                          />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Contents_ValuesTableV2"
+                    android:tag="binding_4"                                
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

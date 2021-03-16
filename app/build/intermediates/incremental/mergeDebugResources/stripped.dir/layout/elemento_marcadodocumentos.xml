@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                             
+                                                                                                     
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                          
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_marcadodocumentos_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:id="@+id/documents_list"
+                                      
+                android:tag="binding_2"                                        
+                                                                    
+                                          
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/title_textoopcioncatalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:tag="binding_3"                                             
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/documents_add_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+         

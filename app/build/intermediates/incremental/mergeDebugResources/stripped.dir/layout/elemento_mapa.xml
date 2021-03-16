@@ -1,0 +1,143 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                        
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_mapa_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtInput_mapa"
+                    android:tag="binding_2"                                        
+                                                                             
+                                                                               
+                                                                              
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                                                                            
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                                                                          
+                    android:textSize="18sp"
+                    android:visibility="gone"                                                                                      />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.digipro.fesdkcore.widgets.material.widget.ImageView
+                        android:id="@+id/iv_mapa"
+                        android:tag="binding_3"                                
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="15dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"                                                                                      />
+                    <!-- android:onClick='@{(v) -> bindings.llenarCoord(elemento.idelemento)}'-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <View
+                            android:tag="binding_4"       
+                            android:id="@+id/viewHabilitado"
+                            android:layout_width="300dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:background="#73FFFFFF"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+                    </RelativeLayout>
+
+
+               <LinearLayout
+                    android:tag="binding_5"                                          
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_mapa"
+                        android:tag="binding_6"                                   
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                                                                                                
+                        android:src="@drawable/ic_location_white_24dp"
+                        android:visibility="visible"                                                                                     
+                        app:backgroundTint="@color/colorAccent"
+                        app:fabSize="normal" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_eliminar_mapa"
+                        android:tag="binding_7"                                   
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_margin="5dp"
+                                                                                               
+                        android:src="@drawable/ic_delete_forever_white_24dp"
+                        android:visibility="gone"                                                                                     
+                        app:backgroundTint="@color/colorAccent"
+                        app:fabSize="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                              
+                                                   
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/item_attribute_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/tvType"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vTop"
+            android:singleLine="false"
+            tools:text="Visible"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            app:layout_constraintEnd_toStartOf="@+id/tvValue"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvName"
+            app:layout_constraintTop_toTopOf="@+id/tvName"
+            tools:text="Boolean" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvType"
+            app:layout_constraintTop_toTopOf="@+id/tvType"
+            tools:text="true" />
+
+
+        <View
+            android:id="@+id/vTop"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/black"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

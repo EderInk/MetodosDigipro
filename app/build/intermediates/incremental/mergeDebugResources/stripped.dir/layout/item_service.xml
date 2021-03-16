@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                              
+                                                   
+
+    
+                 
+                                           
+                                                                                            
+           
+    <androidx.cardview.widget.CardView
+        android:id="@+id/clContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp" android:tag="layout/item_service_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:gravity="center"
+                android:id="@+id/tvServiceId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/tvServiceName"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Service 1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:gravity="center"
+                android:id="@+id/tvServiceName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/tvServiceId"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Service 1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+         

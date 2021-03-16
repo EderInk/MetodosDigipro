@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/401efc97c9d895a0ccc1d4d06f167353/jetified-SpaceNavigationView-1.6.0/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/871a2f1b2bf88ce7ca417b292855cc3b/jetified-awesome-calendar-1.1.4/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,4,5,8,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,213,363,507,553,600,646,698",
+                        "endColumns": "52,55,49,53,45,46,45,51,47",
+                        "endOffsets": "103,208,258,412,548,595,641,693,741"
+                    },
+                    "to": {
+                        "startLines": "3,5,6,9,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "103,205,261,412,556,602,649,695,747",
+                        "endColumns": "52,55,49,53,45,46,45,51,47",
+                        "endOffsets": "151,256,306,461,597,644,690,742,790"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,104,155,205,251",
+                        "endColumns": "48,50,49,45,43",
+                        "endOffsets": "99,150,200,246,290"
+                    },
+                    "to": {
+                        "startLines": "4,7,8,10,11",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "156,311,362,466,512",
+                        "endColumns": "48,50,49,45,43",
+                        "endOffsets": "200,357,407,507,551"
+                    }
+                }
+            ]
+        }
+    ]
+}

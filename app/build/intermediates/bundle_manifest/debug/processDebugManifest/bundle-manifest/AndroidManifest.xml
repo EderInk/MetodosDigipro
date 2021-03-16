@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.digipro.formatoselectronicos"
+    android:versionCode="7163"
+    android:versionName="7.45.7163.E" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission
+        android:name="android.permission.NFC"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        android:required="false" /> <!-- A crashing bug on CyanogenMod; without this, camera will crash -->
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" /> <!-- Camera permissions -->
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="false" /> <!-- Camera features -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.light"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.WRITE_INTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.RECORD_VIDEO"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.USB_PERMISSION"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" /> <!-- for android -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+    <!-- for Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.example.pruebadigipro.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.PruebaDigipro" >
+        <activity android:name="com.example.pruebadigipro.Expedientes" />
+        <activity android:name="com.example.pruebadigipro.Login" />
+        <activity android:name="com.example.pruebadigipro.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.huawei.hms.ml.DEPENDENCY"
+            android:value="object,ocr,face,label,icr,imgseg" />
+
+        <activity
+            android:name="com.digipro.fesdkcore.activity.VeridiumSelectFingers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.UniLectordeHuellas"
+            android:configChanges="orientation"
+            android:label="@string/Elemento_Leer_Huellas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.lectordehuellas.SelectFileFormatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Cropping" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.lectordehuellas.FtrScanDemoUsbHostActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Cropping" />
+
+        <meta-data
+            android:name="com.veridiumid.sdk.LICENSE"
+            android:value="wuMbFjxl+ajAHQAIHPWnMd+5HH+LdXLVEvwagHYofYlqtdboZDlCLP4LaqNp8sOxvFlEfiMXrA14JFf7KNA8B3siZGV2aWNlRmluZ2VycHJpbnQiOiIybUFkUVhqUzhLUW5zS0xEQ0RmdkhJVGhnRUE2amxyeFpOYjl3NGpUb0ZVPSIsImxpY2Vuc2UiOiJ4QzMxYjJvVWNiQnpCZmtaS2RqeDFlRFczSnVicFFHeURBM3pPVldFSmtoMTFiM2EydjAxam82dndZUFRJMWJHMmdnK1JWNGIycHU1MEEvWmlSZ3hBbnNpZEhsd1pTSTZJbE5FU3lJc0ltNWhiV1VpT2lKVFJFc2lMQ0pzWVhOMFRXOWthV1pwWldRaU9qRTJNRGs1TmpRNE5qY3NJbU52YlhCaGJubE9ZVzFsSWpvaVJFbEhTVkJTVHlJc0ltTnZiblJoWTNSSmJtWnZJam9pUkVWV0lEUkdSU0JqYjIwdVpHbG5hWEJ5Ynk1dGIzWnBiQ3hqYjIwdVpHbG5hWEJ5Ynk1bWIzSnRZWFJ2YzJWc1pXTjBjbTl1YVdOdmN5SXNJbU52Ym5SaFkzUkZiV0ZwYkNJNkltaGxZM1J2Y20xQVpHbG5hWEJ5Ynk1amIyMHViWGdpTENKemRXSk1hV05sYm5OcGJtZFFkV0pzYVdOTFpYa2lPaUo2ZEc5SFkweFlPVE15T1RkVlowVk9hekJWUW5nM1RVbEpWRGg2YjBoRVFuSnlPRVJyUVcxR2FuTnJQU0lzSW5OMFlYSjBSR0YwWlNJNk1UVTRNRE0yTURRd01Dd2laWGh3YVhKaGRHbHZia1JoZEdVaU9qRTJNVGN4TmpNeU1EQXNJbWR5WVdObFJXNWtSR0YwWlNJNk1UWXhOelU1TlRJd01Dd2lkWE5wYm1kVFFVMU1WRzlyWlc0aU9tWmhiSE5sTENKMWMybHVaMFp5WldWU1FVUkpWVk1pT21aaGJITmxMQ0oxYzJsdVowRmpkR2wyWlVScGNtVmpkRzl5ZVNJNlptRnNjMlVzSW1KcGIyeHBZa1poWTJWRmVIQnZjblJGYm1GaWJHVmtJanBtWVd4elpTd2ljblZ1ZEdsdFpVVnVkbWx5YjI1dFpXNTBJanA3SW5ObGNuWmxjaUk2Wm1Gc2MyVXNJbVJsZG1salpWUnBaV1FpT21aaGJITmxmU3dpWlc1bWIzSmpaU0k2ZXlKd1lXTnJZV2RsVG1GdFpYTWlPbHNpWTI5dExtUnBaMmx3Y204dWJXOTJhV3dpTENKamIyMHVaR2xuYVhCeWJ5NW1iM0p0WVhSdmMyVnNaV04wY205dWFXTnZjeUpkTENKelpYSjJaWEpEWlhKMFNHRnphR1Z6SWpwYlhYMTkifQ==" />
+        <meta-data
+            android:name="com.veridiumid.sdk.fourf.LICENSE"
+            android:value="Q1TdYmTdly5KT2FxY3q836ik2k4orgGBVMZMszl7m6yMR6TVL4TTRE/0jOeAergbNQjeI/BlAg8XgHoqaLuRB3siZGV2aWNlRmluZ2VycHJpbnQiOiIybUFkUVhqUzhLUW5zS0xEQ0RmdkhJVGhnRUE2amxyeFpOYjl3NGpUb0ZVPSIsImxpY2Vuc2UiOiJtYzc0dytGYkRqaVV1ZHRoMjFHczdEM3ZBd1dWeHpuMnVlODAzTE5BQkVDaUFmUStIMmY0TG0wVkFJSy9tNDUvQUhWMUJ1OHhQeW9RZ2h2WjJBZTNDbnNpZEhsd1pTSTZJa0pKVDB4SlFsTWlMQ0p1WVcxbElqb2lORVlpTENKc1lYTjBUVzlrYVdacFpXUWlPakUyTURrNU5qUTROamN6T0RRc0ltTnZiWEJoYm5sT1lXMWxJam9pUkVsSFNWQlNUeUlzSW1OdmJuUmhZM1JKYm1adklqb2lSRVZXSURSR1JTQmpiMjB1WkdsbmFYQnlieTV0YjNacGJDeGpiMjB1WkdsbmFYQnlieTVtYjNKdFlYUnZjMlZzWldOMGNtOXVhV052Y3lJc0ltTnZiblJoWTNSRmJXRnBiQ0k2SW1obFkzUnZjbTFBWkdsbmFYQnlieTVqYjIwdWJYZ2lMQ0p6ZFdKTWFXTmxibk5wYm1kUWRXSnNhV05MWlhraU9pSjZkRzlIWTB4WU9UTXlPVGRWWjBWT2F6QlZRbmczVFVsSlZEaDZiMGhFUW5KeU9FUnJRVzFHYW5OclBTSXNJbk4wWVhKMFJHRjBaU0k2TVRVNE1ETTJNRFF3TURBd01Dd2laWGh3YVhKaGRHbHZia1JoZEdVaU9qRTJNVGN4TmpNeU1EQXdNREFzSW1keVlXTmxSVzVrUkdGMFpTSTZNVFl4TnpVNU5USXdNREF3TUN3aWRYTnBibWRUUVUxTVZHOXJaVzRpT21aaGJITmxMQ0oxYzJsdVowWnlaV1ZTUVVSSlZWTWlPbVpoYkhObExDSjFjMmx1WjBGamRHbDJaVVJwY21WamRHOXllU0k2Wm1Gc2MyVXNJbUpwYjJ4cFlrWmhZMlZGZUhCdmNuUkZibUZpYkdWa0lqcG1ZV3h6WlN3aWNuVnVkR2x0WlVWdWRtbHliMjV0Wlc1MElqcDdJbk5sY25abGNpSTZabUZzYzJVc0ltUmxkbWxqWlZScFpXUWlPbVpoYkhObGZTd2labVZoZEhWeVpYTWlPbnNpWW1GelpTSTZkSEoxWlN3aWMzUmxjbVZ2VEdsMlpXNWxjM01pT25SeWRXVXNJbVY0Y0c5eWRDSTZkSEoxWlgwc0ltVnVabTl5WTJWa1VISmxabVZ5Wlc1alpYTWlPbnNpYldGdVpHRjBiM0o1VEdsMlpXNWxjM01pT21aaGJITmxmU3dpZG1WeWMybHZiaUk2SWlvdUtpSjkifQ==" />
+        <meta-data
+            android:name="com.veridiumid.sdk.CONFIG"
+            android:value="com.veridiumid.sdk.core.ManifestConfiguration" />
+
+        <activity
+            android:name="com.digipro.fesdkcore.activity.CustomFourFBiometricsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="4 Fingers"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.veridiumid.sdk.component.config"
+                android:value="uid=4F,optional=false,validator=com.veridiumid.sdk.fourf.FourFValidator" />
+        </activity> <!-- version Veridium 4.0.1 -->
+        <!-- <activity -->
+        <!-- android:name="com.digipro.fesdkcore.activity.CustomFourFBiometricsActivity" -->
+        <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+        <!-- android:label="4Veridum"> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.veridiumid.sdk.component.config" -->
+        <!-- android:value="uid=4E,optional=false,validator=com.veridiumid.sdk.fourfexport.FourFExportValidator" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.veridiumid.sdk.activities.BiometricsAggregateActivity"
+            android:label="BiometricsAggregate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.digipro.fesdkcore.activity.WebDetail" />
+        <activity android:name="com.digipro.fesdkcore.activity.Metadatos" />
+        <activity
+            android:name="com.digipro.fesdkcore.googlevision.reconocimientodeocr.OCRGoogle"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Reconocimiento de Ocr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.googlevision.reconocimientoderostro.FaceTrackerActivity"
+            android:configChanges="orientation"
+            android:label="Reconocimiento de Rostro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.cotizadorP.SelectCotizador"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Cotizador" />
+        <activity
+            android:name="com.digipro.fesdkcore.cotizadorP.Cotizador"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Cotizador" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Camera"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Camara" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Audio"
+            android:configChanges="screenSize|orientation"
+            android:label="Audio" />
+        <activity
+            android:name="com.digipro.fesdkcore.bindings.Scan"
+            android:configChanges="screenSize|orientation"
+            android:label="Scan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Tratamiento"
+            android:configChanges="screenSize|orientation"
+            android:label="Scan" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Cropping"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Cropping" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Firma"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Firma" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.FirmaVideoNew"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Firma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.FirmaVideo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Firma" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.nfc.Nfc"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="NFC" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.PDfViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="PDfViewer" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.Formato"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation"
+            android:label="Formato" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.Logs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Logs" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.LogsReglas"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Logs Reglas" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Mapa"
+            android:label="Mapa" />
+        <activity
+            android:name="com.digipro.fesdkcore.componentes.Georeferencia"
+            android:label="Georreferencia" />
+        <activity
+            android:name="com.digipro.fesdkcore.libraries.livenesslib.LivenessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.digipro.fesdkcore.libraries.livenesslib.LoadingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.digipro.fesdkcore.libraries.plaxien.ExplainActivity"
+            android:label="Explain" />
+        <activity
+            android:name="com.digipro.fesdkcore.activity.CameraProfile"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.digipro.fesdkcore.activity.WebInfo" />
+        <activity
+            android:name="com.digipro.fesdkcore.crashx.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="com.digipro.fesdkcore.crashx.provider.CrashInitProvider"
+            android:authorities="com.digipro.formatoselectronicos.crashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service
+            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+            android:exported="false" />
+        <service
+            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+            android:exported="false" />
+        <service
+            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+            android:exported="false" />
+        <!--
+             face       1： 1.0.0.203
+                       2:  1.0.3.300
+        -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_face"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision"
+            android:value="ml-computer-vision:1.0.3.300" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.work.impl.WorkManagerInitializer"
+            android:authorities="com.digipro.formatoselectronicos.workmanager-init"
+            android:directBootAware="false"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-model"
+            android:value="ml-computer-vision-face-recognition-model:1.0.3.300" />
+        <!--
+        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+        -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:4.0.2.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1" />
+
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
+        </activity>
+
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:authorities="com.digipro.formatoselectronicos.hms.update.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+        </provider>
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:authorities="com.digipro.formatoselectronicos.AGCInitializeProvider"
+            android:exported="false" />
+
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.digipro.formatoselectronicos.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.digipro.formatoselectronicos.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-inner"
+            android:value="ml-computer-vision-inner:1.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+            android:value="ml-computer-ha-inner:1.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:dynamic-api"
+            android:value="dynamic-api:1.0.13.303" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+            android:value="ml-computer-vision-base:1.0.3.300" />
+
+        <provider
+            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+            android:authorities="com.digipro.formatoselectronicos.MLInitializerProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/upsdkDlDialog" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/upsdkDlDialog" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+    </application>
+
+</manifest>

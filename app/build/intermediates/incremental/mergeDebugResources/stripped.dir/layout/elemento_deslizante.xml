@@ -1,0 +1,69 @@
+
+                                                        
+
+    
+
+                                           
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_deslizante_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.digipro.fesdkcore.widgets.slidr.Slidr
+                    android:id="@+id/slider_elemento"
+                    android:tag="binding_2"                                    
+                                                                                   
+                                                                             
+                                                                                     
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:slidr_region_leftColor="#bd145c79"
+                    app:slidr_regions_centerText="false"
+                    app:slidr_step_colorizeAfterLast="true" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

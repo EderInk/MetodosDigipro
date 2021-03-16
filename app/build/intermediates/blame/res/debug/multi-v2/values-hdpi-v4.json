@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/871a2f1b2bf88ce7ca417b292855cc3b/jetified-awesome-calendar-1.1.4/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,5,6,9,11,12,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,206,262,412,512,562,655,707",
+                        "endColumns": "52,48,55,49,53,49,48,51,47",
+                        "endOffsets": "103,152,257,307,461,557,606,702,750"
+                    },
+                    "to": {
+                        "startLines": "3,4,6,7,10,12,13,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "103,156,254,310,461,561,611,704,756",
+                        "endColumns": "52,48,55,49,53,49,48,51,47",
+                        "endOffsets": "151,200,305,355,510,606,655,751,799"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/f6985551fcc26be8a56707c312b5b52e/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "804",
+                        "endLines": "21",
+                        "endColumns": "13",
+                        "endOffsets": "1076"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/401efc97c9d895a0ccc1d4d06f167353/jetified-SpaceNavigationView-1.6.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,104,155,205,251",
+                        "endColumns": "48,50,49,45,43",
+                        "endOffsets": "99,150,200,246,290"
+                    },
+                    "to": {
+                        "startLines": "5,8,9,11,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "205,360,411,515,660",
+                        "endColumns": "48,50,49,45,43",
+                        "endOffsets": "249,406,456,556,699"
+                    }
+                }
+            ]
+        }
+    ]
+}

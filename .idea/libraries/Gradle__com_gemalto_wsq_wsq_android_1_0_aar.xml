@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gemalto.wsq:wsq-android:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376ca726b4af497cbb4737cbbe5a26a7/wsq-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376ca726b4af497cbb4737cbbe5a26a7/wsq-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376ca726b4af497cbb4737cbbe5a26a7/wsq-android-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gemalto.wsq/wsq-android/1.0/d4437613c1119ad58b119d14cd2714f5f4ee8ea5/wsq-android-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gemalto.wsq/wsq-android/1.0/dc5b085a59cbe259be09d6df332434fe46627631/wsq-android-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

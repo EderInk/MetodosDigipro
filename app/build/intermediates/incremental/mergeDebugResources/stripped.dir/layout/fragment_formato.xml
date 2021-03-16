@@ -1,0 +1,383 @@
+
+                                                       
+                                                   
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                            
+                                                                   
+
+                                           
+
+           
+
+    <RelativeLayout
+        android:id="@+id/parentFormat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_formato_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/Progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.digipro.fesdkcore.widgets.material.widget.ProgressView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical"
+                app:pv_autostart="true"
+                app:pv_circular="true"
+                app:pv_progressMode="indeterminate"
+                app:pv_progressStyle="@style/Material.Drawable.CircularProgress" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/contentTitulo_Subtitulo"
+                android:layout_width="match_parent"
+                android:tag="binding_1"         
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/slider_salir"
+                    style="?android:textAppearanceMedium"
+                    android:tag="binding_2"                            
+                                                                                          
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/border_navy_red_text_view_left"
+                    android:paddingEnd="3dp"
+                    android:src="@drawable/back_format"
+                    android:visibility="gone" />
+
+                <!--android:visibility='@{plantilla.getIntegerValorAttr("tiempoautoguardado") > 0 ? View.VISIBLE : View.GONE}'-->
+                <TextView
+                    android:id="@+id/timer_autoguardado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/slider_salir"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="46dp"
+                    android:gravity="center"
+                    android:text="Gibreel"                                                                           
+                    android:textSize="12sp"
+                    android:visibility="gone"  android:tag="binding_3"/>
+
+                <!--.equals("normal")-->
+                <TextView
+                    android:id="@+id/FormatoTitulo"
+                    android:tag="binding_4"                                          
+                                                                                         
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="46dp"
+                    android:gravity="center"
+                                                                            
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/FormatoSubtitulo"
+                    android:tag="binding_5"                                             
+                                                                                            
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FormatoTitulo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="46dp"
+                    android:gravity="center"
+                                                                               
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/slider_guardar"
+                    style="?android:textAppearanceMedium"
+                    android:tag="binding_6"                              
+                                                                                            
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/border_navy_red_text_view_right"
+                    android:paddingEnd="3dp"
+                    android:src="@drawable/ic_save"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlantillaPageTabContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contentTitulo_Subtitulo"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlantillaPageContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PlantillaPageTabContent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="110dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlantillaFooterContent"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center|bottom"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            app:menu_fab_size="mini"
+            app:menu_colorNormal="@color/debug_color"
+            app:menu_colorPressed="@color/debug_color"
+            app:menu_colorRipple="@color/debug_color"
+            tools:ignore="RtlHardcoded">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_json_feformatodata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_archivo_json"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorPrimaryButton"
+                app:fab_colorPressed="@color/colorPrimaryButton"
+                app:fab_colorRipple="@color/colorPrimaryButton"
+                app:fab_label="FEFormatoData Json"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorPrimaryButton"
+                app:fab_colorPressed="@color/colorPrimaryButton"
+                app:fab_colorRipple="@color/colorPrimaryButton"
+                app:fab_label="Explain: Plantilla"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_refresh"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_download_anexos_white"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorInfoButton"
+                app:fab_colorPressed="@color/colorInfoButton"
+                app:fab_colorRipple="@color/colorInfoButton"
+                app:fab_label="Refrescar plantilla"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_visible_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_view_photo_white_24dp"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Mostrar todo"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_info_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bug"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorWarningButton"
+                app:fab_colorPressed="@color/colorWarningButton"
+                app:fab_colorRipple="@color/colorWarningButton"
+                app:fab_label="Información de elemento web"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_enable_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_enable_all"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorDangerButton"
+                app:fab_colorPressed="@color/colorDangerButton"
+                app:fab_colorRipple="@color/colorDangerButton"
+                app:fab_label="Habilitar todo"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_require_none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_required_none"
+                android:tint="@color/white"
+                app:fab_colorNormal="#990000"
+                app:fab_colorPressed="#990000"
+                app:fab_colorRipple="#990000"
+                app:fab_label="Quitar requerido"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_visible_pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_visible_page"
+                android:tint="@color/white"
+                app:fab_colorNormal="#990000"
+                app:fab_colorPressed="#990000"
+                app:fab_colorRipple="#990000"
+                app:fab_label="Mostrar Paginas"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/gps1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            app:menu_fab_size="mini"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            app:menu_colorNormal="@color/debug_color"
+            app:menu_colorPressed="@color/debug_color"
+            app:menu_colorRipple="@color/debug_color"
+            tools:ignore="RtlHardcoded"
+            app:menu_labels_position="right">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_logs_reglas"
+                app:menu_labels_position="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rules"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Log Reglas"
+                app:fab_size="mini"
+                />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_errores"
+                app:menu_labels_position="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crash_ic_bug_report"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Log Errores"
+                app:fab_size="mini"
+                />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_copyFormato"
+                app:menu_labels_position="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_copy"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Copy to Clipboard"
+                app:fab_size="mini"
+                />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_find_element_by_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_element"
+                android:tint="@color/white"
+                app:fab_colorNormal="#990000"
+                app:fab_colorPressed="#990000"
+                app:fab_colorRipple="#990000"
+                app:fab_label="Buscar elemento por Id"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_execute_services"
+                app:menu_labels_position="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Ejecutar reglas y servicios"
+                app:fab_size="mini"
+                />
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btn_create_element"
+                app:menu_labels_position="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/white"
+                app:fab_colorNormal="@color/colorSuccessButton"
+                app:fab_colorPressed="@color/colorSuccessButton"
+                app:fab_colorRipple="@color/colorSuccessButton"
+                app:fab_label="Agregar elemento"
+                app:fab_size="mini"
+                android:src="@drawable/fab_add"
+                />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </RelativeLayout>
+
+         

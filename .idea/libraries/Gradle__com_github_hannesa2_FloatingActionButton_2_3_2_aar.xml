@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.hannesa2:FloatingActionButton:2.3.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c85d363801955fb0631b7fa8134ee743/FloatingActionButton-2.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c85d363801955fb0631b7fa8134ee743/FloatingActionButton-2.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c85d363801955fb0631b7fa8134ee743/FloatingActionButton-2.3.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hannesa2/FloatingActionButton/2.3.2/193231bc75944b60b9fb2d60a287b1e909f127d6/FloatingActionButton-2.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

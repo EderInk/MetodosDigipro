@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v29/values-night-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/res/values-night-v29/values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,107,160",
+                        "endColumns": "51,52,51",
+                        "endOffsets": "102,155,207"
+                    }
+                }
+            ]
+        }
+    ]
+}

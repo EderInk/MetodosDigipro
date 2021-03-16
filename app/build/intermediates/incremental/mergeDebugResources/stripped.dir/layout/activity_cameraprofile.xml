@@ -1,0 +1,67 @@
+
+                                                        
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF444444"
+        android:keepScreenOn="true" android:tag="layout/activity_cameraprofile_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:keepScreenOn="true"
+            app:cameraAudio="on"
+            app:cameraFacing="back"
+            app:cameraFlash="off"
+            app:cameraGestureLongTap="autoFocus"
+            app:cameraGesturePinch="zoom"
+            app:cameraGestureScrollHorizontal="exposureCorrection"
+            app:cameraGestureScrollVertical="none"
+            app:cameraGestureTap="autoFocus"
+            app:cameraGrid="off"
+            app:cameraPlaySounds="true"
+            app:cameraMode="picture" />
+
+        <!-- Camera -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/capturePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/border_round_login"
+                android:elevation="12dp"
+                app:backgroundTint="@color/colorFABAceptar"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_user_photo_white_24dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_cancelar_camara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:src="@drawable/ic_close_white_24dp"
+                app:backgroundTint="@color/colorFABCancelar"
+                app:fabSize="normal" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+         

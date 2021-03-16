@@ -1,0 +1,200 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                          
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_huelladigital_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <TextView
+                android:tag="binding_2"                                    
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                                                                                                                                                  
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:tag="binding_3"                                    
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                                                                                                                                         
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"                                                                                                                                                       />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_new"
+                        android:tag="binding_4"                 
+                                                                                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_tomar_huella"
+                            android:tag="binding_5"                                   
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                                                                                                   
+                            android:src="@drawable/ic_action_huella_pequeno_white"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_exist"
+                        android:tag="binding_6"                          
+                                                                                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_huellas_score"
+                            android:tag="binding_7"                                   
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                                                                                                       
+                            android:src="@drawable/ic_score"
+                            app:backgroundTint="@color/ProgressRed"
+                            app:fabSize="normal" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_tomar_huella_reemplazo"
+                            android:tag="binding_8"                                   
+                                                                               
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                                                                                                            
+                            android:src="@drawable/ic_retry_white_24dp"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_eliminar_firma"
+                            android:tag="binding_9"                                   
+                                                                            
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="5dp"
+                                                                                                             
+                            android:src="@drawable/ic_delete_forever_white_24dp"
+                            android:visibility="gone"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:tag="binding_10"                  
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <Spinner
+                            android:id="@+id/spinner_anexos_tipodoc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:clickable="false"
+                            android:minHeight="40dp"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="15dp"
+                android:background="#B1BCBE"
+                android:tag="binding_11"                                                                   />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

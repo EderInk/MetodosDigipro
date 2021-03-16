@@ -1,0 +1,1318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digipro.formatoselectronicos"
+4    android:versionCode="7163"
+5    android:versionName="7.45.7163.E" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission
+11-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:11:5-62
+12        android:name="android.permission.NFC"
+12-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:11:22-59
+13        android:required="false" />
+13-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:95:9-33
+14
+15    <uses-feature
+15-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:11:5-13:35
+16        android:name="android.hardware.usb.host"
+16-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:12:9-49
+17        android:required="true" />
+17-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:13:9-32
+18
+19    <uses-permission
+19-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:15:5-67
+20        android:name="android.permission.INTERNET"
+20-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:15:22-64
+21        android:required="false" />
+21-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:50:9-33
+22    <uses-permission
+22-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:16:5-79
+23        android:name="android.permission.ACCESS_NETWORK_STATE"
+23-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:16:22-76
+24        android:required="false" />
+24-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:39:9-33
+25    <uses-permission
+25-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:17:5-66
+26        android:name="android.permission.VIBRATE"
+26-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:17:22-63
+27        android:required="false" />
+27-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:83:9-33
+28    <uses-permission
+28-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:18:5-69
+29        android:name="android.permission.FLASHLIGHT"
+29-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:18:22-66
+30        android:required="false" /> <!-- A crashing bug on CyanogenMod; without this, camera will crash -->
+30-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:86:9-33
+31    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" /> <!-- Camera permissions -->
+31-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:19:5-76
+31-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:19:22-73
+32    <uses-permission
+32-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:20:5-65
+33        android:name="android.permission.CAMERA"
+33-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:20:22-62
+34        android:required="false" /> <!-- Camera features -->
+34-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:71:9-33
+35    <uses-feature
+35-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:21:5-23:35
+36        android:name="android.hardware.camera"
+36-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:22:9-47
+37        android:required="true" />
+37-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:23:9-32
+38    <uses-feature
+38-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:24:5-26:35
+39        android:name="android.hardware.camera.autofocus"
+39-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:25:9-57
+40        android:required="true" />
+40-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:26:9-32
+41    <uses-feature
+41-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:27:5-29:36
+42        android:name="android.hardware.sensor.light"
+42-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:28:9-53
+43        android:required="false" />
+43-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:29:9-33
+44
+45    <uses-permission
+45-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:31:5-81
+46        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+46-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:31:22-78
+47        android:required="false" />
+47-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:53:9-33
+48    <uses-permission
+48-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:32:5-80
+49        android:name="android.permission.READ_EXTERNAL_STORAGE"
+49-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:32:22-77
+50        android:required="false" />
+50-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:56:9-33
+51
+52    <supports-screens
+52-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:11:5-16:39
+53        android:anyDensity="true"
+53-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:12:9-34
+54        android:largeScreens="true"
+54-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:13:9-36
+55        android:normalScreens="true"
+55-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:14:9-37
+56        android:resizeable="true"
+56-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:15:9-34
+57        android:smallScreens="true" />
+57-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:16:9-36
+58
+59    <uses-feature
+59-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:24:5-26:36
+60        android:name="android.hardware.location.gps"
+60-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:25:9-53
+61        android:required="false" />
+61-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:26:9-33
+62    <uses-feature
+62-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:30:5-32:36
+63        android:glEsVersion="0x00020000"
+63-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:31:9-41
+64        android:required="true" />
+64-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:32:9-33
+65    <uses-feature
+65-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:33:5-35:36
+66        android:name="android.hardware.nfc"
+66-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:34:9-44
+67        android:required="false" />
+67-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:35:9-33
+68
+69    <uses-permission
+69-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:40:5-42:36
+70        android:name="android.permission.ACCESS_WIFI_STATE"
+70-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:41:9-60
+71        android:required="false" />
+71-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:42:9-33
+72    <uses-permission
+72-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:57:5-59:36
+73        android:name="android.permission.WRITE_INTERNAL_STORAGE"
+73-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:58:9-65
+74        android:required="false" />
+74-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:59:9-33
+75    <uses-permission
+75-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:60:5-62:36
+76        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"
+76-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:61:9-82
+77        android:required="false" />
+77-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:62:9-33
+78    <uses-permission
+78-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:63:5-65:36
+79        android:name="android.permission.ACCESS_COARSE_LOCATION"
+79-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:64:9-65
+80        android:required="false" />
+80-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:65:9-33
+81    <uses-permission
+81-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:66:5-68:36
+82        android:name="android.permission.ACCESS_FINE_LOCATION"
+82-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:67:9-63
+83        android:required="false" />
+83-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:68:9-33
+84    <uses-permission
+84-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:72:5-74:36
+85        android:name="android.permission.RECORD_AUDIO"
+85-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:73:9-55
+86        android:required="false" />
+86-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:74:9-33
+87    <uses-permission
+87-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:75:5-77:36
+88        android:name="android.permission.RECORD_VIDEO"
+88-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:76:9-55
+89        android:required="false" />
+89-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:77:9-33
+90    <uses-permission
+90-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:78:5-80:36
+91        android:name="android.permission.USB_PERMISSION"
+91-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:79:9-57
+92        android:required="false" />
+92-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:80:9-33
+93    <uses-permission
+93-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:87:5-89:36
+94        android:name="android.permission.WAKE_LOCK"
+94-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:88:9-52
+95        android:required="false" />
+95-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:89:9-33
+96    <uses-permission
+96-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:90:5-92:36
+97        android:name="android.permission.GET_ACCOUNTS"
+97-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:91:9-55
+98        android:required="false" />
+98-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:92:9-33
+99
+100    <uses-feature
+100-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+101        android:name="android.hardware.camera.front"
+101-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+102        android:required="false" />
+102-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+103    <uses-feature
+103-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+104        android:name="android.hardware.camera.flash"
+104-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+105        android:required="false" />
+105-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+106    <uses-feature
+106-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+107        android:name="android.hardware.screen.landscape"
+107-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+108        android:required="false" />
+108-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+109    <uses-feature
+109-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+110        android:name="android.hardware.wifi"
+110-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+111        android:required="false" />
+111-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+112
+113    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+113-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:16:5-94
+113-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:16:22-91
+114    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+114-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:5-81
+114-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:22-78
+115
+116    <uses-feature
+116-->[com.otaliastudios:cameraview:2.7.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/421b54e1ac09c7fb5aa6d8113d39b733/cameraview-2.7.0/AndroidManifest.xml:30:5-32:36
+117        android:name="android.hardware.microphone"
+117-->[com.otaliastudios:cameraview:2.7.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/421b54e1ac09c7fb5aa6d8113d39b733/cameraview-2.7.0/AndroidManifest.xml:31:9-51
+118        android:required="false" /> <!-- for android -->
+118-->[com.otaliastudios:cameraview:2.7.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/421b54e1ac09c7fb5aa6d8113d39b733/cameraview-2.7.0/AndroidManifest.xml:32:9-33
+119    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+120    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+121    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+122    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+123    <!-- for Samsung -->
+124    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+124-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+124-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+125    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+125-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+125-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+126    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+126-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+126-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+127    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+127-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+127-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+128    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+128-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+128-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+129    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+129-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+129-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+130    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+130-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+130-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+131    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+131-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+131-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+132    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+132-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+132-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+133    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+133-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+133-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+134    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+134-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+134-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+135    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+135-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+135-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+136    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+136-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+136-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+137    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+137-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+137-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+138    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+138-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+138-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+139    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+139-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+139-->[me.leolin:ShortcutBadger:1.1.22] /Users/eder/.gradle/caches/transforms-2/files-2.1/37af9b56a05e0db26207e944a50dc9c2/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+140    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+140-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:16:5-83
+140-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:16:22-80
+141    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+141-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:18:5-106
+141-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:18:22-103
+142    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+142-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+142-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+143    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+143-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+143-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+144
+145    <application
+145-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:5:5-22:19
+146        android:name="com.example.pruebadigipro.App"
+146-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:6:9-28
+147        android:allowBackup="true"
+147-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:7:9-35
+148        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+148-->[androidx.core:core:1.3.2] /Users/eder/.gradle/caches/transforms-2/files-2.1/3baa75fa93a5adf9733eea5c0bf219d0/core-1.3.2/AndroidManifest.xml:24:18-86
+149        android:debuggable="true"
+150        android:extractNativeLibs="true"
+150-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:14:9-41
+151        android:icon="@mipmap/ic_launcher"
+151-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:8:9-43
+152        android:label="@string/app_name"
+152-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:9:9-41
+153        android:largeHeap="true"
+153-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:99:9-33
+154        android:networkSecurityConfig="@xml/network_security_config"
+154-->[com.huawei.hms:ml-computer-vision-cloud:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/1e9e2fa9268fda2a14d2e6cd18851c46/ml-computer-vision-cloud-1.0.3.300/AndroidManifest.xml:11:18-78
+155        android:requestLegacyExternalStorage="true"
+155-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:15:9-52
+156        android:roundIcon="@mipmap/ic_launcher_round"
+156-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:10:9-54
+157        android:supportsRtl="true"
+157-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:11:9-35
+158        android:testOnly="true"
+159        android:theme="@style/Theme.PruebaDigipro" >
+159-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:12:9-51
+160        <activity android:name="com.example.pruebadigipro.Expedientes" />
+160-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:13:9-58
+160-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:13:19-46
+161        <activity android:name="com.example.pruebadigipro.Login" />
+161-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:14:9-43
+161-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:14:19-40
+162        <activity android:name="com.example.pruebadigipro.MainActivity" >
+162-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:15:9-21:20
+162-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:15:19-47
+163            <intent-filter>
+163-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:16:13-20:29
+164                <action android:name="android.intent.action.MAIN" />
+164-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:17:17-69
+164-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:17:25-66
+165
+166                <category android:name="android.intent.category.LAUNCHER" />
+166-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:19:17-77
+166-->/Users/eder/AndroidStudioProjects/MetodosDigipro/app/src/main/AndroidManifest.xml:19:27-74
+167            </intent-filter>
+168        </activity>
+169
+170        <meta-data
+170-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:16:9-18:64
+171            android:name="com.huawei.hms.ml.DEPENDENCY"
+171-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:17:13-56
+172            android:value="object,ocr,face,label,icr,imgseg" />
+172-->[com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml:18:13-61
+173
+174        <activity
+174-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:40:9-42:52
+175            android:name="com.digipro.fesdkcore.activity.VeridiumSelectFingers"
+175-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:41:13-80
+176            android:screenOrientation="portrait" />
+176-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:42:13-49
+177        <activity
+177-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:43:9-47:52
+178            android:name="com.digipro.fesdkcore.activity.UniLectordeHuellas"
+178-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:44:13-77
+179            android:configChanges="orientation"
+179-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:45:13-48
+180            android:label="@string/Elemento_Leer_Huellas"
+180-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:46:13-58
+181            android:screenOrientation="portrait" />
+181-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:47:13-49
+182        <activity
+182-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:48:9-51:40
+183            android:name="com.digipro.fesdkcore.componentes.lectordehuellas.SelectFileFormatActivity"
+183-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:49:13-102
+184            android:configChanges="keyboardHidden|orientation|screenSize"
+184-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:50:13-74
+185            android:label="Cropping" />
+185-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:51:13-37
+186        <activity
+186-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:52:9-55:40
+187            android:name="com.digipro.fesdkcore.componentes.lectordehuellas.FtrScanDemoUsbHostActivity"
+187-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:53:13-104
+188            android:configChanges="keyboardHidden|orientation|screenSize"
+188-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:54:13-74
+189            android:label="Cropping" />
+189-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:55:13-37
+190
+191        <meta-data
+191-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:57:9-59:1428
+192            android:name="com.veridiumid.sdk.LICENSE"
+192-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:58:13-54
+193            android:value="wuMbFjxl+ajAHQAIHPWnMd+5HH+LdXLVEvwagHYofYlqtdboZDlCLP4LaqNp8sOxvFlEfiMXrA14JFf7KNA8B3siZGV2aWNlRmluZ2VycHJpbnQiOiIybUFkUVhqUzhLUW5zS0xEQ0RmdkhJVGhnRUE2amxyeFpOYjl3NGpUb0ZVPSIsImxpY2Vuc2UiOiJ4QzMxYjJvVWNiQnpCZmtaS2RqeDFlRFczSnVicFFHeURBM3pPVldFSmtoMTFiM2EydjAxam82dndZUFRJMWJHMmdnK1JWNGIycHU1MEEvWmlSZ3hBbnNpZEhsd1pTSTZJbE5FU3lJc0ltNWhiV1VpT2lKVFJFc2lMQ0pzWVhOMFRXOWthV1pwWldRaU9qRTJNRGs1TmpRNE5qY3NJbU52YlhCaGJubE9ZVzFsSWpvaVJFbEhTVkJTVHlJc0ltTnZiblJoWTNSSmJtWnZJam9pUkVWV0lEUkdSU0JqYjIwdVpHbG5hWEJ5Ynk1dGIzWnBiQ3hqYjIwdVpHbG5hWEJ5Ynk1bWIzSnRZWFJ2YzJWc1pXTjBjbTl1YVdOdmN5SXNJbU52Ym5SaFkzUkZiV0ZwYkNJNkltaGxZM1J2Y20xQVpHbG5hWEJ5Ynk1amIyMHViWGdpTENKemRXSk1hV05sYm5OcGJtZFFkV0pzYVdOTFpYa2lPaUo2ZEc5SFkweFlPVE15T1RkVlowVk9hekJWUW5nM1RVbEpWRGg2YjBoRVFuSnlPRVJyUVcxR2FuTnJQU0lzSW5OMFlYSjBSR0YwWlNJNk1UVTRNRE0yTURRd01Dd2laWGh3YVhKaGRHbHZia1JoZEdVaU9qRTJNVGN4TmpNeU1EQXNJbWR5WVdObFJXNWtSR0YwWlNJNk1UWXhOelU1TlRJd01Dd2lkWE5wYm1kVFFVMU1WRzlyWlc0aU9tWmhiSE5sTENKMWMybHVaMFp5WldWU1FVUkpWVk1pT21aaGJITmxMQ0oxYzJsdVowRmpkR2wyWlVScGNtVmpkRzl5ZVNJNlptRnNjMlVzSW1KcGIyeHBZa1poWTJWRmVIQnZjblJGYm1GaWJHVmtJanBtWVd4elpTd2ljblZ1ZEdsdFpVVnVkbWx5YjI1dFpXNTBJanA3SW5ObGNuWmxjaUk2Wm1Gc2MyVXNJbVJsZG1salpWUnBaV1FpT21aaGJITmxmU3dpWlc1bWIzSmpaU0k2ZXlKd1lXTnJZV2RsVG1GdFpYTWlPbHNpWTI5dExtUnBaMmx3Y204dWJXOTJhV3dpTENKamIyMHVaR2xuYVhCeWJ5NW1iM0p0WVhSdmMyVnNaV04wY205dWFXTnZjeUpkTENKelpYSjJaWEpEWlhKMFNHRnphR1Z6SWpwYlhYMTkifQ==" />
+193-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:59:13-1425
+194        <meta-data
+194-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:60:9-62:1492
+195            android:name="com.veridiumid.sdk.fourf.LICENSE"
+195-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:61:13-60
+196            android:value="Q1TdYmTdly5KT2FxY3q836ik2k4orgGBVMZMszl7m6yMR6TVL4TTRE/0jOeAergbNQjeI/BlAg8XgHoqaLuRB3siZGV2aWNlRmluZ2VycHJpbnQiOiIybUFkUVhqUzhLUW5zS0xEQ0RmdkhJVGhnRUE2amxyeFpOYjl3NGpUb0ZVPSIsImxpY2Vuc2UiOiJtYzc0dytGYkRqaVV1ZHRoMjFHczdEM3ZBd1dWeHpuMnVlODAzTE5BQkVDaUFmUStIMmY0TG0wVkFJSy9tNDUvQUhWMUJ1OHhQeW9RZ2h2WjJBZTNDbnNpZEhsd1pTSTZJa0pKVDB4SlFsTWlMQ0p1WVcxbElqb2lORVlpTENKc1lYTjBUVzlrYVdacFpXUWlPakUyTURrNU5qUTROamN6T0RRc0ltTnZiWEJoYm5sT1lXMWxJam9pUkVsSFNWQlNUeUlzSW1OdmJuUmhZM1JKYm1adklqb2lSRVZXSURSR1JTQmpiMjB1WkdsbmFYQnlieTV0YjNacGJDeGpiMjB1WkdsbmFYQnlieTVtYjNKdFlYUnZjMlZzWldOMGNtOXVhV052Y3lJc0ltTnZiblJoWTNSRmJXRnBiQ0k2SW1obFkzUnZjbTFBWkdsbmFYQnlieTVqYjIwdWJYZ2lMQ0p6ZFdKTWFXTmxibk5wYm1kUWRXSnNhV05MWlhraU9pSjZkRzlIWTB4WU9UTXlPVGRWWjBWT2F6QlZRbmczVFVsSlZEaDZiMGhFUW5KeU9FUnJRVzFHYW5OclBTSXNJbk4wWVhKMFJHRjBaU0k2TVRVNE1ETTJNRFF3TURBd01Dd2laWGh3YVhKaGRHbHZia1JoZEdVaU9qRTJNVGN4TmpNeU1EQXdNREFzSW1keVlXTmxSVzVrUkdGMFpTSTZNVFl4TnpVNU5USXdNREF3TUN3aWRYTnBibWRUUVUxTVZHOXJaVzRpT21aaGJITmxMQ0oxYzJsdVowWnlaV1ZTUVVSSlZWTWlPbVpoYkhObExDSjFjMmx1WjBGamRHbDJaVVJwY21WamRHOXllU0k2Wm1Gc2MyVXNJbUpwYjJ4cFlrWmhZMlZGZUhCdmNuUkZibUZpYkdWa0lqcG1ZV3h6WlN3aWNuVnVkR2x0WlVWdWRtbHliMjV0Wlc1MElqcDdJbk5sY25abGNpSTZabUZzYzJVc0ltUmxkbWxqWlZScFpXUWlPbVpoYkhObGZTd2labVZoZEhWeVpYTWlPbnNpWW1GelpTSTZkSEoxWlN3aWMzUmxjbVZ2VEdsMlpXNWxjM01pT25SeWRXVXNJbVY0Y0c5eWRDSTZkSEoxWlgwc0ltVnVabTl5WTJWa1VISmxabVZ5Wlc1alpYTWlPbnNpYldGdVpHRjBiM0o1VEdsMlpXNWxjM01pT21aaGJITmxmU3dpZG1WeWMybHZiaUk2SWlvdUtpSjkifQ==" />
+196-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:62:13-1489
+197        <meta-data
+197-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:63:9-65:77
+198            android:name="com.veridiumid.sdk.CONFIG"
+198-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:64:13-53
+199            android:value="com.veridiumid.sdk.core.ManifestConfiguration" />
+199-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:65:13-74
+200
+201        <activity
+201-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:67:9-75:20
+202            android:name="com.digipro.fesdkcore.activity.CustomFourFBiometricsActivity"
+202-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:68:13-88
+203            android:configChanges="keyboardHidden|orientation|screenSize"
+203-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:69:13-74
+204            android:label="4 Fingers"
+204-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:70:13-38
+205            android:screenOrientation="portrait" >
+205-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:71:13-49
+206            <meta-data
+206-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:72:13-74:107
+207                android:name="com.veridiumid.sdk.component.config"
+207-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:73:17-67
+208                android:value="uid=4F,optional=false,validator=com.veridiumid.sdk.fourf.FourFValidator" />
+208-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:74:17-104
+209        </activity> <!-- version Veridium 4.0.1 -->
+210        <!-- <activity -->
+211        <!-- android:name="com.digipro.fesdkcore.activity.CustomFourFBiometricsActivity" -->
+212        <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+213        <!-- android:label="4Veridum"> -->
+214        <!-- <meta-data -->
+215        <!-- android:name="com.veridiumid.sdk.component.config" -->
+216        <!-- android:value="uid=4E,optional=false,validator=com.veridiumid.sdk.fourfexport.FourFExportValidator" /> -->
+217        <!-- </activity> -->
+218        <activity
+218-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:91:9-95:20
+219            android:name="com.veridiumid.sdk.activities.BiometricsAggregateActivity"
+219-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:92:13-85
+220            android:label="BiometricsAggregate"
+220-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:93:13-48
+221            android:screenOrientation="portrait" >
+221-->[com.digipro.fesdkcore:elementos_huella:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/AndroidManifest.xml:94:13-49
+222        </activity>
+223        <activity android:name="com.digipro.fesdkcore.activity.WebDetail" />
+223-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:102:9-77
+223-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:102:19-74
+224        <activity android:name="com.digipro.fesdkcore.activity.Metadatos" />
+224-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:103:9-77
+224-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:103:19-74
+225        <activity
+225-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:104:9-108:52
+226            android:name="com.digipro.fesdkcore.googlevision.reconocimientodeocr.OCRGoogle"
+226-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:105:13-92
+227            android:configChanges="keyboardHidden|orientation|screenSize"
+227-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:106:13-74
+228            android:label="Reconocimiento de Ocr"
+228-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:107:13-50
+229            android:screenOrientation="portrait" />
+229-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:108:13-49
+230        <activity
+230-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:109:9-113:52
+231            android:name="com.digipro.fesdkcore.googlevision.reconocimientoderostro.FaceTrackerActivity"
+231-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:110:13-105
+232            android:configChanges="orientation"
+232-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:111:13-48
+233            android:label="Reconocimiento de Rostro"
+233-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:112:13-53
+234            android:screenOrientation="portrait" />
+234-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:113:13-49
+235        <activity
+235-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:114:9-117:41
+236            android:name="com.digipro.fesdkcore.cotizadorP.SelectCotizador"
+236-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:115:13-76
+237            android:configChanges="keyboardHidden|orientation|screenSize"
+237-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:116:13-74
+238            android:label="Cotizador" />
+238-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:117:13-38
+239        <activity
+239-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:118:9-121:41
+240            android:name="com.digipro.fesdkcore.cotizadorP.Cotizador"
+240-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:119:13-70
+241            android:configChanges="keyboardHidden|orientation|screenSize"
+241-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:120:13-74
+242            android:label="Cotizador" />
+242-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:121:13-38
+243        <activity
+243-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:122:9-125:38
+244            android:name="com.digipro.fesdkcore.componentes.Camera"
+244-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:123:13-68
+245            android:configChanges="keyboardHidden|orientation|screenSize"
+245-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:124:13-74
+246            android:label="Camara" />
+246-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:125:13-35
+247        <activity
+247-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:126:9-129:37
+248            android:name="com.digipro.fesdkcore.componentes.Audio"
+248-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:127:13-67
+249            android:configChanges="screenSize|orientation"
+249-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:128:13-59
+250            android:label="Audio" />
+250-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:129:13-34
+251        <activity
+251-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:130:9-134:52
+252            android:name="com.digipro.fesdkcore.bindings.Scan"
+252-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:131:13-63
+253            android:configChanges="screenSize|orientation"
+253-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:132:13-59
+254            android:label="Scan"
+254-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:133:13-33
+255            android:screenOrientation="portrait" />
+255-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:134:13-49
+256        <activity
+256-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:135:9-138:36
+257            android:name="com.digipro.fesdkcore.componentes.Tratamiento"
+257-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:136:13-73
+258            android:configChanges="screenSize|orientation"
+258-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:137:13-59
+259            android:label="Scan" />
+259-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:138:13-33
+260        <activity
+260-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:139:9-142:40
+261            android:name="com.digipro.fesdkcore.componentes.Cropping"
+261-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:140:13-70
+262            android:configChanges="keyboardHidden|orientation|screenSize"
+262-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:141:13-74
+263            android:label="Cropping" />
+263-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:142:13-37
+264        <activity
+264-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:143:9-146:37
+265            android:name="com.digipro.fesdkcore.componentes.Firma"
+265-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:144:13-67
+266            android:configChanges="keyboardHidden|orientation|screenSize"
+266-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:145:13-74
+267            android:label="Firma" />
+267-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:146:13-34
+268        <activity
+268-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:147:9-151:52
+269            android:name="com.digipro.fesdkcore.componentes.FirmaVideoNew"
+269-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:148:13-75
+270            android:configChanges="keyboardHidden|orientation|screenSize"
+270-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:149:13-74
+271            android:label="Firma"
+271-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:150:13-34
+272            android:screenOrientation="portrait" />
+272-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:151:13-49
+273        <activity
+273-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:152:9-155:37
+274            android:name="com.digipro.fesdkcore.componentes.FirmaVideo"
+274-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:153:13-72
+275            android:configChanges="keyboardHidden|orientation|screenSize"
+275-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:154:13-74
+276            android:label="Firma" />
+276-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:155:13-34
+277        <activity
+277-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:156:9-159:35
+278            android:name="com.digipro.fesdkcore.componentes.nfc.Nfc"
+278-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:157:13-69
+279            android:configChanges="keyboardHidden|orientation|screenSize"
+279-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:158:13-74
+280            android:label="NFC" />
+280-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:159:13-32
+281        <activity
+281-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:160:9-163:41
+282            android:name="com.digipro.fesdkcore.activity.PDfViewer"
+282-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:161:13-68
+283            android:configChanges="keyboardHidden|orientation|screenSize"
+283-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:162:13-74
+284            android:label="PDfViewer" />
+284-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:163:13-38
+285        <activity
+285-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:164:9-167:39
+286            android:name="com.digipro.fesdkcore.activity.Formato"
+286-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:165:13-66
+287            android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation"
+287-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:166:13-94
+288            android:label="Formato" />
+288-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:167:13-36
+289        <activity
+289-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:168:9-171:36
+290            android:name="com.digipro.fesdkcore.activity.Logs"
+290-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:169:13-63
+291            android:configChanges="keyboardHidden|orientation|screenSize"
+291-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:170:13-74
+292            android:label="Logs" />
+292-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:171:13-33
+293        <activity
+293-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:172:9-175:43
+294            android:name="com.digipro.fesdkcore.activity.LogsReglas"
+294-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:173:13-69
+295            android:configChanges="keyboardHidden|orientation|screenSize"
+295-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:174:13-74
+296            android:label="Logs Reglas" />
+296-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:175:13-40
+297        <activity
+297-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:176:9-178:36
+298            android:name="com.digipro.fesdkcore.componentes.Mapa"
+298-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:177:13-66
+299            android:label="Mapa" />
+299-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:178:13-33
+300        <activity
+300-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:179:9-181:46
+301            android:name="com.digipro.fesdkcore.componentes.Georeferencia"
+301-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:180:13-75
+302            android:label="Georreferencia" />
+302-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:181:13-43
+303        <activity
+303-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:182:9-184:52
+304            android:name="com.digipro.fesdkcore.libraries.livenesslib.LivenessActivity"
+304-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:183:13-88
+305            android:screenOrientation="portrait" />
+305-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:184:13-49
+306        <activity
+306-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:185:9-188:70
+307            android:name="com.digipro.fesdkcore.libraries.livenesslib.LoadingActivity"
+307-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:186:13-87
+308            android:configChanges="keyboardHidden|orientation|screenSize"
+308-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:187:13-74
+309            android:windowSoftInputMode="adjustResize|stateHidden" />
+309-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:188:13-67
+310        <activity
+310-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:189:9-191:39
+311            android:name="com.digipro.fesdkcore.libraries.plaxien.ExplainActivity"
+311-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:190:13-83
+312            android:label="Explain" />
+312-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:191:13-36
+313        <activity
+313-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:192:9-194:77
+314            android:name="com.digipro.fesdkcore.activity.CameraProfile"
+314-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:193:13-72
+315            android:configChanges="keyboardHidden|orientation|screenSize" />
+315-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:194:13-74
+316        <activity android:name="com.digipro.fesdkcore.activity.WebInfo" />
+316-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:195:9-75
+316-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:195:19-72
+317        <activity
+317-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:196:9-198:49
+318            android:name="com.digipro.fesdkcore.crashx.activity.DefaultErrorActivity"
+318-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:197:13-86
+319            android:process=":error_activity" />
+319-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:198:13-46
+320
+321        <provider
+321-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:200:9-204:39
+322            android:name="com.digipro.fesdkcore.crashx.provider.CrashInitProvider"
+322-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:201:13-83
+323            android:authorities="com.digipro.formatoselectronicos.crashinitprovider"
+323-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:202:13-69
+324            android:exported="false"
+324-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:203:13-37
+325            android:initOrder="101" />
+325-->[com.digipro.fesdkcore:core:0.4.45.0161.S] /Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/AndroidManifest.xml:204:13-36
+326
+327        <service
+327-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/e062f1410b87b2f54a6364efbf09186f/jetified-firebase-inappmessaging-display-17.0.4/AndroidManifest.xml:15:9-19:19
+328            android:name="com.google.firebase.components.ComponentDiscoveryService"
+328-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/e062f1410b87b2f54a6364efbf09186f/jetified-firebase-inappmessaging-display-17.0.4/AndroidManifest.xml:15:18-89
+329            android:directBootAware="true"
+329-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+330            android:exported="false" >
+330-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+331            <meta-data
+331-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/e062f1410b87b2f54a6364efbf09186f/jetified-firebase-inappmessaging-display-17.0.4/AndroidManifest.xml:16:13-18:85
+332                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+332-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/e062f1410b87b2f54a6364efbf09186f/jetified-firebase-inappmessaging-display-17.0.4/AndroidManifest.xml:17:17-144
+333                android:value="com.google.firebase.components.ComponentRegistrar" />
+333-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/e062f1410b87b2f54a6364efbf09186f/jetified-firebase-inappmessaging-display-17.0.4/AndroidManifest.xml:18:17-82
+334            <meta-data
+334-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+335                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+335-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+336                android:value="com.google.firebase.components.ComponentRegistrar" />
+336-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+337            <meta-data
+337-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:38:13-40:85
+338                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+338-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:39:17-119
+339                android:value="com.google.firebase.components.ComponentRegistrar" />
+339-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:40:17-82
+340            <meta-data
+340-->[com.google.firebase:firebase-crashlytics:17.1.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/2c6ba72cc46faa883853a7aa8b241601/firebase-crashlytics-17.1.1/AndroidManifest.xml:16:13-18:85
+341                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+341-->[com.google.firebase:firebase-crashlytics:17.1.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/2c6ba72cc46faa883853a7aa8b241601/firebase-crashlytics-17.1.1/AndroidManifest.xml:17:17-115
+342                android:value="com.google.firebase.components.ComponentRegistrar" />
+342-->[com.google.firebase:firebase-crashlytics:17.1.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/2c6ba72cc46faa883853a7aa8b241601/firebase-crashlytics-17.1.1/AndroidManifest.xml:18:17-82
+343            <meta-data
+343-->[com.google.firebase:firebase-firestore:21.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f435bdd3eaaedfbb8539087745961979/jetified-firebase-firestore-21.2.1/AndroidManifest.xml:20:13-22:85
+344                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+344-->[com.google.firebase:firebase-firestore:21.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f435bdd3eaaedfbb8539087745961979/jetified-firebase-firestore-21.2.1/AndroidManifest.xml:21:17-111
+345                android:value="com.google.firebase.components.ComponentRegistrar" />
+345-->[com.google.firebase:firebase-firestore:21.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f435bdd3eaaedfbb8539087745961979/jetified-firebase-firestore-21.2.1/AndroidManifest.xml:22:17-82
+346            <meta-data
+346-->[com.google.firebase:firebase-inappmessaging:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/cfa5e8a58557246c0599535475399677/jetified-firebase-inappmessaging-17.0.4/AndroidManifest.xml:15:13-17:85
+347                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+347-->[com.google.firebase:firebase-inappmessaging:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/cfa5e8a58557246c0599535475399677/jetified-firebase-inappmessaging-17.0.4/AndroidManifest.xml:16:17-129
+348                android:value="com.google.firebase.components.ComponentRegistrar" />
+348-->[com.google.firebase:firebase-inappmessaging:17.0.4] /Users/eder/.gradle/caches/transforms-2/files-2.1/cfa5e8a58557246c0599535475399677/jetified-firebase-inappmessaging-17.0.4/AndroidManifest.xml:17:17-82
+349            <meta-data
+349-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/330683c02aadfc00a634a6c8b34d4014/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+350                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+350-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/330683c02aadfc00a634a6c8b34d4014/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+351                android:value="com.google.firebase.components.ComponentRegistrar" />
+351-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/330683c02aadfc00a634a6c8b34d4014/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+352            <meta-data
+352-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+353                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+353-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+354                android:value="com.google.firebase.components.ComponentRegistrar" />
+354-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+355            <meta-data
+355-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/4bade442a2277f5f435a96a06050c0a4/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+356                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+356-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/4bade442a2277f5f435a96a06050c0a4/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/4bade442a2277f5f435a96a06050c0a4/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+358            <meta-data
+358-->[com.google.firebase:firebase-installations:16.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4508f680f71ab735e13cccf009aaf7f7/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+359                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+359-->[com.google.firebase:firebase-installations:16.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4508f680f71ab735e13cccf009aaf7f7/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->[com.google.firebase:firebase-installations:16.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4508f680f71ab735e13cccf009aaf7f7/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+361        </service>
+362
+363        <activity
+363-->[com.karumi:dexter:6.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4c4a5735308bacf5fba6c0483acd9567/dexter-6.0.1/AndroidManifest.xml:27:9-29:72
+364            android:name="com.karumi.dexter.DexterActivity"
+364-->[com.karumi:dexter:6.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4c4a5735308bacf5fba6c0483acd9567/dexter-6.0.1/AndroidManifest.xml:28:13-60
+365            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+365-->[com.karumi:dexter:6.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/4c4a5735308bacf5fba6c0483acd9567/dexter-6.0.1/AndroidManifest.xml:29:13-69
+366        <activity
+366-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:14:9-20:20
+367            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+367-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:15:13-91
+368            android:exported="false"
+368-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:16:13-37
+369            android:label="@string/places_autocomplete_label"
+369-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:17:13-62
+370            android:theme="@style/PlacesAutocompleteOverlay"
+370-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:18:13-61
+371            android:windowSoftInputMode="adjustResize" >
+371-->[com.google.android.libraries.places:places:2.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/cf6d9602a5ddacbc536b8b4b8877bba9/places-2.4.0/AndroidManifest.xml:19:13-55
+372        </activity>
+373        <activity
+373-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+374            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+374-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+375            android:clearTaskOnLaunch="true"
+375-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+376            android:screenOrientation="sensorLandscape"
+376-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+377            android:stateNotNeeded="true"
+377-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+378            android:theme="@style/zxing_CaptureTheme"
+378-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+379            android:windowSoftInputMode="stateAlwaysHidden" />
+379-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/29e901ac42a322406fb8ea98e4bdee45/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+380
+381        <service
+381-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:19:9-21:40
+382            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+382-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:20:13-132
+383            android:exported="false" />
+383-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:21:13-37
+384        <service
+384-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:22:9-24:40
+385            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+385-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:23:13-127
+386            android:exported="false" />
+386-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:24:13-37
+387        <service
+387-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:25:9-27:40
+388            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+388-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:26:13-120
+389            android:exported="false" />
+389-->[io.nlopez.smartlocation:library:3.3.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/169db73c5763075ca0d9d7b254557a79/jetified-library-3.3.3/AndroidManifest.xml:27:13-37
+390        <!--
+391             face       1： 1.0.0.203
+392                       2:  1.0.3.300
+393        -->
+394        <meta-data
+394-->[com.huawei.hms:ml-computer-vision-face:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b6bae55dcf34483a648aa1ba9f1b6e71/ml-computer-vision-face-1.0.3.300/AndroidManifest.xml:17:9-19:33
+395            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_face"
+395-->[com.huawei.hms:ml-computer-vision-face:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b6bae55dcf34483a648aa1ba9f1b6e71/ml-computer-vision-face-1.0.3.300/AndroidManifest.xml:18:13-100
+396            android:value="2" />
+396-->[com.huawei.hms:ml-computer-vision-face:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b6bae55dcf34483a648aa1ba9f1b6e71/ml-computer-vision-face-1.0.3.300/AndroidManifest.xml:19:13-30
+397        <meta-data
+397-->[com.huawei.hms:ml-computer-vision-cloud:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/1e9e2fa9268fda2a14d2e6cd18851c46/ml-computer-vision-cloud-1.0.3.300/AndroidManifest.xml:12:9-14:60
+398            android:name="com.huawei.hms.client.service.name:ml-computer-vision"
+398-->[com.huawei.hms:ml-computer-vision-cloud:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/1e9e2fa9268fda2a14d2e6cd18851c46/ml-computer-vision-cloud-1.0.3.300/AndroidManifest.xml:13:13-81
+399            android:value="ml-computer-vision:1.0.3.300" />
+399-->[com.huawei.hms:ml-computer-vision-cloud:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/1e9e2fa9268fda2a14d2e6cd18851c46/ml-computer-vision-cloud-1.0.3.300/AndroidManifest.xml:14:13-57
+400
+401        <activity
+401-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+402            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+402-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+403            android:excludeFromRecents="true"
+403-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+404            android:exported="true"
+404-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+405            android:launchMode="singleTask"
+405-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+406            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+406-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+407            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+407-->[com.google.firebase:firebase-auth:19.2.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/7b4a1308b69b665cb7ad54f407ff8500/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+408        <!--
+409             FirebaseMessagingService performs security checks at runtime,
+410             but set to not exported to explicitly avoid allowing another app to call it.
+411        -->
+412        <service
+412-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:28:9-34:19
+413            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+413-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:29:13-82
+414            android:exported="false" >
+414-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:30:13-37
+415            <intent-filter android:priority="-500" >
+415-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:31:13-33:29
+415-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:31:28-51
+416                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+416-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:32:17-78
+416-->[com.google.firebase:firebase-messaging:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/43b795403df20d3b489e98eb66bf2b12/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:32:25-75
+417            </intent-filter>
+418        </service>
+419
+420        <provider
+420-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:28:9-34:35
+421            android:name="androidx.work.impl.WorkManagerInitializer"
+421-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:29:13-69
+422            android:authorities="com.digipro.formatoselectronicos.workmanager-init"
+422-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:30:13-68
+423            android:directBootAware="false"
+423-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:31:13-44
+424            android:exported="false"
+424-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:32:13-37
+425            android:multiprocess="true" />
+425-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:33:13-40
+426
+427        <service
+427-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:36:9-41:35
+428            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+428-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:37:13-88
+429            android:directBootAware="false"
+429-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:38:13-44
+430            android:enabled="@bool/enable_system_alarm_service_default"
+430-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:39:13-72
+431            android:exported="false" />
+431-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:40:13-37
+432        <service
+432-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:42:9-48:35
+433            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+433-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:43:13-84
+434            android:directBootAware="false"
+434-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:44:13-44
+435            android:enabled="@bool/enable_system_job_service_default"
+435-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:45:13-70
+436            android:exported="true"
+436-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:46:13-36
+437            android:permission="android.permission.BIND_JOB_SERVICE" />
+437-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:47:13-69
+438
+439        <receiver
+439-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:50:9-55:35
+440            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+440-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:51:13-88
+441            android:directBootAware="false"
+441-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:52:13-44
+442            android:enabled="true"
+442-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:53:13-35
+443            android:exported="false" />
+443-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:54:13-37
+444        <receiver
+444-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:56:9-66:20
+445            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+445-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:57:13-106
+446            android:directBootAware="false"
+446-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:58:13-44
+447            android:enabled="false"
+447-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:59:13-36
+448            android:exported="false" >
+448-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:60:13-37
+449            <intent-filter>
+449-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:62:13-65:29
+450                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+450-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:17-87
+450-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:25-84
+451                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+451-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:17-90
+451-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:25-87
+452            </intent-filter>
+453        </receiver>
+454        <receiver
+454-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:67:9-77:20
+455            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+455-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:68:13-104
+456            android:directBootAware="false"
+456-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:69:13-44
+457            android:enabled="false"
+457-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:70:13-36
+458            android:exported="false" >
+458-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:71:13-37
+459            <intent-filter>
+459-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:73:13-76:29
+460                <action android:name="android.intent.action.BATTERY_OKAY" />
+460-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:17-77
+460-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:25-74
+461                <action android:name="android.intent.action.BATTERY_LOW" />
+461-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:17-76
+461-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:25-73
+462            </intent-filter>
+463        </receiver>
+464        <receiver
+464-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:78:9-88:20
+465            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+465-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:79:13-104
+466            android:directBootAware="false"
+466-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:80:13-44
+467            android:enabled="false"
+467-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:81:13-36
+468            android:exported="false" >
+468-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:82:13-37
+469            <intent-filter>
+469-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:84:13-87:29
+470                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+470-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:17-83
+470-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:25-80
+471                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+471-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:17-82
+471-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:25-79
+472            </intent-filter>
+473        </receiver>
+474        <receiver
+474-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:89:9-98:20
+475            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+475-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:90:13-103
+476            android:directBootAware="false"
+476-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:91:13-44
+477            android:enabled="false"
+477-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:92:13-36
+478            android:exported="false" >
+478-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:93:13-37
+479            <intent-filter>
+479-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:95:13-97:29
+480                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+480-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:17-79
+480-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:25-76
+481            </intent-filter>
+482        </receiver>
+483        <receiver
+483-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:99:9-110:20
+484            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+484-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:100:13-88
+485            android:directBootAware="false"
+485-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:101:13-44
+486            android:enabled="false"
+486-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:102:13-36
+487            android:exported="false" >
+487-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:103:13-37
+488            <intent-filter>
+488-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:105:13-109:29
+489                <action android:name="android.intent.action.BOOT_COMPLETED" />
+489-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:17-79
+489-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:25-76
+490                <action android:name="android.intent.action.TIME_SET" />
+490-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:17-73
+490-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:25-70
+491                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+491-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:17-81
+491-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:25-78
+492            </intent-filter>
+493        </receiver>
+494        <receiver
+494-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:111:9-120:20
+495            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+495-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:112:13-99
+496            android:directBootAware="false"
+496-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:113:13-44
+497            android:enabled="@bool/enable_system_alarm_service_default"
+497-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:114:13-72
+498            android:exported="false" >
+498-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:115:13-37
+499            <intent-filter>
+499-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:117:13-119:29
+500                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+500-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:17-98
+500-->[android.arch.work:work-runtime:1.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/06c3684c0a358a93a82ed16228a2b3cf/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:25-95
+501            </intent-filter>
+502        </receiver>
+503
+504        <meta-data
+504-->[com.huawei.hms:ml-computer-vision-face-recognition-model:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/d4f7807d802b2e9ae0d30893c09b18ae/ml-computer-vision-face-recognition-model-1.0.3.300/AndroidManifest.xml:17:9-19:83
+505            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-model"
+505-->[com.huawei.hms:ml-computer-vision-face-recognition-model:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/d4f7807d802b2e9ae0d30893c09b18ae/ml-computer-vision-face-recognition-model-1.0.3.300/AndroidManifest.xml:18:13-104
+506            android:value="ml-computer-vision-face-recognition-model:1.0.3.300" />
+506-->[com.huawei.hms:ml-computer-vision-face-recognition-model:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/d4f7807d802b2e9ae0d30893c09b18ae/ml-computer-vision-face-recognition-model-1.0.3.300/AndroidManifest.xml:19:13-80
+507        <!--
+508        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+509        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+510        -->
+511        <meta-data
+511-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:26:9-28:46
+512            android:name="com.huawei.hms.client.service.name:base"
+512-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:27:13-67
+513            android:value="base:4.0.2.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+513-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:28:13-43
+514        <meta-data
+514-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:31:9-33:33
+515            android:name="com.huawei.hms.min_api_level:base:hmscore"
+515-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:32:13-69
+516            android:value="1" />
+516-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:33:13-30
+517
+518        <activity
+518-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:35:9-45:20
+519            android:name="com.huawei.hms.activity.BridgeActivity"
+519-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:36:13-66
+520            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+520-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:37:13-124
+521            android:excludeFromRecents="true"
+521-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:38:13-46
+522            android:exported="false"
+522-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:39:13-37
+523            android:hardwareAccelerated="true"
+523-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:40:13-47
+524            android:theme="@android:style/Theme.Translucent" >
+524-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:41:13-61
+525            <meta-data
+525-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+526                android:name="hwc-theme"
+526-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:43:17-41
+527                android:value="androidhwext:style/Theme.Emui.Translucent" />
+527-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:44:17-74
+528        </activity>
+529        <activity
+529-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:46:9-49:20
+530            android:name="com.huawei.hms.activity.EnableServiceActivity"
+530-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:47:13-73
+531            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
+531-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:48:13-106
+532        </activity>
+533
+534        <provider
+534-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:51:9-56:20
+535            android:name="com.huawei.hms.update.provider.UpdateProvider"
+535-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:52:13-73
+536            android:authorities="com.digipro.formatoselectronicos.hms.update.provider"
+536-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:53:13-71
+537            android:exported="false"
+537-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:54:13-37
+538            android:grantUriPermissions="true" >
+538-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:55:13-47
+539        </provider>
+540        <provider
+540-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:11:9-14:40
+541            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+541-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:12:13-90
+542            android:authorities="com.digipro.formatoselectronicos.AGCInitializeProvider"
+542-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:13:13-73
+543            android:exported="false" />
+543-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:14:13-37
+544
+545        <service
+545-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:16:9-18:40
+546            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+546-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:17:13-70
+547            android:exported="false" />
+547-->[com.huawei.agconnect:agconnect-core:1.4.0.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/b85ae64928b6cadd85c5bcc501c88fb9/agconnect-core-1.4.0.300/AndroidManifest.xml:18:13-37
+548
+549        <receiver
+549-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:30:9-34:20
+550            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+550-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:31:13-78
+551            android:enabled="true"
+551-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:32:13-35
+552            android:exported="false" >
+552-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:33:13-37
+553        </receiver>
+554
+555        <service
+555-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:36:9-39:40
+556            android:name="com.google.android.gms.analytics.AnalyticsService"
+556-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:37:13-77
+557            android:enabled="true"
+557-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:38:13-35
+558            android:exported="false" />
+558-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:39:13-37
+559        <service
+559-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:40:9-44:72
+560            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+560-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:41:13-80
+561            android:enabled="true"
+561-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:42:13-35
+562            android:exported="false"
+562-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:43:13-37
+563            android:permission="android.permission.BIND_JOB_SERVICE" />
+563-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/eder/.gradle/caches/transforms-2/files-2.1/02d5de96599537f087f2af382298b6dc/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:44:13-69
+564
+565        <receiver
+565-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+566            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+566-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+567            android:exported="true"
+567-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+568            android:permission="com.google.android.c2dm.permission.SEND" >
+568-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+569            <intent-filter>
+569-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+570                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+570-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+570-->[com.google.firebase:firebase-iid:20.1.5] /Users/eder/.gradle/caches/transforms-2/files-2.1/54a06e9031c907825e078b85598715f2/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+571            </intent-filter>
+572        </receiver>
+573        <receiver
+573-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+574            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+574-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+575            android:enabled="true"
+575-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+576            android:exported="false" >
+576-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+577        </receiver>
+578        <receiver
+578-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+579            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+579-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+580            android:enabled="true"
+580-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+581            android:exported="true"
+581-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+582            android:permission="android.permission.INSTALL_PACKAGES" >
+582-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+583            <intent-filter>
+583-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+584                <action android:name="com.android.vending.INSTALL_REFERRER" />
+584-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+584-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+585            </intent-filter>
+586        </receiver>
+587
+588        <service
+588-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+589            android:name="com.google.android.gms.measurement.AppMeasurementService"
+589-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+590            android:enabled="true"
+590-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+591            android:exported="false" />
+591-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+592        <service
+592-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+593            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+593-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+594            android:enabled="true"
+594-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+595            android:exported="false"
+595-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+596            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+596-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/f02a012eecd407dc75fc2a3bc5664ca7/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+597        <uses-library
+597-->[com.google.android.gms:play-services-maps:17.0.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d907802b79d13d85a6a4e765bfa3b6d9/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+598            android:name="org.apache.http.legacy"
+598-->[com.google.android.gms:play-services-maps:17.0.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d907802b79d13d85a6a4e765bfa3b6d9/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+599            android:required="false" />
+599-->[com.google.android.gms:play-services-maps:17.0.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d907802b79d13d85a6a4e765bfa3b6d9/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+600
+601        <activity
+601-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+602            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+602-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+603            android:excludeFromRecents="true"
+603-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+604            android:exported="false"
+604-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+605            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+605-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+606        <!--
+607            Service handling Google Sign-In user revocation. For apps that do not integrate with
+608            Google Sign-In, this service will never be started.
+609        -->
+610        <service
+610-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+611            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+611-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+612            android:exported="true"
+612-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+613            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+613-->[com.google.android.gms:play-services-auth:16.0.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/03f728acc21b84bb8eb1fd6c229e6eda/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+614
+615        <activity
+615-->[com.google.android.gms:play-services-base:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/a86e69fed00069655f6338fb5aafa295/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+616            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+616-->[com.google.android.gms:play-services-base:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/a86e69fed00069655f6338fb5aafa295/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+617            android:exported="false"
+617-->[com.google.android.gms:play-services-base:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/a86e69fed00069655f6338fb5aafa295/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+618            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+618-->[com.google.android.gms:play-services-base:17.2.1] /Users/eder/.gradle/caches/transforms-2/files-2.1/a86e69fed00069655f6338fb5aafa295/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+619
+620        <provider
+620-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+621            android:name="com.google.firebase.provider.FirebaseInitProvider"
+621-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+622            android:authorities="com.digipro.formatoselectronicos.firebaseinitprovider"
+622-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+623            android:exported="false"
+623-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+624            android:initOrder="100" />
+624-->[com.google.firebase:firebase-common:19.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/a2a75e8b87d3590c10fb934470f8e80d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+625
+626        <meta-data
+626-->[com.google.android.gms:play-services-basement:17.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/82524e8bd328110c0ccce590bd53e811/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+627            android:name="com.google.android.gms.version"
+627-->[com.google.android.gms:play-services-basement:17.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/82524e8bd328110c0ccce590bd53e811/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+628            android:value="@integer/google_play_services_version" />
+628-->[com.google.android.gms:play-services-basement:17.4.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/82524e8bd328110c0ccce590bd53e811/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+629
+630        <provider
+630-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/43a5c0431694cb6eb60ad36e4c8cf6d0/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+631            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+631-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/43a5c0431694cb6eb60ad36e4c8cf6d0/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+632            android:authorities="com.digipro.formatoselectronicos.lifecycle-process"
+632-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/43a5c0431694cb6eb60ad36e4c8cf6d0/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+633            android:exported="false"
+633-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/43a5c0431694cb6eb60ad36e4c8cf6d0/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+634            android:multiprocess="true" />
+634-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/43a5c0431694cb6eb60ad36e4c8cf6d0/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+635
+636        <service
+636-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+637            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+637-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+638            android:exported="false" >
+638-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+639            <meta-data
+639-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+640                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+640-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+641                android:value="cct" />
+641-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/eder/.gradle/caches/transforms-2/files-2.1/d1602116d78cb6c08cf0af83288e958f/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+642        </service>
+643        <service
+643-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+644            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+644-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+645            android:exported="false"
+645-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+646            android:permission="android.permission.BIND_JOB_SERVICE" >
+646-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+647        </service>
+648
+649        <receiver
+649-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+650            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+650-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+651            android:exported="false" />
+651-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/eder/.gradle/caches/transforms-2/files-2.1/8e086c37e403fd7a448472aa66c6a375/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+652
+653        <meta-data
+653-->[com.huawei.hms:ml-computer-vision-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/3b83ae284cbbf88e69edcbc907370be0/ml-computer-vision-inner-1.0.3.300/AndroidManifest.xml:12:9-14:66
+654            android:name="com.huawei.hms.client.service.name:ml-computer-vision-inner"
+654-->[com.huawei.hms:ml-computer-vision-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/3b83ae284cbbf88e69edcbc907370be0/ml-computer-vision-inner-1.0.3.300/AndroidManifest.xml:13:13-87
+655            android:value="ml-computer-vision-inner:1.0.3.300" />
+655-->[com.huawei.hms:ml-computer-vision-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/3b83ae284cbbf88e69edcbc907370be0/ml-computer-vision-inner-1.0.3.300/AndroidManifest.xml:14:13-63
+656        <meta-data
+656-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/2beb3c3385d5cd580f1f426d81ffec72/ml-computer-ha-inner-1.0.3.300/AndroidManifest.xml:12:9-14:62
+657            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+657-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/2beb3c3385d5cd580f1f426d81ffec72/ml-computer-ha-inner-1.0.3.300/AndroidManifest.xml:13:13-83
+658            android:value="ml-computer-ha-inner:1.0.3.300" />
+658-->[com.huawei.hms:ml-computer-ha-inner:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/2beb3c3385d5cd580f1f426d81ffec72/ml-computer-ha-inner-1.0.3.300/AndroidManifest.xml:14:13-59
+659        <meta-data
+659-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:12:9-14:54
+660            android:name="com.huawei.hms.client.service.name:dynamic-api"
+660-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:13:13-74
+661            android:value="dynamic-api:1.0.13.303" />
+661-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:14:13-51
+662        <meta-data
+662-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:15:9-17:33
+663            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+663-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:16:13-96
+664            android:value="2" />
+664-->[com.huawei.hms:dynamic-api:1.0.13.303] /Users/eder/.gradle/caches/transforms-2/files-2.1/b8da17ade042d2092b5cc4d33d52073c/dynamic-api-1.0.13.303/AndroidManifest.xml:17:13-30
+665        <meta-data
+665-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:14:9-16:65
+666            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+666-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:15:13-86
+667            android:value="ml-computer-vision-base:1.0.3.300" />
+667-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:16:13-62
+668
+669        <provider
+669-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:18:9-21:40
+670            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+670-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:19:13-86
+671            android:authorities="com.digipro.formatoselectronicos.MLInitializerProvider"
+671-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:20:13-73
+672            android:exported="false" />
+672-->[com.huawei.hms:ml-computer-vision-base:1.0.3.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/c3bfd1b794974807690003fa2587ad9f/ml-computer-vision-base-1.0.3.300/AndroidManifest.xml:21:13-37
+673
+674        <activity
+674-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:21:9-29:20
+675            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+675-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:22:13-84
+676            android:configChanges="orientation|screenSize"
+676-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:23:13-59
+677            android:exported="false"
+677-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:24:13-37
+678            android:theme="@style/upsdkDlDialog" >
+678-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:25:13-49
+679            <meta-data
+679-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+680                android:name="hwc-theme"
+680-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:43:17-41
+681                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+681-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:44:17-74
+682        </activity>
+683        <activity
+683-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:30:9-38:20
+684            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+684-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:31:13-84
+685            android:configChanges="orientation|keyboardHidden|screenSize"
+685-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:32:13-74
+686            android:exported="false"
+686-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:33:13-37
+687            android:theme="@style/upsdkDlDialog" >
+687-->[com.huawei.hms:update:2.0.6.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/f6bc70cbab903e8de6e30c9620016a72/update-2.0.6.300/AndroidManifest.xml:34:13-49
+688            <meta-data
+688-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+689                android:name="hwc-theme"
+689-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:43:17-41
+690                android:value="androidhwext:style/Theme.Emui.Translucent" />
+690-->[com.huawei.hms:base:4.0.2.300] /Users/eder/.gradle/caches/transforms-2/files-2.1/101b4a80b6464b9898f7e8bf89f83d74/base-4.0.2.300/AndroidManifest.xml:44:17-74
+691        </activity>
+692    </application>
+693
+694</manifest>

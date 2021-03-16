@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.digipro.fesdkcore.widgets.TextoJustificado
+            android:id="@+id/txtTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:maxLines="7"
+            android:scrollbars="vertical"
+            android:textSize="18sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_help_white"
+            app:backgroundTint="@color/colorFABAyuda"
+            app:fabSize="mini" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sign_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_firma"
+            android:orientation="vertical">
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:id="@+id/fr_demo_firma_pad"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:penColor="@android:color/black" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp">
+
+                <View
+                    android:id="@+id/line_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#a7aaac" />
+
+                <TextView
+                    android:id="@+id/line_sign_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line_sign"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Firma"
+                    android:textColor="#a7aaac"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/info_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center|bottom">
+
+        <TextView
+            android:id="@+id/line_sign_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="Hora"
+            android:textColor="#a7aaac"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/line_sign_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_sign_hora"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="Ubicacion"
+            android:textColor="#a7aaac"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/line_sign_info_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_sign_ubicacion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informacion"
+            android:textColor="#a7aaac"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fr_demo_contenedor_botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fr_demo_firma_guardar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:src="@drawable/ic_done_white_24dps"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorFABAceptar"
+            app:fabSize="normal" />
+        <!--android:onClick="@{(v) -> handlers.tomarFoto(v, elemento.idelemento)}"-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fr_demo_firma_limpiar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/fab_tratamiento_cancelar"
+            android:gravity="center"
+            android:src="@drawable/ic_retry_white_24dp"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorFABRetry"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_tratamiento_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="start"
+            android:src="@drawable/ic_close_white_24dp"
+            app:backgroundTint="@color/colorFABCancelar"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_grabacion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lltextleyenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/ayudaAudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_margin="7dp"
+                android:src="@drawable/ic_help_white"
+                app:backgroundTint="@color/colorFABAyuda"
+                app:fabSize="mini" />
+
+            <TextView
+                android:id="@+id/textviewLeyendaAudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/Black"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/separador"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/textviewanchorstext"
+                android:background="@color/Black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lltextleyenda"
+        android:orientation="vertical">
+
+        <com.shuyu.waveview.AudioWaveView
+            android:id="@+id/audioWave"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:waveColor="#145c79" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_cancelar_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_close_white_24dp"
+                app:backgroundTint="@color/colorFABCancelar"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/stop_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_round_login"
+                android:visibility="gone"
+                app:backgroundTint="@color/colorFABCancelar"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_stop_white_24dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/record_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_round_login"
+                android:tint="@color/White"
+                android:visibility="gone"
+                app:backgroundTint="@color/colorAccent"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_action_mic_on" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

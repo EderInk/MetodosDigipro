@@ -1,0 +1,100 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:tag="layout/elemento_combodinamico_0"               
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.digipro.fesdkcore.widgets.searchablespinner.SearchableSpinner
+                    android:id="@+id/SearchableSpinner"
+                    android:tag="binding_2"                                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="40dp"
+                    android:textSize="20sp"
+                    android:visibility="gone"                                                                                                
+                    app:BoarderColor="@color/colorPrimary"
+                    app:BordersSize="1dp"
+                    app:RevealEmptyText="Buscar..."
+                    app:ShowBorders="true"
+                    app:SpinnerExpandHeight="250dp" />
+
+                <!--                    updateItemsCheckbox='@{elemento.getBooleanValorAttr("updateItems") ? elemento.getSpecialAttr("catalogodestino") : null}'-->
+                <!--                    valorlista='@{elemento.getStringValorAttr("valormetadato")}'-->
+                <View
+                    android:id="@+id/SearchableSpinnerViewDisable"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/colorDeshabilitadoComboDinamico"
+                    android:visibility="gone"                                                                                                                                                              android:tag="binding_3"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:id="@+id/rlgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.digipro.fesdkcore.widgets.compoundbuttongroup.CompoundButtonGroup
+                    android:id="@+id/CompoundButtonGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"                                                                                                 
+                    app:compoundType="check_box"
+                    android:tag="binding_4"                                             
+                    app:labelOrder="after"/>
+<!--                disableListaDinamica='@{elemento.getBooleanValorAttr("habilitado")}'-->
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

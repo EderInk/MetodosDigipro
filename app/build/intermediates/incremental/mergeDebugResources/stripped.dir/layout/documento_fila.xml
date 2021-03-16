@@ -1,0 +1,335 @@
+
+                                                        
+
+    
+
+                 
+                        
+                                                           
+
+                 
+                             
+                                      
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                          
+
+                 
+                                
+                                                                                         
+
+                                           
+
+                                          
+
+                                                              
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        style="@style/width_match_parent_max_400"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/documento_fila_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/visible_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:strokeColor="#147f93"
+            app:strokeWidth="2.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/row_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:tag="binding_1"                />
+
+                <ImageView
+                    android:id="@+id/docImgPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:tag="binding_2"                                                                             
+                    android:src="@drawable/ic_attachment" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <!-- <LinearLayout
+                         android:id="@+id/ll_download"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:gravity="center"
+                         android:orientation="horizontal"
+                         android:visibility="visible">
+
+                         <com.google.android.material.floatingactionbutton.FloatingActionButton
+                             android:id="@+id/fab_abrir_foto"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_gravity="right"
+                             android:layout_margin="5dp"
+                             android:onClick="@{(v) -> bindings.previewDoc(v, anexo.ElementoId, anexo.FileName)}"
+                             android:src="@drawable/ic_view_photo_white_24dp"
+                             android:visibility='@{Constantes.ExtValidasVistaPrevia.contains(anexo.Extension.toLowerCase()) ? View.VISIBLE : Constantes.ExtValidasVistaPrevia.contains("."+anexo.Extension.toLowerCase()) ? View.VISIBLE  : View.GONE}'
+                             app:backgroundTint="@color/colorAccent"
+                             app:fabSize="mini" />-->
+
+                    <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+                         android:id="@+id/editMetadatos"
+                         disableFAB='@{elemento.getBooleanValorAttr("habilitado")}'
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="right"
+                         android:layout_margin="5dp"
+                         android:src="@drawable/ic_edit_white"
+                         android:visibility="gone"
+                         app:backgroundTint="@color/colorAccent"
+                         app:fabSize="mini" /> -->
+
+                    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_eliminar_foto"
+                        disableFAB='@{elemento.getBooleanValorAttr("habilitado")}'
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_margin="5dp"
+                        android:onClick="@{(v) -> bindings.deleteDocFile(v, anexo.FileName)}"
+                        android:src="@drawable/ic_delete_forever_white_24dp"
+                        app:backgroundTint="@color/colorAccent"
+                        app:fabSize="mini" />
+                        </LinearLayout>-->
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_new"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <!--                        android:visibility="gone">-->
+
+                        <!--                        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+                        <!--                            disableFAB='@{elemento.getBooleanValorAttr("habilitado")}'-->
+                        <!--                            android:id="@+id/fab_doc_tomar_foto"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_gravity="end"-->
+                        <!--                            android:layout_margin="5dp"-->
+                        <!--                            android:onClick='@{(v) -> bindings.importDocumentReemplazo(v, elemento.idelemento, "capture", anexo.FileName)}'-->
+                        <!--                            android:src="@drawable/ic_action_scanbot_white"-->
+                        <!--                            android:visibility='@{elemento.getBooleanValorAttr("permisocamara") ? View.VISIBLE : View.GONE, default=gone}'-->
+                        <!--                            app:backgroundTint="@color/colorAccent"-->
+                        <!--                            app:fabSize="normal" />-->
+
+                        <!--                        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+                        <!--                            disableFAB='@{elemento.getBooleanValorAttr("habilitado")}'-->
+                        <!--                            android:id="@+id/fab_importar_doc"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_gravity="start"-->
+                        <!--                            android:layout_margin="5dp"-->
+                        <!--                            android:onClick='@{(v) -> bindings.importDocumentReemplazo(v, elemento.idelemento, "import", anexo.FileName)}'-->
+                        <!--                            android:src="@drawable/ic_note_add_white_24dp"-->
+                        <!--                            android:visibility='@{elemento.getBooleanValorAttr("permisoimportar") ? View.VISIBLE : View.GONE, default=gone}'-->
+                        <!--                            app:backgroundTint="@color/colorAccent"-->
+                        <!--                            app:fabSize="normal" />-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_exist"
+                        android:tag="binding_3"                                                                                                                                                                                                      
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/editMetadatos"
+                                android:tag="binding_4"                                   
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/ic_edit_white"
+                                android:visibility="gone"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fab_abrir_foto"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_margin="5dp"
+                                android:tag="binding_5"                                                                             
+                                android:src="@drawable/ic_view_photo_white_24dp"
+                                                                                                                                                                                                                                                          
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:tag="binding_6"                                   
+                                android:id="@+id/fab_doc_tomar_foto_in"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_margin="5dp"
+                                android:visibility="gone"
+                                                                                                                                                
+                                android:src="@drawable/ic_action_scanbot_white"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:tag="binding_7"                                   
+                                android:id="@+id/fab_importar_doc_in"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_margin="5dp"
+                                                                                                                                               
+                                android:src="@drawable/ic_note_add_white_24dp"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fab_eliminar_foto"
+                                android:tag="binding_8"                                   
+                                                                                                    
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_margin="5dp"
+                                                                                                     
+                                android:src="@drawable/ic_delete_forever_white_24dp"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <!--                            android:onClick="@{(v) -> anexoBindings.reemplazarDocumento(v, elemento.idelemento, anexo.FileName)}"-->
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fab_cancelar_reemplazo_in"
+                                android:tag="binding_9"                                   
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:layout_gravity="left"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/ic_clancel_24dp"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/json_FEANexo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:visibility="gone"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/ic_json"
+                                app:backgroundTint="@color/colorAccent"
+                                app:fabSize="mini" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text='@string/documentoListAdapter_type_label' />
+
+                    <TextView
+                        android:id="@+id/tipificacion_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_anexos_tipodoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:minHeight="40dp"
+                        android:textSize="18sp"
+                        android:visibility="visible"                                                                                                                                                                        android:tag="binding_10"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#147f93" />
+
+                <TextView
+                    android:id="@+id/row_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:tag="binding_11"     />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

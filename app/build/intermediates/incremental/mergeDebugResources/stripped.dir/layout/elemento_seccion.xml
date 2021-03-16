@@ -1,0 +1,128 @@
+                                                                   
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:tag="layout/elemento_seccion_0"                       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                               
+                                                                                     
+                                                                           
+                                                                     
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_seccion_two"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:tag="binding_2"         
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_info_color"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/expandir_seccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_seccion_hide"
+                    android:visibility="invisible"                                                                                                                                                                    android:tag="binding_3"/>
+
+                <ImageButton
+                    android:id="@+id/minimizar_seccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_seccion_show"
+                    android:visibility="visible"                                                                                                                                                          android:tag="binding_4"/>
+
+                <TextView
+                    android:id="@+id/Titulo"
+                    android:tag="binding_5"                                               
+                                                                               
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                                                                           
+                    android:textSize="19sp"
+                    android:visibility="visible"                                                                                       />
+
+            </RelativeLayout>
+
+            <TextView
+                android:tag="binding_6"                                                      
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                                                                                         
+                android:textColor="@color/White"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:visibility="gone"                                                                                                          />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Titulo"
+                android:layout_margin="-10dp"
+                android:layout_marginBottom="2dp"
+                android:tag="binding_7"                                                  
+                android:background="@drawable/border_seccion_two_conteido" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="15dp"
+            android:background="#B1BCBE"
+            android:tag="binding_8"                                                                    />
+
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+    
+
+                                           
+
+                 
+                           
+                                                                   
+
+           
+
+         

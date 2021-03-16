@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CC000000" android:tag="layout/dialog_pdf_view_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <ImageView
+                    android:id="@+id/pdfVMain"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constrainedHeight="true"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:padding="30dp"/>
+
+                <ImageView
+                    android:id="@+id/ivPrev"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/guidance_arrow_left"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_margin="30dp"/>
+
+                <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/guidance_arrow_right"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/pdfVMain" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/closeDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:src="@drawable/ic_close_white_24dp"
+                    app:backgroundTint="@color/colorFABCancelar"
+                    app:fabSize="normal"
+                    android:layout_margin="15dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

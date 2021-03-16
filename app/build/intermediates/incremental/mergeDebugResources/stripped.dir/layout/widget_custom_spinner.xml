@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+        <View
+            android:id="@+id/vTop"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etAux"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="@id/spSelect"
+            app:layout_constraintStart_toStartOf="@id/spSelect"
+            app:layout_constraintTop_toTopOf="@+id/spSelect"
+            app:layout_constraintBottom_toBottomOf="@id/spSelect"/>
+
+        <com.digipro.fesdkcore.widgets.custom_spinner_with_search.ExtendSpinner
+            android:id="@+id/spSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vTop"
+            android:padding="3dp"/>
+
+        <View
+            android:id="@+id/vClick"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="@id/spSelect"
+            app:layout_constraintStart_toStartOf="@id/spSelect"
+            app:layout_constraintTop_toTopOf="@+id/spSelect"
+            app:layout_constraintBottom_toBottomOf="@id/spSelect"/>
+</merge>

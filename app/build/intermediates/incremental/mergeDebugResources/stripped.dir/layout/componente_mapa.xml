@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/tools">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:id="@+id/map_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/cvsearch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="13dp"
+            android:visibility="visible" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/txt_coordenadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Coordenadas:"
+                android:textColor="@color/Black"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            android:layout_margin="4dp"
+            app:cardPreventCornerOverlap="false">
+
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ayudaMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_margin="7dp"
+            android:src="@drawable/ic_help_white"
+            app:backgroundTint="@color/colorFABAyuda"
+            app:fabSize="mini" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/viewMapa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#73FFFFFF"/>
+        <ProgressBar
+            android:id="@+id/progressMapa"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutFabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_maps_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="start"
+            android:elevation="0dp"
+            android:src="@drawable/ic_close_white_24dp"
+            app:backgroundTint="@color/colorFABCancelar"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_maps_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:src="@drawable/ic_done_white_24dps"
+            app:backgroundTint="@color/colorFABAceptar"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

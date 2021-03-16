@@ -1,0 +1,139 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                         
+
+                 
+                           
+                                                                                   
+
+                                           
+
+                                                                  
+
+                                        
+
+                                                                        
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:tag="layout/elemento_tabla_0"                         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/border_round_tabla"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_2"                                          
+                android:orientation="horizontal">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/add_new_registro"
+                    android:tag="binding_3"                                   
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_bottombar_document_new"
+                                                                                                                          
+                    app:backgroundTint="@color/colorAccent"
+                    app:fabSize="normal" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/multi_edit_registro"
+                    android:tag="binding_4"                                   
+                                                                                                                 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_edit_black_24dp"
+                    android:tint="@color/white"
+                    app:backgroundTint="@color/colorAccent"
+                    app:fabSize="normal" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerViewV2"
+                android:tag="binding_5"                                   
+                                                                                           
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"                                                                                                                                                                                                                                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"                                                                                                                                                                                                                                  android:tag="binding_6">
+
+                <TextView
+                    android:id="@+id/row_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/elemento_tabla_total"
+                    android:visibility="gone"                                                                                                                                                                                                                                                                                       android:tag="binding_7"/>
+
+                <LinearLayout
+                    android:id="@+id/recycler_totales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+            <com.evrencoskun.tableview.TableView
+                android:id="@+id/tableView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:visibility="gone"                                                                                                                                                                                                                              
+                app:selected_color="@color/white"
+                app:shadow_color="@color/white"
+                app:unselected_color="@color/white"
+                android:tag="binding_8"                                   
+                                                                                                
+                                                                                                  
+                                                                                                            />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

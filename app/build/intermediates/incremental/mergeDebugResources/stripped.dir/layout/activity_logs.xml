@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/separador">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id_versionName"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                tools:text="Prubanndd ekjfnwer erfjkwerf \n ejknf efkjfnwe efkjnwe ewfkjnwe efjkn wefjkn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/id_versionPhone"
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                tools:text="Prubanndd ekjfnwer erfjkwerf \n ejknf efkjfnwe efkjnwe ewfkjnwe efjkn wefjkn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/content_logs"
+            android:layout_below="@+id/id_versionName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separador"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/menu_acciones"
+        android:background="@drawable/border_round_separador_acciones" />
+
+    <RelativeLayout
+        android:id="@+id/menu_acciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingTop="3dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/accion_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/accion_home_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/ic_home"
+                    android:tint="@color/colorAccent"
+                    app:backgroundTint="@color/White"
+                    app:fabSize="normal" />
+
+                <TextView
+                    android:id="@+id/accion_home_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Incio" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accion_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/accion_send_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/ic_sync"
+                    android:tint="@color/colorAccent"
+                    app:backgroundTint="@color/White"
+                    app:fabSize="normal" />
+
+                <TextView
+                    android:id="@+id/accion_send_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accion_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/accion_delete_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/ic_delete_black_24dp"
+                    android:tint="@color/colorAccent"
+                    app:backgroundTint="@color/White"
+                    app:fabSize="normal" />
+
+                <TextView
+                    android:id="@+id/accion_delete_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Borrar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

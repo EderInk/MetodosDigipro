@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/widget_metadatos_bool_title"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#a3a3a3"
+            app:boxCornerRadiusBottomEnd="50dp"
+            app:boxCornerRadiusBottomStart="50dp"
+            app:boxCornerRadiusTopEnd="50dp"
+            app:boxCornerRadiusTopStart="50dp"
+            app:boxStrokeColor="#00b9f2">
+            <!--            android:theme="@style/AppInputEdittextColorConsultas"-->
+
+            <Switch
+                android:id="@+id/metadatos_bool_switch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#a3a3a3"
+                android:textSize="22sp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/required"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_asterisk_2"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

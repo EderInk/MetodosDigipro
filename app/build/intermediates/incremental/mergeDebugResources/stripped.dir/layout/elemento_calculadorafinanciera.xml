@@ -1,0 +1,448 @@
+
+                                                        
+    
+                 
+                           
+                                                                   
+
+                 
+                            
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                         
+                                      
+
+                                           
+                                          
+                                                
+           
+
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_calculadorafinanciera_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                                    
+                                                                              
+                                                                           
+                                                                     
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_seccion_two"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_round_msj_error"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:tag="binding_2"                                       
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"                                                                                             />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_round_msj_error"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/formatoHelper_required"
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"                                                                                                 android:tag="binding_3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_round_msj_error"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:tag="binding_4"                                        
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"                                                                                             />
+
+                <TextView
+                    android:tag="binding_5"                                                      
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                                                                                             
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"                                                                                                          />
+
+                <LinearLayout
+                    android:layout_alignEnd="@id/title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/info_btn"
+                        android:tag="binding_6"         
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_info_color"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/asterisk"
+                        android:layout_width="13dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/ic_asterisk_2"
+                        android:visibility="gone"                                                                                  android:tag="binding_7"/>
+
+                    <TextView
+                        android:id="@+id/title_text"
+                        android:tag="binding_8"                                    
+                                                             
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                                                                               
+                        android:textSize="18sp"
+                        android:visibility="gone"                                                                                       />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:tag="binding_9"                                                      
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                                                                                         
+                android:textColor="@color/White"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:visibility="gone"                                                                                                          />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/border_seccion_two_conteido"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/ll_content_calc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <com.digipro.fesdkcore.widgets.chips.ChipCloud
+                            android:id="@+id/calc_selector"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:selectedColor="#aaaaaa"
+                            app:selectedFontColor="#ffffff"
+                            app:deselectedColor="#e1e1e1"
+                            app:deselectedFontColor="#333333"
+                            app:selectTransitionMS="500"
+                            app:deselectTransitionMS="250"
+                            app:selectMode="required"
+                            app:allCaps="true"
+                            app:gravity="center"
+                            app:textSize="@dimen/default_textsize"
+                            app:verticalSpacing="@dimen/vertical_spacing"
+                            app:minHorizontalSpacing="@dimen/min_horizontal_spacing"
+                            android:layout_marginTop="5dp" />
+
+                        <LinearLayout
+                            android:id="@+id/view_cuota"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="@string/elemento_calculadorafinanciera_payment"
+                                android:textColor="@color/text_color"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <!--android:layout_below="@+id/tmp"-->
+                            <com.digipro.fesdkcore.widgets.slidr.Slidr
+                                android:tag="binding_10"                                         
+                                android:id="@+id/slidr_cuota"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|center_horizontal"
+                                android:layout_marginBottom="20dp"
+                                app:slidr_region_leftColor="#bd145c79"
+                                app:slidr_regions_centerText="false"
+                                app:slidr_step_colorizeAfterLast="true" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/view_plazo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="@string/elemento_calculadorafinanciera_term"
+                                android:textColor="@color/text_color"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <!--android:layout_below="@+id/tmp2"-->
+                            <com.digipro.fesdkcore.widgets.slidr.Slidr
+                                android:tag="binding_11"                                         
+                                android:id="@+id/slidr_plazo2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|center_horizontal"
+                                android:layout_marginBottom="20dp"
+                                app:slidr_region_leftColor="#bd145c79"
+                                app:slidr_regions_centerText="false"
+                                app:slidr_step_colorizeAfterLast="true" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/view_importe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="@string/elemento_calculadorafinanciera_amount"
+                                android:textColor="@color/text_color"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <com.digipro.fesdkcore.widgets.slidr.Slidr
+                                android:tag="binding_12"                                         
+                                android:id="@+id/slidr_importe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|center_horizontal"
+                                android:layout_marginBottom="20dp"
+                                app:slidr_region_leftColor="#bd145c79"
+                                app:slidr_regions_centerText="false"
+                                app:slidr_step_colorizeAfterLast="true" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_calc_res"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:paddingStart="3dp"
+                                android:paddingEnd="3dp"
+                                android:textColor="@color/text_color"
+                                android:textSize="23sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#ffffff" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/elemento_calculadorafinanciera_loan" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_13"                                                                                                           />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/elemento_calculadorafinanciera_interest" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_14"                                      />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Total" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_15"                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|end"
+                            android:gravity="center|end"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TNA: "
+                                android:textStyle="bold"
+                                android:textSize="10sp"
+                                />
+
+                            <TextView
+                                android:tag="binding_16"                                          
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:textSize="10sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TEA: "
+                                android:textStyle="bold"
+                                android:textSize="10sp"
+                                />
+
+                            <TextView
+                                android:tag="binding_17"                                           
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:textSize="10sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TEM: "
+                                android:textStyle="bold"
+                                android:textSize="10sp"
+                                />
+
+                            <TextView
+                                android:tag="binding_18"                                             
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:textSize="10sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!--android:background="@drawable/border_round_mensajes"-->
+
+                <!--public String MensjaeRespuestaServicioColor = "";-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

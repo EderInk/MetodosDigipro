@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: cl.jesualex.android:stooltip:1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6c407838c9f99e865d1d6333b68f696/stooltip-1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6c407838c9f99e865d1d6333b68f696/stooltip-1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6c407838c9f99e865d1d6333b68f696/stooltip-1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cl.jesualex.android/stooltip/1.4/f6e1f20dbe9d59956091906b20d805b58fcfc0e6/stooltip-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cl.jesualex.android/stooltip/1.4/f6cdf94c331fcc9d40d8548bf3352ebbaebcbd38/stooltip-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

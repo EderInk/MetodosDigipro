@@ -1,0 +1,76 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_moneda_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_2"                                 />
+
+                <EditText
+                    android:id="@+id/txtInput"
+                    android:tag="binding_3"                                    
+                                                                                   
+                                                                             
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:imeOptions="actionNext"
+                    android:layout_marginBottom="10dp"
+                                                                            
+                    android:inputType="numberDecimal"
+                                                                                  
+                    android:textSize="18sp" />
+<!--                textNumeroMoneda='@{elemento.getStringValorAttr("valor")}'-->
+                <!--android:maxLength='@{elemento.getIntegerValorAttr("decimalmaximo")}'-->
+                <!--android:maxLength='@{elemento.getIntegerValorAttr("longitudmaxima")}'-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

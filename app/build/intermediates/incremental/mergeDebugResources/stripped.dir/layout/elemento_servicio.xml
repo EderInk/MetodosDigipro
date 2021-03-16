@@ -1,0 +1,21 @@
+                                                                   
+
+    
+
+                 
+                           
+                                                                   
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:tag="layout/elemento_servicio_0"                       
+                                                                 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    </LinearLayout>
+
+         

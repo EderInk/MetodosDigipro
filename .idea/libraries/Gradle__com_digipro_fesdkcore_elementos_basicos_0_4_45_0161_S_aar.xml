@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.digipro.fesdkcore:elementos_basicos:0.4.45.0161.S@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6d8a27e84209abedc06ec80d7c7f245/elementos_basicos-0.4.45.0161.S/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6d8a27e84209abedc06ec80d7c7f245/elementos_basicos-0.4.45.0161.S/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6d8a27e84209abedc06ec80d7c7f245/elementos_basicos-0.4.45.0161.S/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

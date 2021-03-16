@@ -1,0 +1,72 @@
+                                                                   
+
+    
+
+                 
+                           
+                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_logo_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+                                                                           
+                                                                     
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:tag="binding_2"         
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_info_color"
+                android:visibility="gone" />
+
+            <ImageView
+                android:tag="binding_3"                         
+                                                                   
+                                                                   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                                                                                     
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:tag="binding_4"                                                      
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                                                                                         
+                android:textColor="@color/White"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:visibility="gone"                                                                                                          />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

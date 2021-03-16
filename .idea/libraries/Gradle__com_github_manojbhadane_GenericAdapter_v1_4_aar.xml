@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.manojbhadane:GenericAdapter:v1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22a06c0b332cea616a14e1c3ed2ca071/GenericAdapter-v1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22a06c0b332cea616a14e1c3ed2ca071/GenericAdapter-v1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22a06c0b332cea616a14e1c3ed2ca071/GenericAdapter-v1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.manojbhadane/GenericAdapter/v1.4/f5a46398a0f3ea4acbc633dbdf65ff121ee99700/GenericAdapter-v1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

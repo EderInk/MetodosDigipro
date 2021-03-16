@@ -1,0 +1,137 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                          
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_documento_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+                                                                           
+                                                                     
+                                                                         
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!--                        InvisibleNewFab='@{elemento.idelemento}'-->
+                    <LinearLayout
+                        android:id="@+id/ll_new"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <!--                        android:visibility="gone">-->
+
+                        <Button
+                            android:tag="binding_2"                                   
+                            android:id="@+id/fab_doc_tomar_foto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="end"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/border_round_elemento_boton_default"
+                                                                                                                  
+                            android:drawableStart="@drawable/ic_action_scanbot_white"
+                                                                                                
+                            android:textAllCaps="false"
+                            android:visibility="gone"                                                                                     
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                        <Button
+                            android:tag="binding_3"                                   
+                            android:id="@+id/fab_importar_doc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:background="@drawable/border_round_elemento_boton_default"
+                            android:layout_gravity="start"
+                            android:layout_margin="5dp"
+                                                                                                   
+                                                                                                                 
+                            android:textAllCaps="false"
+                            android:drawableStart="@drawable/ic_note_add_white_24dp"
+                            android:visibility="gone"                                                                                       
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:tag="binding_4"                                         
+                android:id="@+id/RecyclerViewV2Doc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Titulo" />
+
+            <View
+                android:layout_width=".001dp"
+                android:layout_height=".001dp"
+                android:background="#B1BCBE" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="15dp"
+                android:background="#B1BCBE"
+                android:tag="binding_5"                                                                    />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

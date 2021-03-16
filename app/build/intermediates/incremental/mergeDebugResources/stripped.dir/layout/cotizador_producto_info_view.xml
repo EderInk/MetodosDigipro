@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:background="#82868b"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product_Icono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            tools:src="@drawable/ic_cpm_car" />
+
+        <LinearLayout
+            android:id="@+id/ll_product_NombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_Icono"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|top">
+
+            <TextView
+                android:id="@+id/product_NombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="Nombre Producto" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="14dp"-->
+            <!--android:fontFamily="sans-serif-light"-->
+            <!--android:gravity="top"-->
+            <!--android:text=""-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="32sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_product_Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_product_NombreProducto"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="25dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.digipro.fesdkcore.widgets.TextoJustificado
+                android:id="@+id/product_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:text="Descripción:" />
+
+            <TextView
+                android:id="@+id/txt_monto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:textColor="#b3b3b3"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Montos desde\n$\nhasta\n$" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sr_slider_position_counter"
+            style="@style/SrSliderPositionCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_cat"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txt_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="CAT Promedio:" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+

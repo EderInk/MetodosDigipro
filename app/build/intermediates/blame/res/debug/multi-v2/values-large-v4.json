@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/076ecff59c784601f92256ddf0df00e7/jetified-material-camera-0.4.4/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,169,219,276,331,392,452,511",
+                        "endColumns": "52,60,49,56,54,60,59,58,52",
+                        "endOffsets": "103,164,214,271,326,387,447,506,559"
+                    },
+                    "to": {
+                        "startLines": "18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1011,1064,1125,1175,1232,1287,1348,1408,1467",
+                        "endColumns": "52,60,49,56,54,60,59,58,52",
+                        "endOffsets": "1059,1120,1170,1227,1282,1343,1403,1462,1515"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/9c582f93a5123b50707d8b6a77008cd0/material-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "1740,1862",
+                        "endColumns": "121,133",
+                        "endOffsets": "1857,1991"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/f6985551fcc26be8a56707c312b5b52e/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,27,28",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,1520,1624",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,1619,1735"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/b8e9dd127b9450575b34ee6e2e78e36a/jetified-easyvideoplayer-0.3.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,151,205,265,319,375,431,483",
+                        "endColumns": "46,48,53,59,53,55,55,51,50",
+                        "endOffsets": "97,146,200,260,314,370,426,478,529"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "532,579,628,682,742,796,852,908,960",
+                        "endColumns": "46,48,53,59,53,55,55,51,50",
+                        "endOffsets": "574,623,677,737,791,847,903,955,1006"
+                    }
+                }
+            ]
+        }
+    ]
+}

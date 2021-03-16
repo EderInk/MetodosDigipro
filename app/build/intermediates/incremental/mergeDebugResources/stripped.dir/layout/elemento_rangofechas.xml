@@ -1,0 +1,93 @@
+
+                                                          
+                                                 
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                             
+
+                 
+                           
+                                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_rangofechas_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtResult"
+                        android:tag="binding_2"                                    
+                                                                                              
+                                                                                       
+                                                                                 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:focusable="false"
+                                                                                
+                        android:inputType="text"
+                        android:textSize="18sp" />
+
+
+                    <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
+                        android:tag="binding_3"                                     
+                        android:id="@+id/calendarRange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        custom:enable_past_date="true"
+                        custom:disable_date_color="#ABABAB"
+                        custom:range_color="#83ababab"
+                        custom:selected_date_circle_color="@color/colorAccent"
+                        custom:title_color="@color/Black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

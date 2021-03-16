@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Attribute">Atributo</string>
+    <string name="Elemento_Leer_Huellas">Leer huellas</string>
+    <string name="Enrolar_Huellas">Registrar huellas</string>
+    <string name="Hold_fingers_together">Mantenga los dedos juntos</string>
+    <string name="Mensaje_ErrorInterno">Error interno de sistema</string>
+    <string name="Mensaje_SinConexion">Se requiere conexión a Internet</string>
+    <string name="Move_hand_closer">Acerque la mano</string>
+    <string name="Move_hand_down">Mueva la mano hacia abajo</string>
+    <string name="Move_hand_further_away">Aleje la mano</string>
+    <string name="Move_hand_left">Mueva la mano hacia la izquierda</string>
+    <string name="Move_hand_right">Mueva la mano hacia la derecha</string>
+    <string name="Move_hand_up">Mueva la mano hacia arriba</string>
+    <string name="Place_hand_inside_mask">Coloque la mano dentro de la máscara</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="activity_fourf_complete">Se han verificado \nlas huellas dactilares.</string>
+    <string name="activity_fourf_complete_button_continue">Continuar</string>
+    <string name="activity_fourf_complete_title">Inscripción completa.</string>
+    <string name="activity_fourf_review_button_verify">Verificar</string>
+    <string name="activity_fourf_review_subtitle">Por favor vuelva a escanear\npara verificar.</string>
+    <string name="activity_fourf_review_title">El escaneo de huellas fue exitoso</string>
+    <string name="anexoBindings_download_denied">No tienes permiso para descargar</string>
+    <string name="anexoBindings_downloading">Descargando...</string>
+    <string name="anexoRepository_cannot_get_att">No se pudo obtener los anexos guardados</string>
+    <string name="anexoRepository_cannot_get_file">No se pudo crear el Archivo</string>
+    <string name="anexoRepository_cannot_get_pdf">No se pudo crear el PDF</string>
+    <string name="attr_not_found">El atributo no fue encontrado</string>
+    <string name="attribute">Atributo</string>
+    <string name="attribute_type">Atributo tipo %s</string>
+    <string name="audio_duration">Duracion: %1$d min %2$d sec</string>
+    <string name="audio_permission_denied">Permiso de microfono negado</string>
+    <string name="audio_recording_error">Grabaccion incorrecta</string>
+    <string name="audio_spotlight_record_body">Grabar Audio</string>
+    <string name="audio_spotlight_record_title">Grabar</string>
+    <string name="audio_spotlight_stop_body">Detener Grabación</string>
+    <string name="audio_spotlight_stop_title">Detener</string>
+    <string name="aufail">Fallido</string>
+    <string name="authenticated">Autenticado</string>
+    <string name="authok">Correcto</string>
+    <string name="baseClass_backgroundTask_check">--Consultando… %1$s</string>
+    <string name="baseClass_backgroundTask_diseno">--Actualizando Diseño: %1$s</string>
+    <string name="baseClass_backgroundTask_download_att">--Consultando servicio de Descarga de Anexos: %1$s</string>
+    <string name="baseClass_backgroundTask_download_cert">--Consultando servicio de Descarga de Certificado: %1$s</string>
+    <string name="baseClass_backgroundTask_download_pdf">--Consultando servicio de Descarga de PDF: %1$s</string>
+    <string name="baseClass_backgroundTask_erase_for">--Consultando servicio de borrar formato permanentemente: %1$s</string>
+    <string name="baseClass_backgroundTask_get_for">--Consultando servicio de Obtención de Formatos: %1$s</string>
+    <string name="baseClass_backgroundTask_send_att">--Consultando servicio de Envío de Anexos: %1$s</string>
+    <string name="baseClass_backgroundTask_send_for">--Consultando servicio de Envío de Formato: %1$s</string>
+    <string name="baseClass_backgroundTask_sync_tpl">--Consultando servicio de Plantillas: %1$s</string>
+    <string name="baseClass_backgroundTask_sync_var">--Consultando servicio de Variables: %1$s</string>
+    <string name="baseClass_backgroundTask_transit_for">--Comprobando estado del formato: %1$s</string>
+    <string name="baseClass_postExecuteTask_att">Anexo enviado: %1$s</string>
+    <string name="baseClass_postExecuteTask_diseno">Diseño actualizado: %1$s</string>
+    <string name="baseClass_postExecuteTask_get_for">Formatos sincronizados: %1$s</string>
+    <string name="baseClass_postExecuteTask_passwordUpdate_var">Contraseña actualizada</string>
+    <string name="baseClass_postExecuteTask_send_for">Formato enviado: %1$s</string>
+    <string name="baseClass_postExecuteTask_sync_tpl">Plantillas descagadas: %1$s</string>
+    <string name="baseClass_postExecuteTask_sync_var">Variables actualizadas: %1$s</string>
+    <string name="baseClass_postExecuteTask_transit_for">Se actualizó el estado del formato: %1$s</string>
+    <string name="baseClass_syncTask_check">Consultando</string>
+    <string name="baseClass_syncTask_diseno">Actualizando Diseño</string>
+    <string name="baseClass_syncTask_download_att">Descargando Anexos</string>
+    <string name="baseClass_syncTask_download_cert">Descargando Certificado</string>
+    <string name="baseClass_syncTask_download_pdf">Descargando PDF</string>
+    <string name="baseClass_syncTask_erase_for">Borrando Formato Permanentemente</string>
+    <string name="baseClass_syncTask_get_for">Obteniendo Formatos</string>
+    <string name="baseClass_syncTask_send_att">Enviando Anexo</string>
+    <string name="baseClass_syncTask_send_for">Enviando Formato</string>
+    <string name="baseClass_syncTask_sync_tpl">Sincronizando Plantillas</string>
+    <string name="baseClass_syncTask_sync_var">Sincronizando Variables</string>
+    <string name="baseClass_syncTask_transit_for">Transitando Formato</string>
+    <string name="blink_detection">PARPADEO</string>
+    <string name="camera_capture_video">Captured while taking video. Size=%1$s</string>
+    <string name="camera_capturing">Capturando…</string>
+    <string name="camera_photo_video_error">No es posible grabar si se encuentra en Foto</string>
+    <string name="camera_recording">Grabando…</string>
+    <string name="camera_spotlight_capture_body">Capturar foto</string>
+    <string name="camera_spotlight_capture_title">Capturar</string>
+    <string name="camera_spotlight_flash_body">Activar flash</string>
+    <string name="camera_spotlight_flash_title">Flash</string>
+    <string name="camera_spotlight_label_body">Texto a leer durante la grabacion</string>
+    <string name="camera_spotlight_label_title">Leyenda</string>
+    <string name="camera_spotlight_record_body">Grabar video</string>
+    <string name="camera_spotlight_record_title">Grabar</string>
+    <string name="camera_spotlight_stop_body">Detener grabación</string>
+    <string name="camera_spotlight_stop_title">Detener</string>
+    <string name="camera_spotlight_switch_body">Cambiar camara Frontal/Trasera</string>
+    <string name="camera_spotlight_switch_title">Frontal/Trasera</string>
+    <string name="cancel">Cancelar</string>
+    <string name="catalog_load_error">No se pudieron obtener los catálogos guardados</string>
+    <string name="cert_error">Certificado no válido, no es posible comunicarse con el servidor.</string>
+    <string name="change_attribute">Cambiar atributo</string>
+    <string name="change_fingers">Por favor cambia los dedos</string>
+    <string name="close">Cerrar</string>
+    <string name="code_logged_out">No se ha iniciado sesión con el código</string>
+    <string name="code_tyc_error">Favor de aceptar términos y condiciones</string>
+    <string name="codigoRepository_code_save_error">No se pudo guardar el codigo</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar Servicios de Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidad Servicios de Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Error de Servicios de Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"La aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> tiene problemas con los Servicios de Google Play. Vuelve a intentarlo."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"No es posible ejecutar la aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> sin los Servicios de Google Play, que no son compatibles con tu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices Servicios de Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Actualiza Servicios de Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="component">Componente %d</string>
+    <string name="componenteHelper_date_error">Es necesario seleccionar una fecha</string>
+    <string name="componente_errorFileCreated">No se pudo crear el archivo, por favor habilite el permiso e intente de nuevo</string>
+    <string name="componente_errorFileDownload">No se pudo descargar el PDF, por favor habilite el permiso e intente de nuevo</string>
+    <string name="componente_errorFileExtension">No se especifico extension del archvio</string>
+    <string name="componente_fileCreate">Archivo Creado</string>
+    <string name="componente_fileDirectory">Direccion de archivo</string>
+    <string name="componente_go">Ir</string>
+    <string name="componente_leyendaError">Error en HTML</string>
+    <string name="components">Componentes</string>
+    <string name="connection_error">No se pudo conectar con el servidor</string>
+    <string name="continue_txt">CONTINUAR</string>
+    <string name="could_not_process">No se pudo procesar el escaneo</string>
+    <string name="customactivityoncrash_error_activity_close_app">Cerrar</string>
+    <string name="customactivityoncrash_error_activity_error_details">Ver detalles del error</string>
+    <string name="customactivityoncrash_error_activity_error_details_cancel">Cancelar</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Información de error</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Cerrar</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copiado al portapapeles</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copiar al portapapeles</string>
+    <string name="customactivityoncrash_error_activity_error_details_error">Agregar comentarios</string>
+    <string name="customactivityoncrash_error_activity_error_details_error_ask">¿Quieres agregar más información?</string>
+    <string name="customactivityoncrash_error_activity_error_details_generar">Crear reporte</string>
+    <string name="customactivityoncrash_error_activity_error_details_no">No</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Detalles del error</string>
+    <string name="customactivityoncrash_error_activity_error_details_title_report">Informe de error</string>
+    <string name="customactivityoncrash_error_activity_error_details_what">¿Qué ocurrió?</string>
+    <string name="customactivityoncrash_error_activity_error_details_what_detail">Explica brevemente lo que ocurrió.</string>
+    <string name="customactivityoncrash_error_activity_error_details_yes">Si</string>
+    <string name="customactivityoncrash_error_activity_error_generate_report">Reportar un problema</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ocurrió un error inesperado</string>
+    <string name="customactivityoncrash_error_activity_error_take_ss">Tomar captura de pantalla</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Reiniciar</string>
+    <string name="customactivityoncrash_error_activity_send">Enviar</string>
+    <string name="desc_gen">Descripción genérica</string>
+    <string name="documentoHelper_doc_max">Se alcanzó el número máximo de archivos.</string>
+    <string name="documentoHelper_tipify_max">Se alcanzó el número máximo de documentos con esa tipificación.</string>
+    <string name="documentoHelper_tipify_min">Faltan documentos con esta tipificación.</string>
+    <string name="documentoListAdapter_doc_metadato_empty">Este documento no tiene metadatos asociados.</string>
+    <string name="documentoListAdapter_doc_metadato_error">Se debe seleccionar un tipo de documento para ver sus metadatos</string>
+    <string name="documentoListAdapter_type_label">Tipo de documento:</string>
+    <string name="done_search">Búsqueda finalizada</string>
+    <string name="download_pdf_error">No se encontró un formato publicado</string>
+    <string name="eight_f_template_failed">Error en la creación del patrón 8F</string>
+    <string name="element_id">Id de elemento</string>
+    <string name="element_id_not_found">No se econtró el elemento con ese Id</string>
+    <string name="element_not_found">Elemento no soportado</string>
+    <string name="element_not_found_1">Elemento</string>
+    <string name="element_not_found_2">no soportado</string>
+    <string name="elementoAdapter_result_live_error">No hay reconocimiento de rostro</string>
+    <string name="elementoAdapter_result_live_failure">Verificacion Rechazada</string>
+    <string name="elementoAdapter_result_live_movement_error">Verificacion Exitosa</string>
+    <string name="elementoAdapter_result_live_success">Verificacion Exitosa</string>
+    <string name="elemento_calculadorafinanciera_amount">Importe:</string>
+    <string name="elemento_calculadorafinanciera_interest">Interés</string>
+    <string name="elemento_calculadorafinanciera_loan">Préstamo</string>
+    <string name="elemento_calculadorafinanciera_payment">Cuota:</string>
+    <string name="elemento_calculadorafinanciera_term">Plazo:</string>
+    <string name="elemento_firma_cd">Imagen</string>
+    <string name="elemento_huelladigital_avg_quality">Calidad promedio de huellas: %1$s</string>
+    <string name="elemento_huelladigital_captured_finger_no">Número de huellas capturadas (%1$s)</string>
+    <string name="elemento_tabla_total">Totales</string>
+    <string name="empty_field">Campo vacío</string>
+    <string name="empty_formats_error">Se debe enviar al menos un formato</string>
+    <string name="empty_list">No se encontraron resultados</string>
+    <string name="enroll">Inscribirse</string>
+    <string name="error_while_service_execute">Error durante la ejecución del servicio</string>
+    <string name="expand">Expandir</string>
+    <string name="export">Exportar</string>
+    <string name="face_not_found">Rosto no detectado</string>
+    <string name="face_out_of_rect">Rostro desenfocado</string>
+    <string name="face_too_blurry">Rostro borroso</string>
+    <string name="face_too_bright">Rostro con demasiada iluminación</string>
+    <string name="face_too_dark">Rostro con poca iluminación</string>
+    <string name="face_too_large">Rostro muy largo</string>
+    <string name="face_too_small">Rostro muy pequeño</string>
+    <string name="facelost">Rostro no encontrado</string>
+    <string name="failed_capture_retry_prompt">Inténtalo de nuevo</string>
+    <string name="failed_heading">Escaneo fallido</string>
+    <string name="failed_liveness_subheading">No logramos capturar correctamente</string>
+    <string name="failed_subheading">No logramos capturar correctamente</string>
+    <string name="failed_to_verify">No logramos verificar su escaneo.</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Varias"</string>
+    <string name="file_delete_error">No se pudo borrar el archivo</string>
+    <string name="file_not_found">El archivo no existe</string>
+    <string name="filepicker_choose_button_label">Seleccionar</string>
+    <string name="filepicker_error_dir_access">No se puede abrir el directorio</string>
+    <string name="filepicker_label_parent_directory">Directorio padre</string>
+    <string name="filepicker_last_edit">Última edición: </string>
+    <string name="finger_save_ok">Archivo de huellas guardado</string>
+    <string name="fingerprint_captured">Huella digital capturada</string>
+    <string name="firmaVideoNew_face_detected_start">Rostro detectado.\nYa puede firmar.</string>
+    <string name="firmaVideoNew_record_start">Grabando Video...</string>
+    <string name="firmaVideoNew_save_error">No es posible guardar la Firma</string>
+    <string name="firmaViewBindings_cert_invalid">Certificado No Valido</string>
+    <string name="firmaViewBindings_cert_valid">Certificado Valido</string>
+    <string name="format_delete_error">Ocurrió un error al borrar el formato</string>
+    <string name="formatoHelper_check_fields">Revise los campos que tienen errores</string>
+    <string name="formatoHelper_documents_empty">Hay documentos faltantes.</string>
+    <string name="formatoHelper_documents_missing">Hay documentos faltantes.</string>
+    <string name="formatoHelper_mensajeRequerido_lngMax">La longitud máxima es de: %1$s"</string>
+    <string name="formatoHelper_mensajeRequerido_lngMin">La longitud mínima es de: %1$s"</string>
+    <string name="formatoHelper_metadata_empty">Verifique el elemento \" %1$s \", tiene metadatos obligatorios faltantes.</string>
+    <string name="formatoHelper_regex_1">Debe cumplir con lo siguiente: %1$s</string>
+    <string name="formatoHelper_regex_2">La expresión regular: %1$s es incorrecta.</string>
+    <string name="formatoHelper_regex_generic">La expresión regular es invalida.</string>
+    <string name="formatoHelper_required">Campo requerido</string>
+    <string name="formatoHelper_rows_min">El número de filas mínimo es %1$x</string>
+    <string name="formatoHelper_wizard_required">Se debe hacer click en este wizard al menos una vez.</string>
+    <string name="formatoRepository_draft_save_error">No se pudo salvar el borrador</string>
+    <string name="formatoRepository_format_load_error">No se pudo obtener el formato guardado</string>
+    <string name="formatoRepository_formats_load_error">No se pudo obtener los formatos guardados</string>
+    <string name="formatoRepository_transit_permission_error">No tiene los permisos para transitar el formato</string>
+    <string name="formato_downloading_body">Descargando…</string>
+    <string name="formato_downloading_title">Descargando Formato</string>
+    <string name="formato_exit_body_discard">No se guardara ningún cambio</string>
+    <string name="formato_exit_body_save">¿Deseas guardar los cambios?</string>
+    <string name="formato_exit_discard_pos">Si, salir</string>
+    <string name="formato_exit_title">¿Estas seguro de salir?</string>
+    <string name="formato_format_not_found">Formato no encontrado</string>
+    <string name="formato_format_sent">Formato enviado</string>
+    <string name="formato_format_sent_error">Error al enviar formato %1$d</string>
+    <string name="formato_loading_body">Cargando…</string>
+    <string name="formato_loading_error">Error al leer la plantilla</string>
+    <string name="formato_loading_title">Cargando Formato</string>
+    <string name="formato_saving_body">Guardando…</string>
+    <string name="formato_saving_draft">Guardando borrador</string>
+    <string name="formato_saving_title">Guardando Formato</string>
+    <string name="formato_template_not_found">No se encontro la plantilla</string>
+    <string name="formato_wizard_task_not_found">No se encontró la tarea especificada del wizard</string>
+    <string name="fourf_failed_advice">Sugerencias: use un fondo plano. Mantenga sus dedos juntos.
+        Limpia la lente de la cámara.</string>
+    <string name="fourf_instructions">Presione \'Continuar\' para iniciar la captura de fotos de sus
+        dedos. Coloque su mano a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Mantente firme y mantén tus dedos juntos.</string>
+    <string name="fpScanUnilector_aquiring_image">OK. Obteniendo imagen, el tiempo de respuesta es de %1$x</string>
+    <string name="fpScanUnilector_aquiring_second_image">OK. Obteniendo segunda imagen, tiempo de respuesta es de %1$x</string>
+    <string name="georeferencia_marker_body">Usted se encuentra aqui</string>
+    <string name="georeferencia_marker_title">Mi ubicación actual</string>
+    <string name="georeferencia_spotlight_pin_body">Posicion actual</string>
+    <string name="georeferencia_spotlight_pin_title">Pin</string>
+    <string name="got_it">Entiende</string>
+    <string name="hms_abort" priority="translator">"Detener"</string>
+    <string name="hms_abort_message" priority="translator">"¿Detener la descarga?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s no puede usar los servicios móviles de Huawei. Abra el Optimizador (Gestor) o acceda a Ajustes, habilite todos los permisos para %2$s (incluso el acceso automático y el secundario) y vuelva a intentarlo."</string>
+    <string name="hms_cancel" priority="translator">"Cancelar"</string>
+    <string name="hms_check_failure" priority="translator">"Error al buscar actualizaciones."</string>
+    <string name="hms_check_no_update" priority="translator">"Su versión está actualizada."</string>
+    <string name="hms_checking" priority="translator">"Buscando actualizaciones..."</string>
+    <string name="hms_confirm" priority="translator">"Aceptar"</string>
+    <string name="hms_download_failure" priority="translator">"Error al descargar el paquete de Servicios móviles de Huawei."</string>
+    <string name="hms_download_no_space" priority="translator">"Espacio insuficiente. No se puede completar la descarga."</string>
+    <string name="hms_download_retry" priority="translator">"Error al descargar. ¿Reintentar?"</string>
+    <string name="hms_downloading" priority="translator">"Descargando Servicios móviles de Huawei | Progreso: %d %%"</string>
+    <string name="hms_downloading_loading" priority="LT">"Descargando…"</string>
+    <string name="hms_downloading_new" priority="LT">"Descargando HMS"</string>
+    <string name="hms_gamebox_name" priority="LT">"HUAWEI GameCenter"</string>
+    <string name="hms_install" priority="translator">"Instalar"</string>
+    <string name="hms_install_message" priority="translator">"Para utilizar esta función, es necesario instalar los Servicios móviles de Huawei. ¿Instalar?"</string>
+    <string name="hms_retry" priority="translator">"Reintentar"</string>
+    <string name="hms_update" priority="translator">"Actualizar"</string>
+    <string name="hms_update_continue" priority="LT">"Descargar"</string>
+    <string name="hms_update_message" priority="translator">"Actualice la versión de Servicios móviles de Huawei para utilizar esta función. ¿Actualizar ahora?"</string>
+    <string name="hms_update_message_new" priority="LT">"Este servicio requiere la instalación de la última versión de la siguiente aplicación:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Sin conexión Wi-Fi. ¿Descargar con datos móviles?"</string>
+    <string name="hms_update_title" priority="translator">"Servicios móviles de Huawei"</string>
+    <string name="hold_still">No muevas</string>
+    <string name="how_use_fad_component"><![CDATA[¿Cómo usar el componente<br>FAD?]]></string>
+    <string name="how_use_listing_component"><![CDATA[¿Cómo usar el<br>listado de documentos?]]></string>
+    <string name="huellaViewBindings_error_save">Error al guardar</string>
+    <string name="huellaViewBindings_fingerprint_bad_quality">Mala calidad de huellas, intente de nuevo</string>
+    <string name="huellaViewBindings_fingerprint_ok_save">Guardado Exitosamente</string>
+    <string name="huellaViewBindings_invalid_license">Licencia inválida</string>
+    <string name="huellaViewBindings_no_flash">Su dispositivo no tiene flash</string>
+    <string name="huellaViewBindings_veridium_canceled">Cancelado</string>
+    <string name="huellaViewBindings_veridium_failure">Fallo</string>
+    <string name="id">Id</string>
+    <string name="imagenViewBindings_crop_error">Primero capture/importe una imagen</string>
+    <string name="individual_instructions">Presione \'Continuar\' para iniciar la captura de fotos
+        de su dedo. Coloque su dedo en la vista de la cámara trasera del teléfono, más o menos en la
+        guía. Manténgase estable cuando esté verde.</string>
+    <string name="instructional_text">Coloque su mano a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Mantente firme y mantén tus dedos juntos.</string>
+    <string name="instructions_header">Dirección</string>
+    <string name="lectorDeHuellas2_bad">Malo</string>
+    <string name="lectorDeHuellas2_deficient">Deficiente</string>
+    <string name="lectorDeHuellas2_excelent">Excelente</string>
+    <string name="lectorDeHuellas2_good">Bueno</string>
+    <string name="lectorDeHuellas2_regular">Regular</string>
+    <string name="left">Izquierda</string>
+    <string name="left_index">Índice izquierdo</string>
+    <string name="left_little">Pequeña izquierda</string>
+    <string name="left_middle">Centro izquierdo</string>
+    <string name="left_ring">Anillo izquierdo</string>
+    <string name="left_thumb">Pulgar izquierdo</string>
+    <string name="license_error">Error al leer la licencia</string>
+    <string name="license_is_invalid">Licencia inválida</string>
+    <string name="liveness_failed_advice">Sugerencias: complete la guía para ambas imágenes. Mueva
+        su mano paralela al teléfono. No cambies el ángulo de tu mano.</string>
+    <string name="logged_out">No se ha iniciado sesión</string>
+    <string name="login_disable">Cuenta deshabilitada, contacte a su administrador</string>
+    <string name="login_error">Usuario o contraseña inválidos</string>
+    <string name="low_storage_error">Las dependencias no pueden descargarse debido a que el dispositivo no tiene el almacenamiento suficiente</string>
+    <string name="mantain_finger_scanner">Mantenga su dedo en el escáner por: %1$x segundo(s)</string>
+    <string name="mdtp_date_v1_monthyear">MMMM \'de\' yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE dd \'de\' MMM</string>
+    <string msgid="3968620852217927702" name="mdtp_day_picker_description">"Cuadrícula mensual de días"</string>
+    <string msgid="6908431551612331381" name="mdtp_deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> eliminado"</string>
+    <string msgid="7007948707597430919" name="mdtp_done_label">"Listo"</string>
+    <string msgid="7586639618712934060" name="mdtp_hour_picker_description">"Control deslizante circular de horas"</string>
+    <string msgid="2674929164900463786" name="mdtp_item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> seleccionado"</string>
+    <string msgid="6024811202872705251" name="mdtp_minute_picker_description">"Control deslizante circular de minutos"</string>
+    <string msgid="3973338219107019769" name="mdtp_select_day">"Seleccionar mes y día"</string>
+    <string msgid="7651068754188418859" name="mdtp_select_hours">"Seleccionar horas"</string>
+    <string msgid="8327182090226828481" name="mdtp_select_minutes">"Seleccionar minutos"</string>
+    <string msgid="2603330600102539372" name="mdtp_select_year">"Seleccionar año"</string>
+    <string msgid="6963340404644587098" name="mdtp_year_picker_description">"Lista de años"</string>
+    <string name="meglive_camera_initfailed">Error al abrir la cámara</string>
+    <string name="meglive_detect_initfailed">Error al inicializar el reconocimiento</string>
+    <string name="meglive_eye_open_closed">Parpadeé</string>
+    <string name="meglive_getpermission_motion">Por favor acepte los permisos</string>
+    <string name="meglive_keep_eyes_open">Mantenga su vista a la cámara</string>
+    <string name="meglive_keep_mouth_open">Mantenga su vista a la cámara</string>
+    <string name="meglive_mouth_open_closed">Abra su boca</string>
+    <string name="meglive_phone_vertical">Mantenga su teléfono verticalmente</string>
+    <string name="meglive_pitch">Mueva su rostro Arriba/Abajo</string>
+    <string name="meglive_pos_yaw_left">Gira a la izquierda</string>
+    <string name="meglive_pos_yaw_right">Gira a la derecha</string>
+    <string name="meglive_prompt">Manténgase en un ambiente iluminado</string>
+    <string name="meglive_yaw">Mueva su rostro Derecha/Izquierda</string>
+    <string name="merge_f_template_failed">Error en la creación de plantilla fusionada</string>
+    <string name="metadatos_length_error">El metadato %1$s no tiene la longitud correcta.</string>
+    <string name="metadatos_list_error">Selecciona un valor de la lista %1$s</string>
+    <string name="metadatos_regex_error">El dato ingresado en %1$s es incorrecto.</string>
+    <string name="metadatos_required_error">El metadato %1$s es requerido.</string>
+    <string name="mouth_detection">BOCA</string>
+    <string name="moving_dots">...</string>
+    <string name="multiedicion_target">Campo a editar:</string>
+    <string name="multiedicion_update_error">No se pudo actualizar la tabla</string>
+    <string name="multiedicion_value">Asigna un valor</string>
+    <string name="name">Nombre</string>
+    <string name="negocioServicio_engine_ocr_error">No hay un motor configurado en los parámetros de entrada</string>
+    <string name="negocioServicio_get_version_error">No se pudo obtener la ultima versión</string>
+    <string name="negocioServicio_incorrect_code">Codigo Incorrecto</string>
+    <string name="negocioServicio_sent_email">E-mail enviado</string>
+    <string name="negocioServicio_sent_email_error">Error al enviar E-mail</string>
+    <string name="negocioServicio_sent_message">Mensaje enviado</string>
+    <string name="negocioServicio_sent_message_error">Error al enviar mensaje</string>
+    <string name="negocioServicio_verify_version_error">No se pudo verificar el número de versión</string>
+    <string name="negocioServicio_waiting_service_msg">Esperando respuesta del servicio, por favor espere…</string>
+    <string name="networks_log">Logs de red</string>
+    <string name="new_value">Nuevo valor</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="nfc_enable">You need to enable NFC</string>
+    <string name="nfc_missing">No NFC available</string>
+    <string name="no">No</string>
+    <string name="no_camera_permission">Esta aplicación no puede ejecutarse debido a que no tiene los permisos necesarios</string>
+    <string name="not_found">No se encontró</string>
+    <string name="null_exception">%1$s no puede ser null</string>
+    <string name="ok">OK</string>
+    <string name="operations">Operaciones</string>
+    <string name="pagination_wizard">%1$x de %2$x</string>
+    <string name="passive_failed">La vitalidad pasiva falló</string>
+    <string name="password_expired">Se debe cambiar la contraseña</string>
+    <string name="permission_camera_rationale">Permita el acceso a la cámara para la lectura OCR</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Borra la búsqueda"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Buscar"</string>
+    <string name="place_fingers_in_template">Buscando</string>
+    <string name="places_autocomplete_clear_button">Borra la búsqueda</string>
+    <string name="places_autocomplete_label">Elige un sitio</string>
+    <string name="places_autocomplete_no_results_for_query">Ningún resultado para %1$s</string>
+    <string name="places_autocomplete_search_hint">Buscar</string>
+    <string name="places_cancel">Cancelar</string>
+    <string name="places_powered_by_google">Con la tecnología de Google</string>
+    <string name="places_search_error">No se han podido cargar los resultados de búsqueda.</string>
+    <string name="places_try_again">Reintentar</string>
+    <string name="plantillaRepository_template_load_error">No se pudieron obtener las plantillas guardadas</string>
+    <string name="please_change_hands">Por favor cambia de manos</string>
+    <string name="please_move_hand_upwards_for_next_picture">Por favor, mueva la mano hacia
+        arriba\npara ver la siguiente foto</string>
+    <string name="please_verify_by_scanning_again">Compruebe revisando de nuevo</string>
+    <string name="position_hand_left">MANO IZQUIERDA</string>
+    <string name="position_hand_right">MANO DERECHA</string>
+    <string name="quality">Calidad:</string>
+    <string name="reglasHelper_choose_path">Seleccione una ruta para guardar el archivo</string>
+    <string name="reglasHelper_pdf_service_title">Descargando PDF</string>
+    <string name="reglasHelper_service_body">Cargando…</string>
+    <string name="reglasHelper_service_title">Consultando Servicio</string>
+    <string name="required_element">Campo Requerido</string>
+    <string name="retry">Reintentar</string>
+    <string name="right">Derecha</string>
+    <string name="right_index">Índice derecho</string>
+    <string name="right_little">Derecha poco</string>
+    <string name="right_middle">Centro derecho</string>
+    <string name="right_ring">Anillo derecho</string>
+    <string name="right_thumb">Pulgar derecho</string>
+    <string name="rules">Reglas</string>
+    <string name="search">Buscar</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Buscar"</string>
+    <string name="select">Seleccione...</string>
+    <string name="service">Servicio %d</string>
+    <string name="service_type_1">Servicio tipo 1</string>
+    <string name="service_type_2">Servicio tipo 2</string>
+    <string name="services">Servicios</string>
+    <string name="show_attributes">Mostrar atributos</string>
+    <string name="singleDigit_failed_advice">Sugerencias: use un fondo plano. Ajustando qué tan
+        lejos sostienes tu pulgar. Limpia la lente de la cámara.</string>
+    <string name="sorry">Lo siento!</string>
+    <string name="start_search">Iniciar búsqueda</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="steps">Detección en vivo:</string>
+    <string name="success">¡Éxito!</string>
+    <string name="success_n_scan_complete">¡Éxito!\nExploración completa.</string>
+    <string name="success_nchange_hands">¡Éxito!</string>
+    <string name="success_nfirst_scan_complete">¡Éxito!\nPrimera exploración completa.</string>
+    <string name="success_nsecond_scan_complete">Escanea 2 de 2 completos</string>
+    <string name="success_resetPassword">Reseteo de Password Correctamente</string>
+    <string name="successful_save">Datos guardados correctamente</string>
+    <string name="tabla_add_row_max">Ya se alcanzó el numero máximo de filas que es: %1$x</string>
+    <string name="tabla_add_row_ok">Fila agregada correctamente</string>
+    <string name="tabla_edit_row_ok">Fila editada</string>
+    <string name="take_picture">Tomar foto</string>
+    <string name="taking_picture">Tomando foto</string>
+    <string name="template_save_error">No se pudo salvar la plantilla</string>
+    <string name="there_arent_services_rules">No hay servicios ni reglas</string>
+    <string name="thumb_instructions">Presione \'Continuar\' para iniciar la captura de fotos de su pulgar.
+        Coloque su pulgar a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Manténgase estable cuando esté verde.</string>
+    <string name="timeout">Se excedió el tiempo de espera</string>
+    <string name="tipblink">Parpadeé</string>
+    <string name="tippose">Parpadeé</string>
+    <string name="tips">Consejos</string>
+    <string name="tips_message">Mantenga sus dedos juntos y derechos\n\nMantenga su mano lo más estable posible\n\nUsa un fondo neutro</string>
+    <string name="tipsmouth">Abre y cierra la boca</string>
+    <string name="title_activity_georeferencia">Georeferencia</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="too_close">CERCA</string>
+    <string name="too_far">LEJOS</string>
+    <string name="tratamiento_spotlight_bn_body">Filtro blanco y negro</string>
+    <string name="tratamiento_spotlight_bn_title">B/N</string>
+    <string name="tratamiento_spotlight_grayscale_body">Filtro escala de grises</string>
+    <string name="tratamiento_spotlight_grayscale_title">Escala de grises</string>
+    <string name="type">Tipo</string>
+    <string name="uniLectordeHuellas_convert_error">Fallo al convertir la imagen, pulse sobre la imagen para continuar</string>
+    <string name="uniLectordeHuellas_register_mandatory">Debe registrar una huella, pulse sobre la imagen para continuar</string>
+    <string name="uniLectordeHuellas_save_error">Error al guardar archivo, pulse sobre la imagen para continuar</string>
+    <string name="unsupported_template_format">Formato de patrón no admitido</string>
+    <string name="upsdk_app_dl_installing" priority="LT">"Descargando AppGallery"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Instalar"</string>
+    <string name="upsdk_app_size" priority="translator">"Tamaño:"</string>
+    <string name="upsdk_app_version" priority="LT">"Versión:"</string>
+    <string name="upsdk_cancel" priority="LT">"CANCELAR"</string>
+    <string name="upsdk_checking_update_prompt" priority="translator">"Buscando actualizaciones..."</string>
+    <string name="upsdk_choice_update" priority="LT">"Actualización disponible. Descargue e instale la última versión."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"No se puede conectar con el servidor. Vuelva a intentarlo más tarde."</string>
+    <string name="upsdk_detail" priority="translator">"Detalles"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"No se puede recuperar la información. Vuelva a intentarlo más tarde."</string>
+    <string name="upsdk_install" priority="LT">"Instale AppGallery para actualizar. ¿Instalar ahora?"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Sin conexión a Internet. Verifique los ajustes de red."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Aplicación:"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Más tarde"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Salir"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Actualizar"</string>
+    <string name="upsdk_ota_title" priority="translator">"Versión nueva"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"¿Cancelar la instalación?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Error al instalar"</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Sí"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Su versión está actualizada"</string>
+    <string name="upsdk_updating" priority="translator">"Actualizando"</string>
+    <string name="usb_connection_error">Por favor, verifique el cable de conexion a su scanner,  pulse sobre la imagen (huella) para continuar</string>
+    <string name="user_load_error">No se pudo obtener al usuario guardado</string>
+    <string name="usuarioRepository_save_user_error">No se pudo salvar el usuario</string>
+    <string name="value">Valor</string>
+    <string name="veridiumSelectFingers">Pulse algún boton en rojo (huella) para comenzar</string>
+    <string name="veridiumSelectFingers_convert_error">Fallo al convertir la imagen</string>
+    <string name="veridiumSelectFingers_no_device_connected">No hay un dispositivo conectado, intenta nuevamente</string>
+    <string name="veridiumSelectFingers_register_mandatory">Es necesario registrar una huella, intente de nuevo</string>
+    <string name="veridiumSelectFingers_save_error">Error al guardar archivo</string>
+    <string name="veridiumSelectFingers_select_finger">Pulse algún boton en rojo (huella) para comenzar</string>
+    <string name="veridium_fourf_biometrics_activity_4_finger_touchlessid">4 Fingers TouchlessID</string>
+    <string name="videoViewBindings_record_error">No es posible grabar video \nDetener grabacion en elemento audio</string>
+    <string name="viewHolder_huellaDigital_spotlight_cancel_body">Cancelar Remplazo Huellas</string>
+    <string name="viewHolder_huellaDigital_spotlight_replace_body">Reemplazar Huellas</string>
+    <string name="viewHolder_huellaDigital_spotlight_replace_title">Reemplazar</string>
+    <string name="viewHolder_huellaDigital_spotlight_score_body">Ver Score Huellas capturadas</string>
+    <string name="viewHolder_huellaDigital_spotlight_take_body">Capturar Huellas</string>
+    <string name="viewHolder_huellaDigital_spotlight_take_title">Capturar</string>
+    <string name="warning">Advertencia</string>
+    <string name="yes">Sí</string>
+    <string name="you_have_completed_enrollment">Ha completado la inscripción</string>
+    <string name="you_have_completed_hand_nrecognition_authentication">Ha completado la
+        autenticación\nde reconocimiento de manos</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.</string>
+    <string name="zxing_msg_default_status">Coloque un código de barras en el interior del rectángulo del visor para escanear.</string>
+</resources>

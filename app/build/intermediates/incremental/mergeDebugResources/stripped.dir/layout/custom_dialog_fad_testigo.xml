@@ -1,0 +1,53 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabclosevideofad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                app:backgroundTint="@color/colorFABCancelar"
+                app:fabSize="mini"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lltextviewdialog"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/ivtestigodialog"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:text="hello"
+                android:layout_margin="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digipro.fesdkcore.componentes.Cropping">
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ok_cropping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="start"
+            android:src="@drawable/ic_done_white_24dps"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorFABAceptar"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/retry_cancel_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/cancelar_cropping"
+            android:gravity="center"
+            android:src="@drawable/ic_retry_white_24dp"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorFABRetry"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/rotateButtonI"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_toStartOf="@+id/cropButton"
+            android:src="@drawable/ic_rotar_izquierda"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cropButton"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/ic_crop_white_24dp"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/rotateButtonD"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_toEndOf="@+id/cropButton"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_rotar_derecha"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cancelar_cropping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:src="@drawable/ic_close_white_24dp"
+            app:backgroundTint="@color/colorFABCancelar"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+<!--    <net.doo.snap.ui.EditPolygonImageView-->
+<!--        android:id="@+id/polygonView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@+id/buttons"-->
+<!--        android:padding="40dp"-->
+<!--        app:cornerImageSrc="@drawable/cropping_ui_crop_corner_handle"-->
+<!--        app:edgeColor="#00cea6"-->
+<!--        app:edgeImageSrc="@drawable/cropping_ui_crop_side_handle"-->
+<!--        app:editPolygonHandleSize="48dp"-->
+<!--        app:magneticLineTreshold="10dp" />-->
+
+<!--    <net.doo.snap.ui.MagnifierView-->
+<!--        android:id="@+id/magnifier"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@+id/buttons"-->
+<!--        android:padding="40dp"-->
+<!--        app:magnifierImageSrc="@drawable/ui_crop_magnifier"-->
+<!--        app:magnifierMargin="16dp"-->
+<!--        app:magnifierRadius="36dp" />-->
+
+    <ImageView
+        android:id="@+id/resultImageView"
+        android:layout_width="match_parent"
+        android:padding="40dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttons"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ayudaFotoCropping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_help_white"
+            app:backgroundTint="@color/colorFABAyuda"
+            app:fabSize="mini" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

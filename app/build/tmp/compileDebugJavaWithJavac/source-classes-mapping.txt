@@ -1,0 +1,1581 @@
+com/digipro/fesdkcore/elementos_basicos/R.java
+ com.digipro.fesdkcore.elementos_basicos.R
+ com.digipro.fesdkcore.elementos_basicos.R$anim
+ com.digipro.fesdkcore.elementos_basicos.R$animator
+ com.digipro.fesdkcore.elementos_basicos.R$array
+ com.digipro.fesdkcore.elementos_basicos.R$attr
+ com.digipro.fesdkcore.elementos_basicos.R$bool
+ com.digipro.fesdkcore.elementos_basicos.R$color
+ com.digipro.fesdkcore.elementos_basicos.R$dimen
+ com.digipro.fesdkcore.elementos_basicos.R$drawable
+ com.digipro.fesdkcore.elementos_basicos.R$font
+ com.digipro.fesdkcore.elementos_basicos.R$id
+ com.digipro.fesdkcore.elementos_basicos.R$integer
+ com.digipro.fesdkcore.elementos_basicos.R$interpolator
+ com.digipro.fesdkcore.elementos_basicos.R$layout
+ com.digipro.fesdkcore.elementos_basicos.R$menu
+ com.digipro.fesdkcore.elementos_basicos.R$plurals
+ com.digipro.fesdkcore.elementos_basicos.R$raw
+ com.digipro.fesdkcore.elementos_basicos.R$string
+ com.digipro.fesdkcore.elementos_basicos.R$style
+ com.digipro.fesdkcore.elementos_basicos.R$styleable
+ com.digipro.fesdkcore.elementos_basicos.R$xml
+androidx/lifecycle/livedata/core/R.java
+ androidx.lifecycle.livedata.core.R
+com/google/zxing/client/android/R.java
+ com.google.zxing.client.android.R
+ com.google.zxing.client.android.R$attr
+ com.google.zxing.client.android.R$color
+ com.google.zxing.client.android.R$id
+ com.google.zxing.client.android.R$layout
+ com.google.zxing.client.android.R$raw
+ com.google.zxing.client.android.R$string
+ com.google.zxing.client.android.R$style
+ com.google.zxing.client.android.R$styleable
+de/hdodenhof/circleimageview/R.java
+ de.hdodenhof.circleimageview.R
+ de.hdodenhof.circleimageview.R$attr
+ de.hdodenhof.circleimageview.R$styleable
+androidx/savedstate/R.java
+ androidx.savedstate.R
+com/evrencoskun/tableview/R.java
+ com.evrencoskun.tableview.R
+ com.evrencoskun.tableview.R$anim
+ com.evrencoskun.tableview.R$attr
+ com.evrencoskun.tableview.R$bool
+ com.evrencoskun.tableview.R$color
+ com.evrencoskun.tableview.R$dimen
+ com.evrencoskun.tableview.R$drawable
+ com.evrencoskun.tableview.R$id
+ com.evrencoskun.tableview.R$integer
+ com.evrencoskun.tableview.R$layout
+ com.evrencoskun.tableview.R$string
+ com.evrencoskun.tableview.R$style
+ com.evrencoskun.tableview.R$styleable
+com/google/android/gms/measurement_base/R.java
+ com.google.android.gms.measurement_base.R
+com/google/android/gms/places_placereport/R.java
+ com.google.android.gms.places_placereport.R
+androidx/asynclayoutinflater/R.java
+ androidx.asynclayoutinflater.R
+ androidx.asynclayoutinflater.R$attr
+ androidx.asynclayoutinflater.R$color
+ androidx.asynclayoutinflater.R$dimen
+ androidx.asynclayoutinflater.R$drawable
+ androidx.asynclayoutinflater.R$id
+ androidx.asynclayoutinflater.R$integer
+ androidx.asynclayoutinflater.R$layout
+ androidx.asynclayoutinflater.R$string
+ androidx.asynclayoutinflater.R$style
+ androidx.asynclayoutinflater.R$styleable
+com/tbruyelle/rxpermissions2/R.java
+ com.tbruyelle.rxpermissions2.R
+ com.tbruyelle.rxpermissions2.R$attr
+ com.tbruyelle.rxpermissions2.R$bool
+ com.tbruyelle.rxpermissions2.R$color
+ com.tbruyelle.rxpermissions2.R$dimen
+ com.tbruyelle.rxpermissions2.R$drawable
+ com.tbruyelle.rxpermissions2.R$id
+ com.tbruyelle.rxpermissions2.R$integer
+ com.tbruyelle.rxpermissions2.R$layout
+ com.tbruyelle.rxpermissions2.R$string
+ com.tbruyelle.rxpermissions2.R$style
+ com.tbruyelle.rxpermissions2.R$styleable
+com/google/android/gms/measurement/sdk/api/R.java
+ com.google.android.gms.measurement.sdk.api.R
+cl/jesualex/stooltip/R.java
+ cl.jesualex.stooltip.R
+ cl.jesualex.stooltip.R$anim
+ cl.jesualex.stooltip.R$attr
+ cl.jesualex.stooltip.R$bool
+ cl.jesualex.stooltip.R$color
+ cl.jesualex.stooltip.R$dimen
+ cl.jesualex.stooltip.R$drawable
+ cl.jesualex.stooltip.R$id
+ cl.jesualex.stooltip.R$integer
+ cl.jesualex.stooltip.R$layout
+ cl.jesualex.stooltip.R$string
+ cl.jesualex.stooltip.R$style
+ cl.jesualex.stooltip.R$styleable
+com/marshalchen/ultimaterecyclerview/R.java
+ com.marshalchen.ultimaterecyclerview.R
+ com.marshalchen.ultimaterecyclerview.R$anim
+ com.marshalchen.ultimaterecyclerview.R$attr
+ com.marshalchen.ultimaterecyclerview.R$bool
+ com.marshalchen.ultimaterecyclerview.R$color
+ com.marshalchen.ultimaterecyclerview.R$dimen
+ com.marshalchen.ultimaterecyclerview.R$drawable
+ com.marshalchen.ultimaterecyclerview.R$id
+ com.marshalchen.ultimaterecyclerview.R$integer
+ com.marshalchen.ultimaterecyclerview.R$layout
+ com.marshalchen.ultimaterecyclerview.R$string
+ com.marshalchen.ultimaterecyclerview.R$style
+ com.marshalchen.ultimaterecyclerview.R$styleable
+com/google/android/gms/flags/R.java
+ com.google.android.gms.flags.R
+com/example/pruebadigipro/Expedientes.java
+ com.example.pruebadigipro.Expedientes
+ com.example.pruebadigipro.Expedientes$1
+ com.example.pruebadigipro.Expedientes$2
+ com.example.pruebadigipro.Expedientes$3
+ com.example.pruebadigipro.Expedientes$4
+ com.example.pruebadigipro.Expedientes$5
+ com.example.pruebadigipro.Expedientes$6
+androidx/multidex/R.java
+ androidx.multidex.R
+com/nex3z/notificationbadge/R.java
+ com.nex3z.notificationbadge.R
+ com.nex3z.notificationbadge.R$anim
+ com.nex3z.notificationbadge.R$attr
+ com.nex3z.notificationbadge.R$bool
+ com.nex3z.notificationbadge.R$color
+ com.nex3z.notificationbadge.R$dimen
+ com.nex3z.notificationbadge.R$drawable
+ com.nex3z.notificationbadge.R$id
+ com.nex3z.notificationbadge.R$integer
+ com.nex3z.notificationbadge.R$layout
+ com.nex3z.notificationbadge.R$string
+ com.nex3z.notificationbadge.R$style
+ com.nex3z.notificationbadge.R$styleable
+com/gemalto/wsq/R.java
+ com.gemalto.wsq.R
+ com.gemalto.wsq.R$anim
+ com.gemalto.wsq.R$attr
+ com.gemalto.wsq.R$bool
+ com.gemalto.wsq.R$color
+ com.gemalto.wsq.R$dimen
+ com.gemalto.wsq.R$drawable
+ com.gemalto.wsq.R$id
+ com.gemalto.wsq.R$integer
+ com.gemalto.wsq.R$layout
+ com.gemalto.wsq.R$string
+ com.gemalto.wsq.R$style
+ com.gemalto.wsq.R$styleable
+com/google/android/libraries/places/R.java
+ com.google.android.libraries.places.R
+ com.google.android.libraries.places.R$color
+ com.google.android.libraries.places.R$dimen
+ com.google.android.libraries.places.R$drawable
+ com.google.android.libraries.places.R$id
+ com.google.android.libraries.places.R$layout
+ com.google.android.libraries.places.R$raw
+ com.google.android.libraries.places.R$string
+ com.google.android.libraries.places.R$style
+com/example/pruebadigipro/MainActivity.java
+ com.example.pruebadigipro.MainActivity
+ com.example.pruebadigipro.MainActivity$1
+com/otaliastudios/opengl/R.java
+ com.otaliastudios.opengl.R
+com/bumptech/glide/R.java
+ com.bumptech.glide.R
+ com.bumptech.glide.R$attr
+ com.bumptech.glide.R$bool
+ com.bumptech.glide.R$color
+ com.bumptech.glide.R$dimen
+ com.bumptech.glide.R$drawable
+ com.bumptech.glide.R$id
+ com.bumptech.glide.R$integer
+ com.bumptech.glide.R$layout
+ com.bumptech.glide.R$string
+ com.bumptech.glide.R$style
+ com.bumptech.glide.R$styleable
+com/afollestad/easyvideoplayer/R.java
+ com.afollestad.easyvideoplayer.R
+ com.afollestad.easyvideoplayer.R$anim
+ com.afollestad.easyvideoplayer.R$attr
+ com.afollestad.easyvideoplayer.R$bool
+ com.afollestad.easyvideoplayer.R$color
+ com.afollestad.easyvideoplayer.R$dimen
+ com.afollestad.easyvideoplayer.R$drawable
+ com.afollestad.easyvideoplayer.R$id
+ com.afollestad.easyvideoplayer.R$integer
+ com.afollestad.easyvideoplayer.R$layout
+ com.afollestad.easyvideoplayer.R$string
+ com.afollestad.easyvideoplayer.R$style
+ com.afollestad.easyvideoplayer.R$styleable
+com/izikode/izilib/veinview/R.java
+ com.izikode.izilib.veinview.R
+ com.izikode.izilib.veinview.R$anim
+ com.izikode.izilib.veinview.R$attr
+ com.izikode.izilib.veinview.R$bool
+ com.izikode.izilib.veinview.R$color
+ com.izikode.izilib.veinview.R$dimen
+ com.izikode.izilib.veinview.R$drawable
+ com.izikode.izilib.veinview.R$id
+ com.izikode.izilib.veinview.R$integer
+ com.izikode.izilib.veinview.R$layout
+ com.izikode.izilib.veinview.R$raw
+ com.izikode.izilib.veinview.R$string
+ com.izikode.izilib.veinview.R$style
+ com.izikode.izilib.veinview.R$styleable
+com/example/pruebadigipro/Login.java
+ com.example.pruebadigipro.Login
+ com.example.pruebadigipro.Login$1
+com/joanzapata/iconify/material/R.java
+ com.joanzapata.iconify.material.R
+com/bumptech/glide/gifdecoder/R.java
+ com.bumptech.glide.gifdecoder.R
+androidx/databinding/library/R.java
+ androidx.databinding.library.R
+ androidx.databinding.library.R$id
+com/otaliastudios/cameraview/R.java
+ com.otaliastudios.cameraview.R
+ com.otaliastudios.cameraview.R$attr
+ com.otaliastudios.cameraview.R$color
+ com.otaliastudios.cameraview.R$dimen
+ com.otaliastudios.cameraview.R$drawable
+ com.otaliastudios.cameraview.R$id
+ com.otaliastudios.cameraview.R$integer
+ com.otaliastudios.cameraview.R$layout
+ com.otaliastudios.cameraview.R$string
+ com.otaliastudios.cameraview.R$style
+ com.otaliastudios.cameraview.R$styleable
+androidx/swiperefreshlayout/R.java
+ androidx.swiperefreshlayout.R
+ androidx.swiperefreshlayout.R$attr
+ androidx.swiperefreshlayout.R$color
+ androidx.swiperefreshlayout.R$dimen
+ androidx.swiperefreshlayout.R$drawable
+ androidx.swiperefreshlayout.R$id
+ androidx.swiperefreshlayout.R$integer
+ androidx.swiperefreshlayout.R$layout
+ androidx.swiperefreshlayout.R$string
+ androidx.swiperefreshlayout.R$style
+ androidx.swiperefreshlayout.R$styleable
+androidx/appcompat/R.java
+ androidx.appcompat.R
+ androidx.appcompat.R$anim
+ androidx.appcompat.R$attr
+ androidx.appcompat.R$bool
+ androidx.appcompat.R$color
+ androidx.appcompat.R$dimen
+ androidx.appcompat.R$drawable
+ androidx.appcompat.R$id
+ androidx.appcompat.R$integer
+ androidx.appcompat.R$interpolator
+ androidx.appcompat.R$layout
+ androidx.appcompat.R$string
+ androidx.appcompat.R$style
+ androidx.appcompat.R$styleable
+com/github/clans/fab/R.java
+ com.github.clans.fab.R
+ com.github.clans.fab.R$anim
+ com.github.clans.fab.R$animator
+ com.github.clans.fab.R$attr
+ com.github.clans.fab.R$bool
+ com.github.clans.fab.R$color
+ com.github.clans.fab.R$dimen
+ com.github.clans.fab.R$drawable
+ com.github.clans.fab.R$id
+ com.github.clans.fab.R$integer
+ com.github.clans.fab.R$interpolator
+ com.github.clans.fab.R$layout
+ com.github.clans.fab.R$plurals
+ com.github.clans.fab.R$string
+ com.github.clans.fab.R$style
+ com.github.clans.fab.R$styleable
+ com.github.clans.fab.R$xml
+com/huawei/hms/mlsdk/face/R.java
+ com.huawei.hms.mlsdk.face.R
+ com.huawei.hms.mlsdk.face.R$color
+ com.huawei.hms.mlsdk.face.R$dimen
+ com.huawei.hms.mlsdk.face.R$drawable
+ com.huawei.hms.mlsdk.face.R$id
+ com.huawei.hms.mlsdk.face.R$layout
+ com.huawei.hms.mlsdk.face.R$string
+ com.huawei.hms.mlsdk.face.R$style
+ com.huawei.hms.mlsdk.face.R$xml
+com/mreram/ticketview/R.java
+ com.mreram.ticketview.R
+ com.mreram.ticketview.R$attr
+ com.mreram.ticketview.R$string
+ com.mreram.ticketview.R$styleable
+androidx/legacy/coreui/R.java
+ androidx.legacy.coreui.R
+ androidx.legacy.coreui.R$attr
+ androidx.legacy.coreui.R$color
+ androidx.legacy.coreui.R$dimen
+ androidx.legacy.coreui.R$drawable
+ androidx.legacy.coreui.R$id
+ androidx.legacy.coreui.R$integer
+ androidx.legacy.coreui.R$layout
+ androidx.legacy.coreui.R$string
+ androidx.legacy.coreui.R$style
+ androidx.legacy.coreui.R$styleable
+com/archit/calendardaterangepicker/R.java
+ com.archit.calendardaterangepicker.R
+ com.archit.calendardaterangepicker.R$anim
+ com.archit.calendardaterangepicker.R$array
+ com.archit.calendardaterangepicker.R$attr
+ com.archit.calendardaterangepicker.R$bool
+ com.archit.calendardaterangepicker.R$color
+ com.archit.calendardaterangepicker.R$dimen
+ com.archit.calendardaterangepicker.R$drawable
+ com.archit.calendardaterangepicker.R$id
+ com.archit.calendardaterangepicker.R$integer
+ com.archit.calendardaterangepicker.R$layout
+ com.archit.calendardaterangepicker.R$string
+ com.archit.calendardaterangepicker.R$style
+ com.archit.calendardaterangepicker.R$styleable
+com/theartofdev/edmodo/cropper/R.java
+ com.theartofdev.edmodo.cropper.R
+ com.theartofdev.edmodo.cropper.R$anim
+ com.theartofdev.edmodo.cropper.R$attr
+ com.theartofdev.edmodo.cropper.R$bool
+ com.theartofdev.edmodo.cropper.R$color
+ com.theartofdev.edmodo.cropper.R$dimen
+ com.theartofdev.edmodo.cropper.R$drawable
+ com.theartofdev.edmodo.cropper.R$id
+ com.theartofdev.edmodo.cropper.R$integer
+ com.theartofdev.edmodo.cropper.R$layout
+ com.theartofdev.edmodo.cropper.R$menu
+ com.theartofdev.edmodo.cropper.R$string
+ com.theartofdev.edmodo.cropper.R$style
+ com.theartofdev.edmodo.cropper.R$styleable
+com/google/firebase/iid/R.java
+ com.google.firebase.iid.R
+ru/kolotnev/formattedittext/R.java
+ ru.kolotnev.formattedittext.R
+ ru.kolotnev.formattedittext.R$anim
+ ru.kolotnev.formattedittext.R$attr
+ ru.kolotnev.formattedittext.R$bool
+ ru.kolotnev.formattedittext.R$color
+ ru.kolotnev.formattedittext.R$dimen
+ ru.kolotnev.formattedittext.R$drawable
+ ru.kolotnev.formattedittext.R$id
+ ru.kolotnev.formattedittext.R$integer
+ ru.kolotnev.formattedittext.R$layout
+ ru.kolotnev.formattedittext.R$string
+ ru.kolotnev.formattedittext.R$style
+ ru.kolotnev.formattedittext.R$styleable
+com/andrognito/flashbar/R.java
+ com.andrognito.flashbar.R
+ com.andrognito.flashbar.R$anim
+ com.andrognito.flashbar.R$attr
+ com.andrognito.flashbar.R$bool
+ com.andrognito.flashbar.R$color
+ com.andrognito.flashbar.R$dimen
+ com.andrognito.flashbar.R$drawable
+ com.andrognito.flashbar.R$id
+ com.andrognito.flashbar.R$integer
+ com.andrognito.flashbar.R$layout
+ com.andrognito.flashbar.R$string
+ com.andrognito.flashbar.R$style
+ com.andrognito.flashbar.R$styleable
+com/huawei/updatesdk/R.java
+ com.huawei.updatesdk.R
+ com.huawei.updatesdk.R$color
+ com.huawei.updatesdk.R$dimen
+ com.huawei.updatesdk.R$drawable
+ com.huawei.updatesdk.R$id
+ com.huawei.updatesdk.R$layout
+ com.huawei.updatesdk.R$string
+ com.huawei.updatesdk.R$style
+com/shockwave/pdfium/R.java
+ com.shockwave.pdfium.R
+ com.shockwave.pdfium.R$string
+com/google/firebase/auth/R.java
+ com.google.firebase.auth.R
+com/google/android/gms/stats/R.java
+ com.google.android.gms.stats.R
+com/example/pruebadigipro/App.java
+ com.example.pruebadigipro.App
+com/google/android/gms/analyticsservices/R.java
+ com.google.android.gms.analyticsservices.R
+com/digipro/fesdkcore/elementos_huella/R.java
+ com.digipro.fesdkcore.elementos_huella.R
+ com.digipro.fesdkcore.elementos_huella.R$anim
+ com.digipro.fesdkcore.elementos_huella.R$animator
+ com.digipro.fesdkcore.elementos_huella.R$array
+ com.digipro.fesdkcore.elementos_huella.R$attr
+ com.digipro.fesdkcore.elementos_huella.R$bool
+ com.digipro.fesdkcore.elementos_huella.R$color
+ com.digipro.fesdkcore.elementos_huella.R$dimen
+ com.digipro.fesdkcore.elementos_huella.R$drawable
+ com.digipro.fesdkcore.elementos_huella.R$font
+ com.digipro.fesdkcore.elementos_huella.R$id
+ com.digipro.fesdkcore.elementos_huella.R$integer
+ com.digipro.fesdkcore.elementos_huella.R$interpolator
+ com.digipro.fesdkcore.elementos_huella.R$layout
+ com.digipro.fesdkcore.elementos_huella.R$menu
+ com.digipro.fesdkcore.elementos_huella.R$plurals
+ com.digipro.fesdkcore.elementos_huella.R$raw
+ com.digipro.fesdkcore.elementos_huella.R$string
+ com.digipro.fesdkcore.elementos_huella.R$style
+ com.digipro.fesdkcore.elementos_huella.R$styleable
+ com.digipro.fesdkcore.elementos_huella.R$xml
+androidx/work/R.java
+ androidx.work.R
+ androidx.work.R$attr
+ androidx.work.R$bool
+ androidx.work.R$color
+ androidx.work.R$dimen
+ androidx.work.R$drawable
+ androidx.work.R$id
+ androidx.work.R$integer
+ androidx.work.R$layout
+ androidx.work.R$string
+ androidx.work.R$style
+ androidx.work.R$styleable
+uk/co/senab/photoview/R.java
+ uk.co.senab.photoview.R
+rx/android/R.java
+ rx.android.R
+com/example/pruebadigipro/R.java
+ com.example.pruebadigipro.R
+ com.example.pruebadigipro.R$anim
+ com.example.pruebadigipro.R$animator
+ com.example.pruebadigipro.R$array
+ com.example.pruebadigipro.R$attr
+ com.example.pruebadigipro.R$bool
+ com.example.pruebadigipro.R$color
+ com.example.pruebadigipro.R$dimen
+ com.example.pruebadigipro.R$drawable
+ com.example.pruebadigipro.R$font
+ com.example.pruebadigipro.R$id
+ com.example.pruebadigipro.R$integer
+ com.example.pruebadigipro.R$interpolator
+ com.example.pruebadigipro.R$layout
+ com.example.pruebadigipro.R$menu
+ com.example.pruebadigipro.R$mipmap
+ com.example.pruebadigipro.R$plurals
+ com.example.pruebadigipro.R$raw
+ com.example.pruebadigipro.R$string
+ com.example.pruebadigipro.R$style
+ com.example.pruebadigipro.R$styleable
+ com.example.pruebadigipro.R$xml
+com/google/firebase/encoders/R.java
+ com.google.firebase.encoders.R
+com/google/firebase/inappmessaging/R.java
+ com.google.firebase.inappmessaging.R
+ com.google.firebase.inappmessaging.R$attr
+ com.google.firebase.inappmessaging.R$bool
+ com.google.firebase.inappmessaging.R$color
+ com.google.firebase.inappmessaging.R$dimen
+ com.google.firebase.inappmessaging.R$drawable
+ com.google.firebase.inappmessaging.R$id
+ com.google.firebase.inappmessaging.R$integer
+ com.google.firebase.inappmessaging.R$layout
+ com.google.firebase.inappmessaging.R$string
+ com.google.firebase.inappmessaging.R$style
+ com.google.firebase.inappmessaging.R$styleable
+com/google/firebase/auth/internal/R.java
+ com.google.firebase.auth.internal.R
+androidx/browser/R.java
+ androidx.browser.R
+ androidx.browser.R$attr
+ androidx.browser.R$color
+ androidx.browser.R$dimen
+ androidx.browser.R$drawable
+ androidx.browser.R$id
+ androidx.browser.R$integer
+ androidx.browser.R$layout
+ androidx.browser.R$string
+ androidx.browser.R$style
+ androidx.browser.R$styleable
+androidx/viewpager2/R.java
+ androidx.viewpager2.R
+ androidx.viewpager2.R$attr
+ androidx.viewpager2.R$color
+ androidx.viewpager2.R$dimen
+ androidx.viewpager2.R$drawable
+ androidx.viewpager2.R$id
+ androidx.viewpager2.R$integer
+ androidx.viewpager2.R$layout
+ androidx.viewpager2.R$string
+ androidx.viewpager2.R$style
+ androidx.viewpager2.R$styleable
+com/google/android/gms/vision_common/R.java
+ com.google.android.gms.vision_common.R
+com/google/android/gms/phenotype/R.java
+ com.google.android.gms.phenotype.R
+com/omadahealth/github/swipyrefreshlayout/library/R.java
+ com.omadahealth.github.swipyrefreshlayout.library.R
+ com.omadahealth.github.swipyrefreshlayout.library.R$anim
+ com.omadahealth.github.swipyrefreshlayout.library.R$attr
+ com.omadahealth.github.swipyrefreshlayout.library.R$bool
+ com.omadahealth.github.swipyrefreshlayout.library.R$color
+ com.omadahealth.github.swipyrefreshlayout.library.R$dimen
+ com.omadahealth.github.swipyrefreshlayout.library.R$drawable
+ com.omadahealth.github.swipyrefreshlayout.library.R$id
+ com.omadahealth.github.swipyrefreshlayout.library.R$integer
+ com.omadahealth.github.swipyrefreshlayout.library.R$layout
+ com.omadahealth.github.swipyrefreshlayout.library.R$string
+ com.omadahealth.github.swipyrefreshlayout.library.R$style
+ com.omadahealth.github.swipyrefreshlayout.library.R$styleable
+me/zhanghai/android/materialprogressbar/R.java
+ me.zhanghai.android.materialprogressbar.R
+ me.zhanghai.android.materialprogressbar.R$anim
+ me.zhanghai.android.materialprogressbar.R$attr
+ me.zhanghai.android.materialprogressbar.R$bool
+ me.zhanghai.android.materialprogressbar.R$color
+ me.zhanghai.android.materialprogressbar.R$dimen
+ me.zhanghai.android.materialprogressbar.R$drawable
+ me.zhanghai.android.materialprogressbar.R$id
+ me.zhanghai.android.materialprogressbar.R$integer
+ me.zhanghai.android.materialprogressbar.R$layout
+ me.zhanghai.android.materialprogressbar.R$string
+ me.zhanghai.android.materialprogressbar.R$style
+ me.zhanghai.android.materialprogressbar.R$styleable
+in/aabhasjindal/otptextview/R.java
+ in.aabhasjindal.otptextview.R
+ in.aabhasjindal.otptextview.R$anim
+ in.aabhasjindal.otptextview.R$attr
+ in.aabhasjindal.otptextview.R$bool
+ in.aabhasjindal.otptextview.R$color
+ in.aabhasjindal.otptextview.R$dimen
+ in.aabhasjindal.otptextview.R$drawable
+ in.aabhasjindal.otptextview.R$id
+ in.aabhasjindal.otptextview.R$integer
+ in.aabhasjindal.otptextview.R$layout
+ in.aabhasjindal.otptextview.R$string
+ in.aabhasjindal.otptextview.R$style
+ in.aabhasjindal.otptextview.R$styleable
+com/danikula/videocache/R.java
+ com.danikula.videocache.R
+com/github/gcacace/signaturepad/R.java
+ com.github.gcacace.signaturepad.R
+ com.github.gcacace.signaturepad.R$attr
+ com.github.gcacace.signaturepad.R$id
+ com.github.gcacace.signaturepad.R$styleable
+nl/psdcompany/psd/duonavigationdrawer/R.java
+ nl.psdcompany.psd.duonavigationdrawer.R
+ nl.psdcompany.psd.duonavigationdrawer.R$anim
+ nl.psdcompany.psd.duonavigationdrawer.R$attr
+ nl.psdcompany.psd.duonavigationdrawer.R$bool
+ nl.psdcompany.psd.duonavigationdrawer.R$color
+ nl.psdcompany.psd.duonavigationdrawer.R$dimen
+ nl.psdcompany.psd.duonavigationdrawer.R$drawable
+ nl.psdcompany.psd.duonavigationdrawer.R$id
+ nl.psdcompany.psd.duonavigationdrawer.R$integer
+ nl.psdcompany.psd.duonavigationdrawer.R$interpolator
+ nl.psdcompany.psd.duonavigationdrawer.R$layout
+ nl.psdcompany.psd.duonavigationdrawer.R$string
+ nl.psdcompany.psd.duonavigationdrawer.R$style
+ nl.psdcompany.psd.duonavigationdrawer.R$styleable
+com/amulyakhare/textdrawable/R.java
+ com.amulyakhare.textdrawable.R
+io/github/mthli/sugartask/R.java
+ io.github.mthli.sugartask.R
+ io.github.mthli.sugartask.R$string
+androidx/activity/R.java
+ androidx.activity.R
+ androidx.activity.R$attr
+ androidx.activity.R$color
+ androidx.activity.R$dimen
+ androidx.activity.R$drawable
+ androidx.activity.R$id
+ androidx.activity.R$integer
+ androidx.activity.R$layout
+ androidx.activity.R$string
+ androidx.activity.R$style
+ androidx.activity.R$styleable
+com/huawei/hms/framework/common/R.java
+ com.huawei.hms.framework.common.R
+ com.huawei.hms.framework.common.R$string
+androidx/recyclerview/R.java
+ androidx.recyclerview.R
+ androidx.recyclerview.R$attr
+ androidx.recyclerview.R$color
+ androidx.recyclerview.R$dimen
+ androidx.recyclerview.R$drawable
+ androidx.recyclerview.R$id
+ androidx.recyclerview.R$integer
+ androidx.recyclerview.R$layout
+ androidx.recyclerview.R$string
+ androidx.recyclerview.R$style
+ androidx.recyclerview.R$styleable
+com/google/firebase/firebase_analytics/R.java
+ com.google.firebase.firebase_analytics.R
+androidx/drawerlayout/R.java
+ androidx.drawerlayout.R
+ androidx.drawerlayout.R$attr
+ androidx.drawerlayout.R$color
+ androidx.drawerlayout.R$dimen
+ androidx.drawerlayout.R$drawable
+ androidx.drawerlayout.R$id
+ androidx.drawerlayout.R$integer
+ androidx.drawerlayout.R$layout
+ androidx.drawerlayout.R$string
+ androidx.drawerlayout.R$style
+ androidx.drawerlayout.R$styleable
+io/codetail/animation/R.java
+ io.codetail.animation.R
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+androidx/sqlite/db/framework/R.java
+ androidx.sqlite.db.framework.R
+in/srain/cube/views/ptr/R.java
+ in.srain.cube.views.ptr.R
+ in.srain.cube.views.ptr.R$attr
+ in.srain.cube.views.ptr.R$drawable
+ in.srain.cube.views.ptr.R$id
+ in.srain.cube.views.ptr.R$layout
+ in.srain.cube.views.ptr.R$string
+ in.srain.cube.views.ptr.R$styleable
+com/jakewharton/rxbinding/R.java
+ com.jakewharton.rxbinding.R
+com/steelkiwi/cropiwa/R.java
+ com.steelkiwi.cropiwa.R
+ com.steelkiwi.cropiwa.R$anim
+ com.steelkiwi.cropiwa.R$attr
+ com.steelkiwi.cropiwa.R$bool
+ com.steelkiwi.cropiwa.R$color
+ com.steelkiwi.cropiwa.R$dimen
+ com.steelkiwi.cropiwa.R$drawable
+ com.steelkiwi.cropiwa.R$id
+ com.steelkiwi.cropiwa.R$integer
+ com.steelkiwi.cropiwa.R$layout
+ com.steelkiwi.cropiwa.R$string
+ com.steelkiwi.cropiwa.R$style
+ com.steelkiwi.cropiwa.R$styleable
+androidx/lifecycle/extensions/R.java
+ androidx.lifecycle.extensions.R
+ androidx.lifecycle.extensions.R$attr
+ androidx.lifecycle.extensions.R$color
+ androidx.lifecycle.extensions.R$dimen
+ androidx.lifecycle.extensions.R$drawable
+ androidx.lifecycle.extensions.R$id
+ androidx.lifecycle.extensions.R$integer
+ androidx.lifecycle.extensions.R$layout
+ androidx.lifecycle.extensions.R$string
+ androidx.lifecycle.extensions.R$style
+ androidx.lifecycle.extensions.R$styleable
+com/huawei/hms/ml/common/R.java
+ com.huawei.hms.ml.common.R
+androidx/cursoradapter/R.java
+ androidx.cursoradapter.R
+ng/max/slideview/R.java
+ ng.max.slideview.R
+ ng.max.slideview.R$anim
+ ng.max.slideview.R$attr
+ ng.max.slideview.R$bool
+ ng.max.slideview.R$color
+ ng.max.slideview.R$dimen
+ ng.max.slideview.R$drawable
+ ng.max.slideview.R$id
+ ng.max.slideview.R$integer
+ ng.max.slideview.R$layout
+ ng.max.slideview.R$string
+ ng.max.slideview.R$style
+ ng.max.slideview.R$styleable
+androidx/lifecycle/livedata/R.java
+ androidx.lifecycle.livedata.R
+com/huawei/hmf/tasks/R.java
+ com.huawei.hmf.tasks.R
+com/roughike/bottombar/R.java
+ com.roughike.bottombar.R
+ com.roughike.bottombar.R$anim
+ com.roughike.bottombar.R$animator
+ com.roughike.bottombar.R$attr
+ com.roughike.bottombar.R$bool
+ com.roughike.bottombar.R$color
+ com.roughike.bottombar.R$dimen
+ com.roughike.bottombar.R$drawable
+ com.roughike.bottombar.R$id
+ com.roughike.bottombar.R$integer
+ com.roughike.bottombar.R$layout
+ com.roughike.bottombar.R$string
+ com.roughike.bottombar.R$style
+ com.roughike.bottombar.R$styleable
+com/google/android/datatransport/runtime/R.java
+ com.google.android.datatransport.runtime.R
+androidx/documentfile/R.java
+ androidx.documentfile.R
+com/digipro/fesdkcore/elementos_rostro/R.java
+ com.digipro.fesdkcore.elementos_rostro.R
+ com.digipro.fesdkcore.elementos_rostro.R$anim
+ com.digipro.fesdkcore.elementos_rostro.R$animator
+ com.digipro.fesdkcore.elementos_rostro.R$array
+ com.digipro.fesdkcore.elementos_rostro.R$attr
+ com.digipro.fesdkcore.elementos_rostro.R$bool
+ com.digipro.fesdkcore.elementos_rostro.R$color
+ com.digipro.fesdkcore.elementos_rostro.R$dimen
+ com.digipro.fesdkcore.elementos_rostro.R$drawable
+ com.digipro.fesdkcore.elementos_rostro.R$font
+ com.digipro.fesdkcore.elementos_rostro.R$id
+ com.digipro.fesdkcore.elementos_rostro.R$integer
+ com.digipro.fesdkcore.elementos_rostro.R$interpolator
+ com.digipro.fesdkcore.elementos_rostro.R$layout
+ com.digipro.fesdkcore.elementos_rostro.R$menu
+ com.digipro.fesdkcore.elementos_rostro.R$plurals
+ com.digipro.fesdkcore.elementos_rostro.R$raw
+ com.digipro.fesdkcore.elementos_rostro.R$string
+ com.digipro.fesdkcore.elementos_rostro.R$style
+ com.digipro.fesdkcore.elementos_rostro.R$styleable
+ com.digipro.fesdkcore.elementos_rostro.R$xml
+com/google/android/gms/auth/api/R.java
+ com.google.android.gms.auth.api.R
+ com.google.android.gms.auth.api.R$attr
+ com.google.android.gms.auth.api.R$color
+ com.google.android.gms.auth.api.R$drawable
+ com.google.android.gms.auth.api.R$id
+ com.google.android.gms.auth.api.R$integer
+ com.google.android.gms.auth.api.R$string
+ com.google.android.gms.auth.api.R$styleable
+androidx/loader/R.java
+ androidx.loader.R
+ androidx.loader.R$attr
+ androidx.loader.R$color
+ androidx.loader.R$dimen
+ androidx.loader.R$drawable
+ androidx.loader.R$id
+ androidx.loader.R$integer
+ androidx.loader.R$layout
+ androidx.loader.R$string
+ androidx.loader.R$style
+ androidx.loader.R$styleable
+com/google/android/material/R.java
+ com.google.android.material.R
+ com.google.android.material.R$anim
+ com.google.android.material.R$animator
+ com.google.android.material.R$attr
+ com.google.android.material.R$bool
+ com.google.android.material.R$color
+ com.google.android.material.R$dimen
+ com.google.android.material.R$drawable
+ com.google.android.material.R$id
+ com.google.android.material.R$integer
+ com.google.android.material.R$interpolator
+ com.google.android.material.R$layout
+ com.google.android.material.R$plurals
+ com.google.android.material.R$string
+ com.google.android.material.R$style
+ com.google.android.material.R$styleable
+ com.google.android.material.R$xml
+com/scottyab/rootbeer/R.java
+ com.scottyab.rootbeer.R
+ com.scottyab.rootbeer.R$string
+com/google/firebase/crashlytics/R.java
+ com.google.firebase.crashlytics.R
+ com.google.firebase.crashlytics.R$attr
+ com.google.firebase.crashlytics.R$color
+ com.google.firebase.crashlytics.R$dimen
+ com.google.firebase.crashlytics.R$drawable
+ com.google.firebase.crashlytics.R$id
+ com.google.firebase.crashlytics.R$integer
+ com.google.firebase.crashlytics.R$layout
+ com.google.firebase.crashlytics.R$string
+ com.google.firebase.crashlytics.R$style
+ com.google.firebase.crashlytics.R$styleable
+androidx/constraintlayout/widget/R.java
+ androidx.constraintlayout.widget.R
+ androidx.constraintlayout.widget.R$attr
+ androidx.constraintlayout.widget.R$id
+ androidx.constraintlayout.widget.R$styleable
+com/deskode/recorddialog/R.java
+ com.deskode.recorddialog.R
+ com.deskode.recorddialog.R$anim
+ com.deskode.recorddialog.R$animator
+ com.deskode.recorddialog.R$attr
+ com.deskode.recorddialog.R$bool
+ com.deskode.recorddialog.R$color
+ com.deskode.recorddialog.R$dimen
+ com.deskode.recorddialog.R$drawable
+ com.deskode.recorddialog.R$id
+ com.deskode.recorddialog.R$integer
+ com.deskode.recorddialog.R$layout
+ com.deskode.recorddialog.R$raw
+ com.deskode.recorddialog.R$string
+ com.deskode.recorddialog.R$style
+ com.deskode.recorddialog.R$styleable
+androidx/slidingpanelayout/R.java
+ androidx.slidingpanelayout.R
+ androidx.slidingpanelayout.R$attr
+ androidx.slidingpanelayout.R$color
+ androidx.slidingpanelayout.R$dimen
+ androidx.slidingpanelayout.R$drawable
+ androidx.slidingpanelayout.R$id
+ androidx.slidingpanelayout.R$integer
+ androidx.slidingpanelayout.R$layout
+ androidx.slidingpanelayout.R$string
+ androidx.slidingpanelayout.R$style
+ androidx.slidingpanelayout.R$styleable
+com/google/firebase/measurement/R.java
+ com.google.firebase.measurement.R
+at/blogc/expandabletextview/R.java
+ at.blogc.expandabletextview.R
+ at.blogc.expandabletextview.R$attr
+ at.blogc.expandabletextview.R$string
+ at.blogc.expandabletextview.R$styleable
+androidx/room/R.java
+ androidx.room.R
+ androidx.room.R$attr
+ androidx.room.R$color
+ androidx.room.R$dimen
+ androidx.room.R$drawable
+ androidx.room.R$id
+ androidx.room.R$integer
+ androidx.room.R$layout
+ androidx.room.R$string
+ androidx.room.R$style
+ androidx.room.R$styleable
+com/example/pruebadigipro/BuildConfig.java
+ com.example.pruebadigipro.BuildConfig
+com/google/android/gms/vision/R.java
+ com.google.android.gms.vision.R
+com/wdullaer/materialdatetimepicker/R.java
+ com.wdullaer.materialdatetimepicker.R
+ com.wdullaer.materialdatetimepicker.R$anim
+ com.wdullaer.materialdatetimepicker.R$attr
+ com.wdullaer.materialdatetimepicker.R$bool
+ com.wdullaer.materialdatetimepicker.R$color
+ com.wdullaer.materialdatetimepicker.R$dimen
+ com.wdullaer.materialdatetimepicker.R$drawable
+ com.wdullaer.materialdatetimepicker.R$font
+ com.wdullaer.materialdatetimepicker.R$id
+ com.wdullaer.materialdatetimepicker.R$integer
+ com.wdullaer.materialdatetimepicker.R$layout
+ com.wdullaer.materialdatetimepicker.R$string
+ com.wdullaer.materialdatetimepicker.R$style
+ com.wdullaer.materialdatetimepicker.R$styleable
+com/google/android/gms/clearcut/R.java
+ com.google.android.gms.clearcut.R
+androidx/transition/R.java
+ androidx.transition.R
+ androidx.transition.R$attr
+ androidx.transition.R$color
+ androidx.transition.R$dimen
+ androidx.transition.R$drawable
+ androidx.transition.R$id
+ androidx.transition.R$integer
+ androidx.transition.R$layout
+ androidx.transition.R$string
+ androidx.transition.R$style
+ androidx.transition.R$styleable
+androidx/print/R.java
+ androidx.print.R
+androidx/appcompat/resources/R.java
+ androidx.appcompat.resources.R
+ androidx.appcompat.resources.R$attr
+ androidx.appcompat.resources.R$color
+ androidx.appcompat.resources.R$dimen
+ androidx.appcompat.resources.R$drawable
+ androidx.appcompat.resources.R$id
+ androidx.appcompat.resources.R$integer
+ androidx.appcompat.resources.R$layout
+ androidx.appcompat.resources.R$string
+ androidx.appcompat.resources.R$style
+ androidx.appcompat.resources.R$styleable
+firebase/com/protolitewrapper/R.java
+ firebase.com.protolitewrapper.R
+com/joanzapata/android/iconify/R.java
+ com.joanzapata.android.iconify.R
+androidx/arch/core/R.java
+ androidx.arch.core.R
+com/huawei/agconnect/core/R.java
+ com.huawei.agconnect.core.R
+com/digipro/fesdkcore/R.java
+ com.digipro.fesdkcore.R
+ com.digipro.fesdkcore.R$anim
+ com.digipro.fesdkcore.R$animator
+ com.digipro.fesdkcore.R$array
+ com.digipro.fesdkcore.R$attr
+ com.digipro.fesdkcore.R$bool
+ com.digipro.fesdkcore.R$color
+ com.digipro.fesdkcore.R$dimen
+ com.digipro.fesdkcore.R$drawable
+ com.digipro.fesdkcore.R$font
+ com.digipro.fesdkcore.R$id
+ com.digipro.fesdkcore.R$integer
+ com.digipro.fesdkcore.R$interpolator
+ com.digipro.fesdkcore.R$layout
+ com.digipro.fesdkcore.R$menu
+ com.digipro.fesdkcore.R$plurals
+ com.digipro.fesdkcore.R$raw
+ com.digipro.fesdkcore.R$string
+ com.digipro.fesdkcore.R$style
+ com.digipro.fesdkcore.R$styleable
+ com.digipro.fesdkcore.R$xml
+androidx/fragment/R.java
+ androidx.fragment.R
+ androidx.fragment.R$attr
+ androidx.fragment.R$color
+ androidx.fragment.R$dimen
+ androidx.fragment.R$drawable
+ androidx.fragment.R$id
+ androidx.fragment.R$integer
+ androidx.fragment.R$layout
+ androidx.fragment.R$string
+ androidx.fragment.R$style
+ androidx.fragment.R$styleable
+com/huawei/android/hms/base/R.java
+ com.huawei.android.hms.base.R
+ com.huawei.android.hms.base.R$color
+ com.huawei.android.hms.base.R$dimen
+ com.huawei.android.hms.base.R$drawable
+ com.huawei.android.hms.base.R$id
+ com.huawei.android.hms.base.R$layout
+ com.huawei.android.hms.base.R$string
+ com.huawei.android.hms.base.R$style
+com/afollestad/materialcamera/R.java
+ com.afollestad.materialcamera.R
+ com.afollestad.materialcamera.R$anim
+ com.afollestad.materialcamera.R$attr
+ com.afollestad.materialcamera.R$bool
+ com.afollestad.materialcamera.R$color
+ com.afollestad.materialcamera.R$dimen
+ com.afollestad.materialcamera.R$drawable
+ com.afollestad.materialcamera.R$id
+ com.afollestad.materialcamera.R$integer
+ com.afollestad.materialcamera.R$layout
+ com.afollestad.materialcamera.R$string
+ com.afollestad.materialcamera.R$style
+ com.afollestad.materialcamera.R$styleable
+com/huawei/hms/feature/dynamic/R.java
+ com.huawei.hms.feature.dynamic.R
+com/google/firebase/firestore/R.java
+ com.google.firebase.firestore.R
+ com.google.firebase.firestore.R$attr
+ com.google.firebase.firestore.R$color
+ com.google.firebase.firestore.R$dimen
+ com.google.firebase.firestore.R$drawable
+ com.google.firebase.firestore.R$id
+ com.google.firebase.firestore.R$integer
+ com.google.firebase.firestore.R$layout
+ com.google.firebase.firestore.R$string
+ com.google.firebase.firestore.R$style
+ com.google.firebase.firestore.R$styleable
+com/manojbhadane/genericadapter/R.java
+ com.manojbhadane.genericadapter.R
+ com.manojbhadane.genericadapter.R$anim
+ com.manojbhadane.genericadapter.R$attr
+ com.manojbhadane.genericadapter.R$bool
+ com.manojbhadane.genericadapter.R$color
+ com.manojbhadane.genericadapter.R$dimen
+ com.manojbhadane.genericadapter.R$drawable
+ com.manojbhadane.genericadapter.R$id
+ com.manojbhadane.genericadapter.R$integer
+ com.manojbhadane.genericadapter.R$layout
+ com.manojbhadane.genericadapter.R$string
+ com.manojbhadane.genericadapter.R$style
+ com.manojbhadane.genericadapter.R$styleable
+com/google/firebase/R.java
+ com.google.firebase.R
+ com.google.firebase.R$attr
+ com.google.firebase.R$color
+ com.google.firebase.R$dimen
+ com.google.firebase.R$drawable
+ com.google.firebase.R$id
+ com.google.firebase.R$integer
+ com.google.firebase.R$layout
+ com.google.firebase.R$string
+ com.google.firebase.R$style
+ com.google.firebase.R$styleable
+com/github/barteksc/pdfviewer/R.java
+ com.github.barteksc.pdfviewer.R
+ com.github.barteksc.pdfviewer.R$attr
+ com.github.barteksc.pdfviewer.R$drawable
+ com.github.barteksc.pdfviewer.R$styleable
+androidx/interpolator/R.java
+ androidx.interpolator.R
+com/google/android/gms/maps/R.java
+ com.google.android.gms.maps.R
+ com.google.android.gms.maps.R$attr
+ com.google.android.gms.maps.R$id
+ com.google.android.gms.maps.R$styleable
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable
+com/google/firebase/analytics/connector/R.java
+ com.google.firebase.analytics.connector.R
+com/google/android/gms/common/R.java
+ com.google.android.gms.common.R
+ com.google.android.gms.common.R$integer
+ com.google.android.gms.common.R$string
+com/bartoszlipinski/viewpropertyobjectanimator/R.java
+ com.bartoszlipinski.viewpropertyobjectanimator.R
+ com.bartoszlipinski.viewpropertyobjectanimator.R$string
+com/huawei/hms/mlkit/common/ha/R.java
+ com.huawei.hms.mlkit.common.ha.R
+ com.huawei.hms.mlkit.common.ha.R$string
+com/google/android/gms/base/R.java
+ com.google.android.gms.base.R
+ com.google.android.gms.base.R$attr
+ com.google.android.gms.base.R$color
+ com.google.android.gms.base.R$drawable
+ com.google.android.gms.base.R$id
+ com.google.android.gms.base.R$string
+ com.google.android.gms.base.R$styleable
+com/google/firebase/installations/R.java
+ com.google.firebase.installations.R
+ com.google.firebase.installations.R$attr
+ com.google.firebase.installations.R$color
+ com.google.firebase.installations.R$dimen
+ com.google.firebase.installations.R$drawable
+ com.google.firebase.installations.R$id
+ com.google.firebase.installations.R$integer
+ com.google.firebase.installations.R$layout
+ com.google.firebase.installations.R$string
+ com.google.firebase.installations.R$style
+ com.google.firebase.installations.R$styleable
+androidx/databinding/library/baseAdapters/R.java
+ androidx.databinding.library.baseAdapters.R
+ androidx.databinding.library.baseAdapters.R$id
+androidx/legacy/v13/R.java
+ androidx.legacy.v13.R
+ androidx.legacy.v13.R$attr
+ androidx.legacy.v13.R$color
+ androidx.legacy.v13.R$dimen
+ androidx.legacy.v13.R$drawable
+ androidx.legacy.v13.R$id
+ androidx.legacy.v13.R$integer
+ androidx.legacy.v13.R$layout
+ androidx.legacy.v13.R$string
+ androidx.legacy.v13.R$style
+ androidx.legacy.v13.R$styleable
+com/github/jorgecastilloprz/library/R.java
+ com.github.jorgecastilloprz.library.R
+ com.github.jorgecastilloprz.library.R$attr
+ com.github.jorgecastilloprz.library.R$color
+ com.github.jorgecastilloprz.library.R$dimen
+ com.github.jorgecastilloprz.library.R$drawable
+ com.github.jorgecastilloprz.library.R$id
+ com.github.jorgecastilloprz.library.R$integer
+ com.github.jorgecastilloprz.library.R$layout
+ com.github.jorgecastilloprz.library.R$string
+ com.github.jorgecastilloprz.library.R$styleable
+androidx/media/R.java
+ androidx.media.R
+ androidx.media.R$attr
+ androidx.media.R$color
+ androidx.media.R$dimen
+ androidx.media.R$drawable
+ androidx.media.R$id
+ androidx.media.R$integer
+ androidx.media.R$layout
+ androidx.media.R$string
+ androidx.media.R$style
+ androidx.media.R$styleable
+androidx/core/ktx/R.java
+ androidx.core.ktx.R
+ androidx.core.ktx.R$attr
+ androidx.core.ktx.R$color
+ androidx.core.ktx.R$dimen
+ androidx.core.ktx.R$drawable
+ androidx.core.ktx.R$id
+ androidx.core.ktx.R$integer
+ androidx.core.ktx.R$layout
+ androidx.core.ktx.R$string
+ androidx.core.ktx.R$style
+ androidx.core.ktx.R$styleable
+com/google/android/gms/auth/api/phone/R.java
+ com.google.android.gms.auth.api.phone.R
+io/grpc/android/R.java
+ io.grpc.android.R
+com/google/firebase/messaging/R.java
+ com.google.firebase.messaging.R
+ com.google.firebase.messaging.R$string
+com/android/volley/R.java
+ com.android.volley.R
+com/karumi/dexter/R.java
+ com.karumi.dexter.R
+ com.karumi.dexter.R$anim
+ com.karumi.dexter.R$animator
+ com.karumi.dexter.R$attr
+ com.karumi.dexter.R$bool
+ com.karumi.dexter.R$color
+ com.karumi.dexter.R$dimen
+ com.karumi.dexter.R$drawable
+ com.karumi.dexter.R$id
+ com.karumi.dexter.R$integer
+ com.karumi.dexter.R$interpolator
+ com.karumi.dexter.R$layout
+ com.karumi.dexter.R$string
+ com.karumi.dexter.R$style
+ com.karumi.dexter.R$styleable
+com/hlab/fabrevealmenu/R.java
+ com.hlab.fabrevealmenu.R
+ com.hlab.fabrevealmenu.R$anim
+ com.hlab.fabrevealmenu.R$attr
+ com.hlab.fabrevealmenu.R$bool
+ com.hlab.fabrevealmenu.R$color
+ com.hlab.fabrevealmenu.R$dimen
+ com.hlab.fabrevealmenu.R$drawable
+ com.hlab.fabrevealmenu.R$id
+ com.hlab.fabrevealmenu.R$integer
+ com.hlab.fabrevealmenu.R$layout
+ com.hlab.fabrevealmenu.R$string
+ com.hlab.fabrevealmenu.R$style
+ com.hlab.fabrevealmenu.R$styleable
+com/google/android/gms/tagmanager_legacy/R.java
+ com.google.android.gms.tagmanager_legacy.R
+com/shuyu/waveview/R.java
+ com.shuyu.waveview.R
+ com.shuyu.waveview.R$anim
+ com.shuyu.waveview.R$attr
+ com.shuyu.waveview.R$bool
+ com.shuyu.waveview.R$color
+ com.shuyu.waveview.R$dimen
+ com.shuyu.waveview.R$drawable
+ com.shuyu.waveview.R$id
+ com.shuyu.waveview.R$integer
+ com.shuyu.waveview.R$layout
+ com.shuyu.waveview.R$string
+ com.shuyu.waveview.R$style
+ com.shuyu.waveview.R$styleable
+androidx/customview/R.java
+ androidx.customview.R
+ androidx.customview.R$attr
+ androidx.customview.R$color
+ androidx.customview.R$dimen
+ androidx.customview.R$drawable
+ androidx.customview.R$id
+ androidx.customview.R$integer
+ androidx.customview.R$layout
+ androidx.customview.R$string
+ androidx.customview.R$style
+ androidx.customview.R$styleable
+androidx/exifinterface/R.java
+ androidx.exifinterface.R
+androidx/legacy/coreutils/R.java
+ androidx.legacy.coreutils.R
+ androidx.legacy.coreutils.R$attr
+ androidx.legacy.coreutils.R$color
+ androidx.legacy.coreutils.R$dimen
+ androidx.legacy.coreutils.R$drawable
+ androidx.legacy.coreutils.R$id
+ androidx.legacy.coreutils.R$integer
+ androidx.legacy.coreutils.R$layout
+ androidx.legacy.coreutils.R$string
+ androidx.legacy.coreutils.R$style
+ androidx.legacy.coreutils.R$styleable
+com/google/firebase/components/R.java
+ com.google.firebase.components.R
+com/google/android/gms/measurement/sdk/R.java
+ com.google.android.gms.measurement.sdk.R
+com/google/firebase/firebase_core/R.java
+ com.google.firebase.firebase_core.R
+androidx/sqlite/db/R.java
+ androidx.sqlite.db.R
+me/leolin/shortcutbadger/R.java
+ me.leolin.shortcutbadger.R
+com/google/firebase/iid/internal/R.java
+ com.google.firebase.iid.internal.R
+androidx/lifecycle/service/R.java
+ androidx.lifecycle.service.R
+butterknife/R.java
+ butterknife.R
+ butterknife.R$attr
+ butterknife.R$color
+ butterknife.R$dimen
+ butterknife.R$drawable
+ butterknife.R$id
+ butterknife.R$integer
+ butterknife.R$layout
+ butterknife.R$string
+ butterknife.R$style
+ butterknife.R$styleable
+androidx/localbroadcastmanager/R.java
+ androidx.localbroadcastmanager.R
+omrecorder/R.java
+ omrecorder.R
+ omrecorder.R$string
+com/digipro/fesdkcore/elementos_anexo/R.java
+ com.digipro.fesdkcore.elementos_anexo.R
+ com.digipro.fesdkcore.elementos_anexo.R$anim
+ com.digipro.fesdkcore.elementos_anexo.R$animator
+ com.digipro.fesdkcore.elementos_anexo.R$array
+ com.digipro.fesdkcore.elementos_anexo.R$attr
+ com.digipro.fesdkcore.elementos_anexo.R$bool
+ com.digipro.fesdkcore.elementos_anexo.R$color
+ com.digipro.fesdkcore.elementos_anexo.R$dimen
+ com.digipro.fesdkcore.elementos_anexo.R$drawable
+ com.digipro.fesdkcore.elementos_anexo.R$font
+ com.digipro.fesdkcore.elementos_anexo.R$id
+ com.digipro.fesdkcore.elementos_anexo.R$integer
+ com.digipro.fesdkcore.elementos_anexo.R$interpolator
+ com.digipro.fesdkcore.elementos_anexo.R$layout
+ com.digipro.fesdkcore.elementos_anexo.R$menu
+ com.digipro.fesdkcore.elementos_anexo.R$mipmap
+ com.digipro.fesdkcore.elementos_anexo.R$plurals
+ com.digipro.fesdkcore.elementos_anexo.R$raw
+ com.digipro.fesdkcore.elementos_anexo.R$string
+ com.digipro.fesdkcore.elementos_anexo.R$style
+ com.digipro.fesdkcore.elementos_anexo.R$styleable
+ com.digipro.fesdkcore.elementos_anexo.R$xml
+com/google/firebase/installations/interop/R.java
+ com.google.firebase.installations.interop.R
+ com.google.firebase.installations.interop.R$attr
+ com.google.firebase.installations.interop.R$color
+ com.google.firebase.installations.interop.R$dimen
+ com.google.firebase.installations.interop.R$drawable
+ com.google.firebase.installations.interop.R$id
+ com.google.firebase.installations.interop.R$integer
+ com.google.firebase.installations.interop.R$layout
+ com.google.firebase.installations.interop.R$string
+ com.google.firebase.installations.interop.R$style
+ com.google.firebase.installations.interop.R$styleable
+github/nisrulz/easydeviceinfo/common/R.java
+ github.nisrulz.easydeviceinfo.common.R
+androidx/vectordrawable/animated/R.java
+ androidx.vectordrawable.animated.R
+ androidx.vectordrawable.animated.R$attr
+ androidx.vectordrawable.animated.R$color
+ androidx.vectordrawable.animated.R$dimen
+ androidx.vectordrawable.animated.R$drawable
+ androidx.vectordrawable.animated.R$id
+ androidx.vectordrawable.animated.R$integer
+ androidx.vectordrawable.animated.R$layout
+ androidx.vectordrawable.animated.R$string
+ androidx.vectordrawable.animated.R$style
+ androidx.vectordrawable.animated.R$styleable
+com/google/android/gms/ads_identifier/R.java
+ com.google.android.gms.ads_identifier.R
+com/google/android/datatransport/backend/cct/R.java
+ com.google.android.datatransport.backend.cct.R
+androidx/vectordrawable/R.java
+ androidx.vectordrawable.R
+ androidx.vectordrawable.R$attr
+ androidx.vectordrawable.R$color
+ androidx.vectordrawable.R$dimen
+ androidx.vectordrawable.R$drawable
+ androidx.vectordrawable.R$id
+ androidx.vectordrawable.R$integer
+ androidx.vectordrawable.R$layout
+ androidx.vectordrawable.R$string
+ androidx.vectordrawable.R$style
+ androidx.vectordrawable.R$styleable
+com/yarolegovich/discretescrollview/R.java
+ com.yarolegovich.discretescrollview.R
+ com.yarolegovich.discretescrollview.R$anim
+ com.yarolegovich.discretescrollview.R$attr
+ com.yarolegovich.discretescrollview.R$bool
+ com.yarolegovich.discretescrollview.R$color
+ com.yarolegovich.discretescrollview.R$dimen
+ com.yarolegovich.discretescrollview.R$drawable
+ com.yarolegovich.discretescrollview.R$id
+ com.yarolegovich.discretescrollview.R$integer
+ com.yarolegovich.discretescrollview.R$layout
+ com.yarolegovich.discretescrollview.R$string
+ com.yarolegovich.discretescrollview.R$style
+ com.yarolegovich.discretescrollview.R$styleable
+com/google/android/gms/measurement/api/R.java
+ com.google.android.gms.measurement.api.R
+com/google/firebase/database/collection/R.java
+ com.google.firebase.database.collection.R
+com/jakewharton/rxbinding/support/design/R.java
+ com.jakewharton.rxbinding.support.design.R
+ com.jakewharton.rxbinding.support.design.R$anim
+ com.jakewharton.rxbinding.support.design.R$attr
+ com.jakewharton.rxbinding.support.design.R$bool
+ com.jakewharton.rxbinding.support.design.R$color
+ com.jakewharton.rxbinding.support.design.R$dimen
+ com.jakewharton.rxbinding.support.design.R$drawable
+ com.jakewharton.rxbinding.support.design.R$id
+ com.jakewharton.rxbinding.support.design.R$integer
+ com.jakewharton.rxbinding.support.design.R$layout
+ com.jakewharton.rxbinding.support.design.R$string
+ com.jakewharton.rxbinding.support.design.R$style
+ com.jakewharton.rxbinding.support.design.R$styleable
+com/luseen/spacenavigation/R.java
+ com.luseen.spacenavigation.R
+ com.luseen.spacenavigation.R$anim
+ com.luseen.spacenavigation.R$attr
+ com.luseen.spacenavigation.R$bool
+ com.luseen.spacenavigation.R$color
+ com.luseen.spacenavigation.R$dimen
+ com.luseen.spacenavigation.R$drawable
+ com.luseen.spacenavigation.R$id
+ com.luseen.spacenavigation.R$integer
+ com.luseen.spacenavigation.R$layout
+ com.luseen.spacenavigation.R$string
+ com.luseen.spacenavigation.R$style
+ com.luseen.spacenavigation.R$styleable
+es/dmoral/toasty/R.java
+ es.dmoral.toasty.R
+ es.dmoral.toasty.R$anim
+ es.dmoral.toasty.R$attr
+ es.dmoral.toasty.R$bool
+ es.dmoral.toasty.R$color
+ es.dmoral.toasty.R$dimen
+ es.dmoral.toasty.R$drawable
+ es.dmoral.toasty.R$id
+ es.dmoral.toasty.R$integer
+ es.dmoral.toasty.R$layout
+ es.dmoral.toasty.R$string
+ es.dmoral.toasty.R$style
+ es.dmoral.toasty.R$styleable
+com/google/android/gms/auth/R.java
+ com.google.android.gms.auth.R
+com/jakewharton/threetenabp/R.java
+ com.jakewharton.threetenabp.R
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
+androidx/legacy/v4/R.java
+ androidx.legacy.v4.R
+ androidx.legacy.v4.R$attr
+ androidx.legacy.v4.R$color
+ androidx.legacy.v4.R$dimen
+ androidx.legacy.v4.R$drawable
+ androidx.legacy.v4.R$id
+ androidx.legacy.v4.R$integer
+ androidx.legacy.v4.R$layout
+ androidx.legacy.v4.R$string
+ androidx.legacy.v4.R$style
+ androidx.legacy.v4.R$styleable
+com/google/android/gms/safetynet/R.java
+ com.google.android.gms.safetynet.R
+com/huawei/hms/mlkit/face/R.java
+ com.huawei.hms.mlkit.face.R
+ com.huawei.hms.mlkit.face.R$color
+ com.huawei.hms.mlkit.face.R$drawable
+ com.huawei.hms.mlkit.face.R$mipmap
+ com.huawei.hms.mlkit.face.R$raw
+ com.huawei.hms.mlkit.face.R$string
+com/scottyab/showhidepasswordedittext/R.java
+ com.scottyab.showhidepasswordedittext.R
+ com.scottyab.showhidepasswordedittext.R$anim
+ com.scottyab.showhidepasswordedittext.R$attr
+ com.scottyab.showhidepasswordedittext.R$bool
+ com.scottyab.showhidepasswordedittext.R$color
+ com.scottyab.showhidepasswordedittext.R$dimen
+ com.scottyab.showhidepasswordedittext.R$drawable
+ com.scottyab.showhidepasswordedittext.R$id
+ com.scottyab.showhidepasswordedittext.R$integer
+ com.scottyab.showhidepasswordedittext.R$layout
+ com.scottyab.showhidepasswordedittext.R$string
+ com.scottyab.showhidepasswordedittext.R$style
+ com.scottyab.showhidepasswordedittext.R$styleable
+com/example/pruebadigipro/DataBindingInfo.java
+ com.example.pruebadigipro.DataBindingInfo
+com/google/android/gms/analyticsservices_app_library/R.java
+ com.google.android.gms.analyticsservices_app_library.R
+io/codetail/view/R.java
+ io.codetail.view.R
+com/afollestad/materialdialogs/R.java
+ com.afollestad.materialdialogs.R
+ com.afollestad.materialdialogs.R$anim
+ com.afollestad.materialdialogs.R$attr
+ com.afollestad.materialdialogs.R$bool
+ com.afollestad.materialdialogs.R$color
+ com.afollestad.materialdialogs.R$dimen
+ com.afollestad.materialdialogs.R$drawable
+ com.afollestad.materialdialogs.R$id
+ com.afollestad.materialdialogs.R$integer
+ com.afollestad.materialdialogs.R$layout
+ com.afollestad.materialdialogs.R$string
+ com.afollestad.materialdialogs.R$style
+ com.afollestad.materialdialogs.R$styleable
+androidx/cardview/R.java
+ androidx.cardview.R
+ androidx.cardview.R$attr
+ androidx.cardview.R$color
+ androidx.cardview.R$dimen
+ androidx.cardview.R$style
+ androidx.cardview.R$styleable
+androidx/coordinatorlayout/R.java
+ androidx.coordinatorlayout.R
+ androidx.coordinatorlayout.R$attr
+ androidx.coordinatorlayout.R$color
+ androidx.coordinatorlayout.R$dimen
+ androidx.coordinatorlayout.R$drawable
+ androidx.coordinatorlayout.R$id
+ androidx.coordinatorlayout.R$integer
+ androidx.coordinatorlayout.R$layout
+ androidx.coordinatorlayout.R$string
+ androidx.coordinatorlayout.R$style
+ androidx.coordinatorlayout.R$styleable
+dagger/android/support/R.java
+ dagger.android.support.R
+ dagger.android.support.R$anim
+ dagger.android.support.R$attr
+ dagger.android.support.R$bool
+ dagger.android.support.R$color
+ dagger.android.support.R$dimen
+ dagger.android.support.R$drawable
+ dagger.android.support.R$id
+ dagger.android.support.R$integer
+ dagger.android.support.R$layout
+ dagger.android.support.R$string
+ dagger.android.support.R$style
+ dagger.android.support.R$styleable
+com/huawei/hms/mlsdk/common/R.java
+ com.huawei.hms.mlsdk.common.R
+com/google/firebase/measurement_impl/R.java
+ com.google.firebase.measurement_impl.R
+com/google/android/datatransport/R.java
+ com.google.android.datatransport.R
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+io/nlopez/smartlocation/R.java
+ io.nlopez.smartlocation.R
+ io.nlopez.smartlocation.R$attr
+ io.nlopez.smartlocation.R$color
+ io.nlopez.smartlocation.R$dimen
+ io.nlopez.smartlocation.R$drawable
+ io.nlopez.smartlocation.R$id
+ io.nlopez.smartlocation.R$integer
+ io.nlopez.smartlocation.R$layout
+ io.nlopez.smartlocation.R$string
+ io.nlopez.smartlocation.R$styleable
+com/huawei/hms/framework/network/grs/R.java
+ com.huawei.hms.framework.network.grs.R
+ com.huawei.hms.framework.network.grs.R$string
+butterknife/runtime/R.java
+ butterknife.runtime.R
+ butterknife.runtime.R$attr
+ butterknife.runtime.R$color
+ butterknife.runtime.R$dimen
+ butterknife.runtime.R$drawable
+ butterknife.runtime.R$id
+ butterknife.runtime.R$integer
+ butterknife.runtime.R$layout
+ butterknife.runtime.R$string
+ butterknife.runtime.R$style
+ butterknife.runtime.R$styleable
+com/sothree/slidinguppanel/library/R.java
+ com.sothree.slidinguppanel.library.R
+ com.sothree.slidinguppanel.library.R$attr
+ com.sothree.slidinguppanel.library.R$bool
+ com.sothree.slidinguppanel.library.R$color
+ com.sothree.slidinguppanel.library.R$dimen
+ com.sothree.slidinguppanel.library.R$drawable
+ com.sothree.slidinguppanel.library.R$id
+ com.sothree.slidinguppanel.library.R$integer
+ com.sothree.slidinguppanel.library.R$layout
+ com.sothree.slidinguppanel.library.R$string
+ com.sothree.slidinguppanel.library.R$style
+ com.sothree.slidinguppanel.library.R$styleable
+com/transitionseverywhere/R.java
+ com.transitionseverywhere.R
+ com.transitionseverywhere.R$attr
+ com.transitionseverywhere.R$id
+ com.transitionseverywhere.R$styleable
+androidx/lifecycle/process/R.java
+ androidx.lifecycle.process.R
+com/google/firebase/inappmessaging/display/R.java
+ com.google.firebase.inappmessaging.display.R
+ com.google.firebase.inappmessaging.display.R$anim
+ com.google.firebase.inappmessaging.display.R$attr
+ com.google.firebase.inappmessaging.display.R$bool
+ com.google.firebase.inappmessaging.display.R$color
+ com.google.firebase.inappmessaging.display.R$dimen
+ com.google.firebase.inappmessaging.display.R$drawable
+ com.google.firebase.inappmessaging.display.R$id
+ com.google.firebase.inappmessaging.display.R$integer
+ com.google.firebase.inappmessaging.display.R$layout
+ com.google.firebase.inappmessaging.display.R$string
+ com.google.firebase.inappmessaging.display.R$style
+ com.google.firebase.inappmessaging.display.R$styleable
+net/yslibrary/android/keyboardvisibilityevent/R.java
+ net.yslibrary.android.keyboardvisibilityevent.R
+com/huawei/hms/mlsdk/R.java
+ com.huawei.hms.mlsdk.R
+ com.huawei.hms.mlsdk.R$color
+ com.huawei.hms.mlsdk.R$dimen
+ com.huawei.hms.mlsdk.R$drawable
+ com.huawei.hms.mlsdk.R$id
+ com.huawei.hms.mlsdk.R$layout
+ com.huawei.hms.mlsdk.R$string
+ com.huawei.hms.mlsdk.R$style
+ com.huawei.hms.mlsdk.R$xml
+androidx/viewpager/R.java
+ androidx.viewpager.R
+ androidx.viewpager.R$attr
+ androidx.viewpager.R$color
+ androidx.viewpager.R$dimen
+ androidx.viewpager.R$drawable
+ androidx.viewpager.R$id
+ androidx.viewpager.R$integer
+ androidx.viewpager.R$layout
+ androidx.viewpager.R$string
+ androidx.viewpager.R$style
+ androidx.viewpager.R$styleable
+com/vicmikhailau/maskededittext/R.java
+ com.vicmikhailau.maskededittext.R
+ com.vicmikhailau.maskededittext.R$anim
+ com.vicmikhailau.maskededittext.R$attr
+ com.vicmikhailau.maskededittext.R$bool
+ com.vicmikhailau.maskededittext.R$color
+ com.vicmikhailau.maskededittext.R$dimen
+ com.vicmikhailau.maskededittext.R$drawable
+ com.vicmikhailau.maskededittext.R$id
+ com.vicmikhailau.maskededittext.R$integer
+ com.vicmikhailau.maskededittext.R$interpolator
+ com.vicmikhailau.maskededittext.R$layout
+ com.vicmikhailau.maskededittext.R$string
+ com.vicmikhailau.maskededittext.R$style
+ com.vicmikhailau.maskededittext.R$styleable
+com/google/firebase/datatransport/R.java
+ com.google.firebase.datatransport.R
+ com.google.firebase.datatransport.R$attr
+ com.google.firebase.datatransport.R$color
+ com.google.firebase.datatransport.R$dimen
+ com.google.firebase.datatransport.R$drawable
+ com.google.firebase.datatransport.R$id
+ com.google.firebase.datatransport.R$integer
+ com.google.firebase.datatransport.R$layout
+ com.google.firebase.datatransport.R$string
+ com.google.firebase.datatransport.R$style
+ com.google.firebase.datatransport.R$styleable
+dagger/android/R.java
+ dagger.android.R
+com/google/android/gms/location/R.java
+ com.google.android.gms.location.R
+com/google/android/gms/tasks/R.java
+ com.google.android.gms.tasks.R
+com/google/android/gms/location/places/R.java
+ com.google.android.gms.location.places.R
+ com.google.android.gms.location.places.R$color
+ com.google.android.gms.location.places.R$dimen
+ com.google.android.gms.location.places.R$drawable
+ com.google.android.gms.location.places.R$id
+ com.google.android.gms.location.places.R$layout
+ com.google.android.gms.location.places.R$string
+jp/wasabeef/recyclerview/R.java
+ jp.wasabeef.recyclerview.R
+ jp.wasabeef.recyclerview.R$anim
+ jp.wasabeef.recyclerview.R$attr
+ jp.wasabeef.recyclerview.R$bool
+ jp.wasabeef.recyclerview.R$color
+ jp.wasabeef.recyclerview.R$dimen
+ jp.wasabeef.recyclerview.R$drawable
+ jp.wasabeef.recyclerview.R$id
+ jp.wasabeef.recyclerview.R$integer
+ jp.wasabeef.recyclerview.R$layout
+ jp.wasabeef.recyclerview.R$string
+ jp.wasabeef.recyclerview.R$style
+ jp.wasabeef.recyclerview.R$styleable
+io/reactivex/android/R.java
+ io.reactivex.android.R
+github/nisrulz/easydeviceinfo/base/R.java
+ github.nisrulz.easydeviceinfo.base.R
+com/arlib/floatingsearchview/R.java
+ com.arlib.floatingsearchview.R
+ com.arlib.floatingsearchview.R$anim
+ com.arlib.floatingsearchview.R$animator
+ com.arlib.floatingsearchview.R$attr
+ com.arlib.floatingsearchview.R$bool
+ com.arlib.floatingsearchview.R$color
+ com.arlib.floatingsearchview.R$dimen
+ com.arlib.floatingsearchview.R$drawable
+ com.arlib.floatingsearchview.R$id
+ com.arlib.floatingsearchview.R$integer
+ com.arlib.floatingsearchview.R$layout
+ com.arlib.floatingsearchview.R$string
+ com.arlib.floatingsearchview.R$style
+ com.arlib.floatingsearchview.R$styleable
+io/rmiri/buttonloading/R.java
+ io.rmiri.buttonloading.R
+ io.rmiri.buttonloading.R$anim
+ io.rmiri.buttonloading.R$attr
+ io.rmiri.buttonloading.R$bool
+ io.rmiri.buttonloading.R$color
+ io.rmiri.buttonloading.R$dimen
+ io.rmiri.buttonloading.R$drawable
+ io.rmiri.buttonloading.R$id
+ io.rmiri.buttonloading.R$integer
+ io.rmiri.buttonloading.R$layout
+ io.rmiri.buttonloading.R$string
+ io.rmiri.buttonloading.R$style
+ io.rmiri.buttonloading.R$styleable

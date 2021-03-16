@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:folding-cell="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0082868b"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <!--android:background="#82868b"-->
+
+    <ImageView
+        android:id="@+id/home_cotizador"
+        style="@style/ClickableImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_up_return_cotizador"
+        android:tint="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="16dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.digipro.fesdkcore.widgets.folding.FoldingCell
+                    android:id="@+id/folding_cell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    folding-cell:additionalFlipsCount="5"
+                    folding-cell:animationDuration="1300"
+                    folding-cell:backSideColor="#f4f0ff"
+                    folding-cell:cameraHeight="30"
+                    tools:ignore="ExtraText">
+
+                    <!--Unfold        Unfold        Unfold-->
+                    <!--Unfold        Unfold        Unfold-->
+                    <!--Unfold        Unfold        Unfold-->
+                    <FrameLayout
+                        android:id="@+id/cell_content_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/product_cardview_unfold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="@android:color/holo_green_dark"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/product_NombreProducto_unfold"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="sans-serif-light"
+                                        android:gravity="center"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold"
+                                        tools:text="Nombre Producto" />
+
+                                    <View
+                                        android:id="@+id/btn_help_unfold"
+                                        android:layout_width="28dp"
+                                        android:layout_height="28dp"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_gravity="end"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:background="@drawable/ic_close_black_24dp" />
+
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ScrollView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="500dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <com.digipro.fesdkcore.widgets.TextoJustificado
+                                                android:id="@+id/product_Descripcion_unfold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="5dp"
+                                                android:layout_marginTop="10dp"
+                                                android:fontFamily="sans-serif-light"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="18sp"
+                                                tools:text="Descripción:" />
+
+                                            <TextView
+                                                android:id="@+id/product_Ventajas_unfold_title"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="5dp"
+                                                android:layout_marginTop="8dp"
+                                                android:fontFamily="sans-serif-light"
+                                                android:text="Ventajas:"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="19sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/product_Ventajas_unfold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="5dp"
+                                                android:fontFamily="sans-serif-light"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="18sp"
+                                                tools:text="Ventajas:" />
+
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="5dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="sans-serif-light"
+                                                android:text="Requisitos:"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="19sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/product_Requisitos_unfold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="8dp"
+                                                android:fontFamily="sans-serif-light"
+                                                android:textColor="@android:color/white"
+                                                android:textSize="18sp"
+                                                tools:text="Requisitos:" />
+
+                                        </LinearLayout>
+
+                                    </ScrollView>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+                    ​<!--Fold        Fold        Fold-->
+                    <!--Fold        Fold        Fold-->
+                    <!--Fold        Fold        Fold-->
+                    <FrameLayout
+                        android:id="@+id/cell_title_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/product_cardview_fold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@android:color/holo_green_dark"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/product_Icono_fold"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:scaleType="centerInside"
+                                    tools:src="@drawable/ic_cpm_car" />
+
+                                <TextView
+                                    android:id="@+id/product_NombreProducto_fold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_toEndOf="@+id/product_Icono_fold"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    tools:text="Nombre Producto" />
+
+                                <View
+                                    android:id="@+id/btn_help_fold"
+                                    android:layout_width="28dp"
+                                    android:layout_height="28dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:background="@drawable/ic_help" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </FrameLayout>
+
+                </com.digipro.fesdkcore.widgets.folding.FoldingCell>
+
+                <LinearLayout
+                    android:id="@+id/ll_content_cotizador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="¿Qué desea cotizar?"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <com.digipro.fesdkcore.widgets.chips.ChipCloud
+                        android:id="@+id/chip_cloud"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+
+                    <LinearLayout
+                        android:id="@+id/view_monto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="Monto:"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <com.digipro.fesdkcore.widgets.slidr.Slidr
+                            android:id="@+id/slidr_monto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tmp"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_marginBottom="20dp"
+                            app:slidr_region_leftColor="#bd145c79"
+                            app:slidr_regions_centerText="false"
+                            app:slidr_step_colorizeAfterLast="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_plazo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="Plazo:"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <com.digipro.fesdkcore.widgets.slidr.Slidr
+                            android:id="@+id/slidr_plazo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tmp"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_marginBottom="20dp"
+                            app:slidr_region_leftColor="#bd145c79"
+                            app:slidr_regions_centerText="false"
+                            app:slidr_step_colorizeAfterLast="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_mensualidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="Mensualidad:"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <com.digipro.fesdkcore.widgets.slidr.Slidr
+                            android:id="@+id/slidr_mensualidad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tmp"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_marginBottom="20dp"
+                            app:slidr_region_leftColor="#bd145c79"
+                            app:slidr_regions_centerText="false"
+                            app:slidr_step_colorizeAfterLast="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/txt_resultado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:paddingStart="3dp"
+                            android:paddingEnd="3dp"
+                            android:shadowColor="#000000"
+                            android:shadowDx="5"
+                            android:shadowDy="5"
+                            android:shadowRadius="10"
+                            android:text="+lksdnxkjn"
+                            android:textColor="#ffffff"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#ffffff" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_erase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="end"
+                android:background="@drawable/border_round_circle"
+                android:tint="#cccccc"
+                app:backgroundTint="#800313"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="CAT Promedio:" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

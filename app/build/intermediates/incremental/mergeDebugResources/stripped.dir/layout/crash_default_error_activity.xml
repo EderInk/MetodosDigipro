@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gradient_Credito_Productivo_CPM_Cotizador_c3"
+    android:id="@+id/view_0"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        tools:visibility="gone"
+        android:layout_width="match_parent"
+        android:id="@+id/view_1"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--                <com.digipro.fesdkcore.widgets.loading.container.DepthContainerRelativeLayout-->
+                <!--                    android:id="@+id/light_progress"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:background="#00b4e0e0"-->
+                <!--                    android:visibility="visible">-->
+
+                <!--                    <com.digipro.fesdkcore.widgets.loading.view.DepthRelativeLayout-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        app:depth_autoAnimate="true"-->
+                <!--                        android:id="@+id/light_progresss"-->
+                <!--                        android:layout_centerHorizontal="true"-->
+                <!--                        android:layout_marginTop="15dp"-->
+                <!--                        app:depth_edgeColor="#0031bfd4"-->
+                <!--                        app:depth_elevation="20dp"-->
+                <!--                        app:depth_value=".001dp"-->
+                <!--                        app:depth_zIndex="0">-->
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/crash_error_activity_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/buggy" />
+
+                <!--                    </com.digipro.fesdkcore.widgets.loading.view.DepthRelativeLayout>-->
+
+                <!--                </com.digipro.fesdkcore.widgets.loading.container.DepthContainerRelativeLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/customactivityoncrash_activity_horizontal_margin"
+                    android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin"
+                    android:paddingRight="@dimen/customactivityoncrash_activity_horizontal_margin"
+                    android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin"
+                        android:gravity="center"
+                        android:text="@string/customactivityoncrash_error_activity_error_occurred_explanation"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/crash_error_activity_restart_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin"
+                        android:backgroundTint="@color/colorPopUperror"
+                        android:background="@drawable/border_round_elemento_boton_default"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="12sp"
+                        android:text="@string/customactivityoncrash_error_activity_close_app" />
+
+                    <Button
+                        android:id="@+id/crash_error_activity_more_info_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border_round_elemento_boton_default"
+                        android:backgroundTint="#1C42B5"
+                        android:text="@string/customactivityoncrash_error_activity_error_details"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/crash_error_activity_take_ss"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="#FF00BCD4"
+                        android:background="@drawable/border_round_elemento_boton_default"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:text="@string/customactivityoncrash_error_activity_error_generate_report"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        tools:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/view_2"
+        tools:layout_width="200dp"
+        tools:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/previewSS"
+            tools:layout_width="match_parent"
+            tools:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/crash_error_activity_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorPopUpsuccess"
+            android:background="@drawable/border_round_elemento_boton_default"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="@string/customactivityoncrash_error_activity_send" />
+
+        <Button
+            android:id="@+id/crash_error_activity_restart_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin"
+            android:backgroundTint="@color/colorPopUperror"
+            android:background="@drawable/border_round_elemento_boton_default"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:text="@string/customactivityoncrash_error_activity_close_app" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/view_3"
+        android:background="@color/trans"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="gone"
+        android:layout_height="match_parent">
+
+        <com.mreram.ticketview.TicketView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:tv_circleSpace="30dp"
+            app:tv_circleRadius="15dp"
+            android:background="@color/trans"
+            android:id="@+id/ticketImg"
+            app:tv_dashSize="1.5dp"
+            app:tv_dashColor="@color/colorbg_ticket_top_down"
+            app:tv_anchor1="@+id/cl_head"
+            app:tv_anchor2="@+id/cl_center">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_ticket_top">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <TextView
+                        android:id="@+id/txtTicket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="20dp"
+                        android:textColor="#fff"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cl_head"
+                android:background="#fff">
+
+
+                <ImageView
+                    android:id="@+id/qrReportCrashMessage"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:padding="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/txtBottom"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cl_center"
+                android:background="@drawable/bg_ticket_bottom"
+                android:gravity="center"
+                android:maxLines="5"
+                android:padding="8dp"
+                android:ellipsize="end"
+                android:text="texto demasiado largo para prbar esta mamada y ver como funciona el texto si se va haceidno mas y mas grandetexto demasiado largo para prbar esta mamada y ver como funciona el texto si se va haceidno mas y mas grandetexto demasiado largo para prbar esta mamada y ver como funciona el texto si se va haceidno mas y mas grande"
+                android:textColor="@color/colorbg_ticket_top_center"
+                android:textSize="18sp" />
+
+
+        </com.mreram.ticketview.TicketView>
+
+    </LinearLayout>
+
+</RelativeLayout>

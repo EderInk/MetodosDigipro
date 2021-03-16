@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.digipro.fesdkcore:elementos_anexo:0.4.45.0161.S@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cf2e7ec70441de2b595e4798632facb/jetified-elementos_anexo-0.4.45.0161.S/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

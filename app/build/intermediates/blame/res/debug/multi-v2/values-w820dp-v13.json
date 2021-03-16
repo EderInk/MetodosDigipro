@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/8e3e1b56f66cb64b055f8bfcc67651a6/jetified-elementos_huella-0.4.45.0161.S/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/401efc97c9d895a0ccc1d4d06f167353/jetified-SpaceNavigationView-1.6.0/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endColumns": "47",
+                        "endOffsets": "202"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/d984d4303683d04c0f22c7cd277724f8/jetified-core-0.4.45.0161.S/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "113,159,206,253",
+                        "endColumns": "45,46,46,51",
+                        "endOffsets": "154,201,248,300"
+                    },
+                    "to": {
+                        "startLines": "3,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "113,207,254,301",
+                        "endColumns": "45,46,46,51",
+                        "endOffsets": "154,249,296,348"
+                    }
+                }
+            ]
+        }
+    ]
+}

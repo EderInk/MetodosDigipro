@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/unihuella_contenedor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/unihuella_titulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:text="Lectura de huella"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/unihuella_imagen"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/unihuella_titulo"
+            android:contentDescription="Finger Image"
+            android:src="@drawable/ic_accion_boimetric_finger" />
+
+        <!--app:srcCompat="@drawable/ic_accion_huella"-->
+
+        <TextView
+            android:id="@+id/unihuella_counter_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/unihuella_imagen"
+            android:gravity="center"
+            android:padding="6dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/unihuella_regresar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:src="@drawable/ic_close_white_24dp"
+            app:backgroundTint="@color/colorFABCancelar"
+
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

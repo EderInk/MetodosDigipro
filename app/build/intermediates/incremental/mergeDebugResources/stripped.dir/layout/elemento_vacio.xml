@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/elemento_vacio_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!--        <include-->
+        <!--            android:visibility="gone"-->
+        <!--            android:id="@+id/elemento_header"-->
+        <!--            layout="@layout/widget_elemento_header"-->
+        <!--            app:elemento="@{elemento}" />-->
+
+        <TextView
+            android:id="@+id/title_elemento_vacio"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:tag="binding_1"                                                                                                                                                              
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+         

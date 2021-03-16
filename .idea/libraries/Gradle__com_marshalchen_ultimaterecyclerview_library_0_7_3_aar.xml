@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.marshalchen.ultimaterecyclerview:library:0.7.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ddb5e72d29a52d7f391c448cdb465c6/jetified-library-0.7.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ddb5e72d29a52d7f391c448cdb465c6/jetified-library-0.7.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ddb5e72d29a52d7f391c448cdb465c6/jetified-library-0.7.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.marshalchen.ultimaterecyclerview/library/0.7.3/1499195544f50fc94e74c95fbf90fcdb6eb4bd49/library-0.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

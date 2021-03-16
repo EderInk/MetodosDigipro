@@ -1,0 +1,247 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                   
+
+                 
+                           
+                                                                                          
+
+                 
+                                
+                                                                                         
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_rostrovivo_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/elemento_header"
+                layout="@layout/widget_elemento_header"
+                                          
+                                           />
+
+            <EditText
+                android:id="@+id/txtInput_reconocimiento"
+                android:tag="binding_2"                                    
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                                                                        
+                android:inputType="text"
+                                                                      
+                android:textSize="18sp"
+                android:visibility="gone"                                                                                       />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:tag="binding_3"                                      
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/preview_foto"
+                    android:tag="binding_4"        
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@color/transparentGray"
+                    android:contentDescription="Imagen"
+                                                                                                 
+                    android:padding="60dp"
+                    android:src="@drawable/ic_photo_library_black_24dp"
+                    android:visibility="gone"                                                                                               />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_new"
+                        android:tag="binding_5"                 
+                                                                                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/elemento_captura_facial_fab"
+                            android:tag="binding_6"                                   
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                                                                                                   
+                            android:src="@drawable/ic_accion_reconofacial"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_cancelarReemplazo"
+                        android:tag="binding_7"                              
+                                                                                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_cancelar_reemplazo_r_vivo"
+                            android:tag="binding_8"                                   
+                                                                                 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                                                                                                               
+                            android:src="@drawable/ic_clancel_24dp"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_exist"
+                        android:tag="binding_9"                   
+                                                                                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_abrir_firma"
+                            android:tag="binding_10"                                  
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="5dp"
+                                                                                                         
+                            android:src="@drawable/ic_view_photo_white_24dp"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_eliminar_firma"
+                            android:tag="binding_11"                                  
+                                                           
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="5dp"
+                                                                                                           
+                            android:src="@drawable/ic_delete_forever_white_24dp"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_remplazar_2"
+                            android:tag="binding_12"                                  
+                                                                                                  
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="5dp"
+                                                                                                               
+                            android:src="@drawable/ic_retry_white_24dp"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_download"
+                        android:tag="binding_13"                         
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                                                                                         
+                        android:visibility="visible">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_download"
+                            android:tag="binding_14"                     
+                                                                                      
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                                                                                                           
+                            android:src="@drawable/ic_download_anexos_white"
+                            android:visibility="gone"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab_remplazar_1"
+                            android:tag="binding_15"                                  
+                                                                                                  
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                                                                                                               
+                            android:src="@drawable/ic_retry_white_24dp"
+                            android:visibility="gone"
+                            app:backgroundTint="@color/colorAccent"
+                            app:fabSize="normal" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="15dp"
+                android:background="#B1BCBE"
+                android:tag="binding_16"                                                                   />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

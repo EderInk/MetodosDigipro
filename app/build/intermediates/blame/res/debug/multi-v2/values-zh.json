@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eder/AndroidStudioProjects/MetodosDigipro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/d30aa516e7efa60a1404154ba83cad9c/ultra-ptr-1.0.11/res/values-zh/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "187,240,296,351,401,464,524,579,640",
+                        "endColumns": "52,55,54,49,62,59,54,60,53",
+                        "endOffsets": "235,291,346,396,459,519,574,635,689"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "232,285,341,396,446,509,569,624,685",
+                        "endColumns": "52,55,54,49,62,59,54,60,53",
+                        "endOffsets": "280,336,391,441,504,564,619,680,734"
+                    }
+                },
+                {
+                    "source": "/Users/eder/.gradle/caches/transforms-2/files-2.1/cca45b27ccacd22f72d3472a670859ed/jetified-android-image-cropper-2.5.1/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,739",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,799"
+                    }
+                }
+            ]
+        }
+    ]
+}

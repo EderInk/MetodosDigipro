@@ -1,0 +1,195 @@
+
+                                                        
+
+    
+
+                 
+                           
+                                                                   
+
+                 
+                           
+                                                                                          
+
+                 
+                           
+                                                                                   
+
+                                                                  
+
+                                           
+
+           
+
+    <LinearLayout
+        android:id="@+id/ParentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/elemento_wizard_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/visible_enable"
+            android:tag="binding_1"                                        
+                                                                     
+                                                                              
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:tag="binding_2"         
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_info_color"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/asterisk"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="Requerido"
+                android:src="@drawable/ic_asterisk_2"
+                android:visibility="gone"                                                                                  android:tag="binding_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_round_msj_error"
+                android:tag="binding_4"                                                                 
+                                                                                                        
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                                                                                 
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:visibility="gone"                                                                                                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:tag="binding_5"                              
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/btn_wizard_regresar"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:tag="binding_6"                                                      
+                                                                                            
+                                                                                 
+                                                                               
+                                                                         
+                                                              
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:minHeight="40dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                                                                                  
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toTopOf="@+id/btn_wizard_finalizar"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_wizard_avanzar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_wizard_avanzar"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:tag="binding_7"                                                     
+                                                                                           
+                                                                                 
+                                                                               
+                                                                         
+                                                              
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:minHeight="40dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                                                                                 
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toTopOf="@+id/btn_wizard_finalizar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_wizard_regresar"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <Button
+                    android:id="@+id/btn_wizard_finalizar"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:tag="binding_8"                                                       
+                                                                                             
+                                                                                 
+                                                                               
+                                                                         
+                                                              
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:minHeight="40dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                                                                                   
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:visibility="visible"                                                                                           
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textview_wizard_count"
+                android:tag="binding_9"                    
+                                                                           
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:tag="binding_10"                                                     
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+                                                                                     
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone"                                                                                                          />
+
+        <View
+            android:layout_width=".001dp"
+            android:layout_height=".001dp"
+            android:background="#B1BCBE" />
+
+    </LinearLayout>
+
+         

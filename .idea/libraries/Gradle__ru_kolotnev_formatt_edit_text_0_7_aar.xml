@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.kolotnev:formatt-edit-text:0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56754c13b44ff76917b6ce2afc778fbc/jetified-formatt-edit-text-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56754c13b44ff76917b6ce2afc778fbc/jetified-formatt-edit-text-0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56754c13b44ff76917b6ce2afc778fbc/jetified-formatt-edit-text-0.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.kolotnev/formatt-edit-text/0.7/7e094bdf9b73ac83166e86144a7686b411b0a171/formatt-edit-text-0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.kolotnev/formatt-edit-text/0.7/4b5ca5f02bd51760a06009b4fdb067ec9600e0b8/formatt-edit-text-0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

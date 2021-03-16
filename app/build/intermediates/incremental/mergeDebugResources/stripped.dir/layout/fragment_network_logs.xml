@@ -1,0 +1,67 @@
+
+                                                              
+                                                   
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent" android:tag="layout/fragment_network_logs_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/networks_log"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/send_log_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/delete_log_n"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/baseline_send_24"
+                android:tint="@color/colorAccent"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <ImageView
+                android:id="@+id/delete_log_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:tint="@color/red" />
+
+        </RelativeLayout>
+
+        <Switch
+            android:id="@+id/switch_logs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/switch_logs_txt"
+            android:layout_marginEnd="85dp"
+            android:layout_marginStart="85dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ScrollView>
+
+    </LinearLayout>
+         
